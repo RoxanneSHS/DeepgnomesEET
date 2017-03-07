@@ -7,7 +7,7 @@ AUTO_TRA ~Deepgnomes/%s~
 LANGUAGE ~English~ ~english~ ~Deepgnomes/english/setup.tra~
 
 
-BEGIN ~Deepgnomes's of the Sword Coast for EET~
+BEGIN ~Deepgnomes of the Sword Coast for EET~
 
     OUTER_SPRINT tsb ~b~
     OUTER_SPRINT tsd ~d~
@@ -71,8 +71,6 @@ OUTER_PATCH wlib BEGIN
   WRITE_LONG 0x0 0x090a0d20
   READ_ASCII 0x0 ws(4) 
 END
-
-APPEND ~action.ids~ ~160 ApplySpellRES(S:RES*,O:Target)~ UNLESS ~160 ApplySpellRES(S:RES\*,O:Target)~
 
 COPY ~Deepgnomes/taudio~ ~override~
 
