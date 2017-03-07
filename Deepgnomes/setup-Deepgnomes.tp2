@@ -1340,59 +1340,11 @@ END
     SAY (fzn + 0xc4 + 0x64) @345 //Info text (This gnomish pickaxe has seen a lot of wear and is not very serviceable.)
 
   COPY ~Deepgnomes/arestr/ag1110.are~ ~override~ //Umar Hills Cave
-    READ_LONG 0x54 tcf //Actors offset
-    READ_SHORT 0x58 tcc //Actors count
-    FOR (i = 0; i < tcc; i += 1) BEGIN //Cycle through actors
-      READ_ASCII (i * 0x110 + tcf) tnm
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB03~ = 1) BEGIN
-        SPRINT t-text @256
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Bodyguard
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB04~ = 1) BEGIN
-        SPRINT t-text @257
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Elite Archer
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB05~ = 1) BEGIN
-        SPRINT t-text @258
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Chief
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB07~ = 1) BEGIN
-        SPRINT t-text @259
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Shaman
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGWORG02~ = 1) BEGIN
-        SPRINT t-text @453
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Greater Worg
-      END
-      PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-        READ_LONG (i * 0x110 + tcf + 0x30) cnm //Animation
-        PATCH_IF cnm = 0x5257 BEGIN //If goblin_shaman
-          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xea10
-        END
-        PATCH_IF cnm = 0x5252 BEGIN //If goblin_captain
-          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xea20
-        END
-        PATCH_IF cnm = 0x5262 BEGIN //If worg_iwd
-          WRITE_LONG (i * 0x110 + tcf + 0x30) 0x7b01
-        END
-      END
-    END
 
   COPY ~Deepgnomes/arestr/ag2020.are~ ~override~ //Karaea's Greenhouse
     READ_LONG 0x5c fzn //Regions offset
     SAY (fzn + 0xc4 + 0x64) @332 //Info text (This miniature greenhouse contains many types of berries and is lit by special lights that mimic the sun.)
-    PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-      READ_LONG 0x54 tcf //Actors offset
-      READ_SHORT 0x58 tcc //Actors count
-      FOR (i = 0; i < tcc; i += 1) BEGIN //Cycle through headers
-        READ_LONG (i * 0x110 + tcf + 0x30) cnm //Animation
-        PATCH_IF cnm = 0x5266 BEGIN //If svirfneblin_dark_noaxe
-          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xec10
-        END
-      END
-      END
-
-
+  
 
 EXTEND_BOTTOM ~baldur.bcs~ ~Deepgnomes/extend/agbaldur.baf~ //Global script
 
@@ -1676,80 +1628,12 @@ EXTEND_BOTTOM ~baldur25.bcs~ ~Deepgnomes/extend/agbaldur.baf~
     FOR (tg = 1; tg < 13; tg += 1) BEGIN
       SAY (fzn + (tg * 0xc4) + 0x64) @334 //Info text (One of several ropes hangs from the cavern ceiling here, adorned with dozens of gnome skulls.)
     END
-    PATCH_IF (~%plt%~ STRING_EQUAL ~bgt~ = 1) BEGIN //BGT
-      WRITE_ASCII (fzn + 0x38) ~ar3200~ #8
-    END ELSE BEGIN
-      PATCH_IF (~%plt%~ STRING_EQUAL ~ca~ = 1) BEGIN //CA
-        WRITE_ASCII (fzn + 0x38) ~tc0011~ #8
-      END
-    END
-    READ_LONG 0x54 tcf //Actors offset
-    READ_SHORT 0x58 tcc //Actors count
-    FOR (i = 0; i < tcc; i += 1) BEGIN //Cycle through actors
-      READ_ASCII (i * 0x110 + tcf) tnm
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB01~ = 1) BEGIN
-        GET_STRREF 2511 t-text
-        WRITE_ASCIIE (i * 0x110 + tcf) "%t-text%" #32 //Goblin
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB02~ = 1) BEGIN
-        SPRINT t-text @255
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Archer
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB03~ = 1) BEGIN
-        SPRINT t-text @256
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Bodyguard
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB04~ = 1) BEGIN
-        SPRINT t-text @257
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Elite Archer
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB05~ = 1) BEGIN
-        SPRINT t-text @258
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Chief
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB07~ = 1) BEGIN
-        SPRINT t-text @259
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Shaman
-      END
-      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGWORG01~ = 1) BEGIN
-        GET_STRREF 8770 t-text
-        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Worg
-      END
-      PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-        READ_LONG (i * 0x110 + tcf + 0x30) cnm //Animation
-        PATCH_IF cnm = 0x5257 BEGIN //If goblin_shaman
-          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xea10
-        END
-        PATCH_IF cnm = 0x5252 BEGIN //If goblin_captain
-          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xea20
-        END
-        PATCH_IF cnm = 0x5262 BEGIN //If worg_iwd
-          WRITE_LONG (i * 0x110 + tcf + 0x30) 0x7b01
-        END
-      END
-    END
+    
 
   COPY ~Deepgnomes/arestr/ag4815.are~ ~override~ //Karaea's Garden
     READ_LONG 0x5c fzn //Regions offset
     SAY (fzn + 0xc4 + 0x64) @333 //Info text (This indoor garden contains many types of berries and is lit by special lights that mimic the sun.)
-    PATCH_IF (~%plt%~ STRING_EQUAL ~bgt~ = 1) BEGIN //BGT
-      WRITE_ASCII (fzn + 0x38) ~ar3700~ #8
-    END ELSE BEGIN
-      PATCH_IF (~%plt%~ STRING_EQUAL ~ca~ = 1) BEGIN //CA
-        WRITE_ASCII (fzn + 0x38) ~tc1200~ #8
-      END
-    END
-    PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-      READ_LONG 0x54 tcf //Actors offset
-      READ_SHORT 0x58 tcc //Actors count
-      FOR (i = 0; i < tcc; i += 1) BEGIN //Cycle through headers
-        READ_LONG (i * 0x110 + tcf + 0x30) cnm //Animation
-        PATCH_IF cnm = 0x5266 BEGIN //If svirfneblin_dark_noaxe
-          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xec10
-        END
-      END
-    END
-
+    
 
 COPY ~Deepgnomes/portrait/karaeas.bmp~ ~override~
      ~Deepgnomes/portrait/nebs.bmp~ ~override~
