@@ -641,7 +641,6 @@ COPY ~Deepgnomes/cre/agaluf01.cre~ ~override~ //Alu-Fiend (summoned)
   PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
     SAY NAME1 @436
     SAY NAME2 @436
-    WRITE_SHORT 0x28 0x6011 //Animation (cleric_female_elf)
     SAY BATTLE_CRY1 ~~ [T-MAD02A]
     SAY BATTLE_CRY2 ~~ [T-MAD02B]
     SAY ATTACK1 ~~ [T-MAD03C]
@@ -660,7 +659,6 @@ COPY ~Deepgnomes/cre/agcamb01.cre~ ~override~ //Cambion (summoned)
     REPLACE_CRE_ITEM ~_sw1h22~ #0 #0 #0 ~UNDROPPABLE~ ~SHIELD~
   END
   PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-    WRITE_SHORT 0x28 0x2300 //Animation (death_knight)
     SAY BATTLE_CRY1 ~~ [T-ISA01A]
     SAY BATTLE_CRY2 ~~ [T-ISA01B]
     SAY ATTACK1 ~~ [T-ISA05A]
@@ -676,7 +674,6 @@ COPY ~Deepgnomes/cre/agearth1.cre~ ~override~ //Earth Elemental
     WRITE_ASCII 0x268 ~_tasight~ #8 //Default script
   END
   PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-    WRITE_SHORT 0x28 0x7300 //Animation (elemental_earth)
     SAY BATTLE_CRY1 ~~ [T-EAR01]
     SAY ATTACK1 ~~ [T-EAR03]
     SAY DAMAGE ~~ [T-EAR07]
@@ -702,17 +699,13 @@ COPY ~Deepgnomes/cre/aggob04.cre~ ~override~ //Goblin Elite Archer
 COPY ~Deepgnomes/cre/aggob05.cre~ ~override~ //Goblin Chief
   SAY NAME1 @258
   SAY NAME2 @258
-  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-    WRITE_SHORT 0x28 0xea20 //Animation (goblin_captain)
-  END
+  
 
 COPY ~Deepgnomes/cre/aggob06.cre~ ~override~ //Goblin Shaman (booted)
      ~Deepgnomes/cre/aggob07.cre~ ~override~ //Goblin Shaman (unbooted)
   SAY NAME1 @259
   SAY NAME2 @259
-  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-    WRITE_SHORT 0x28 0xea10 //Animation (goblin_shaman)
-  END
+
 
   COPY ~Deepgnomes/cre/aggnom01.cre~ ~override~ //Gnome Slave (ar2900 Larswood)
     SAY NAME1 @260
@@ -777,7 +770,6 @@ COPY ~Deepgnomes/cre/agmyrlo1.cre~ ~override~ //Myrlochar (summoned)
   SAY NAME1 @338
   SAY NAME2 @338
   PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-    WRITE_SHORT 0x28 0x7a01 //Animation (spider_huge)
     SAY BATTLE_CRY1 ~~ [T-MYR01A]
     SAY BATTLE_CRY2 ~~ [T-MYR01B]
     SAY ATTACK1 ~~ [T-MYR03A]
@@ -831,7 +823,6 @@ COPY ~Deepgnomes/cre/agworg01.cre~ ~override~ //Worg
     REPLACE_CRE_ITEM ~_p1-8~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
   END
   PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-    WRITE_SHORT 0x28 0x7b01 //Animation (wolf_worg)
     SAY BATTLE_CRY1 ~~ [T-WOR01A]
     SAY ATTACK1 ~~ [T-WOR03A]
     SAY DAMAGE ~~ [T-WOR07A]
@@ -1132,7 +1123,6 @@ END
     SAY NAME1 @453
     SAY NAME2 @453
     PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
-      WRITE_SHORT 0x28 0x7b01 //Animation (wolf_worg)
       SAY BATTLE_CRY1 ~~ [T-WOR01A]
       SAY ATTACK1 ~~ [T-WOR03A]
       SAY DAMAGE ~~ [T-WOR07A]
@@ -1456,7 +1446,6 @@ EXTEND_BOTTOM ~baldur25.bcs~ ~Deepgnomes/extend/agbaldur.baf~
     PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
       WRITE_SHORT 0x24 25 //Current HP (was 85)
       WRITE_SHORT 0x26 25 //Max HP (was 85)
-      WRITE_SHORT 0x28 0x6304 //Animation (thief_male_gnome, was 0x5302 dwarf_low)
       WRITE_BYTE 0x45 30 //Hide in shadows
       WRITE_SHORT 0x46 10 //Base AC (was 0)
       WRITE_SHORT 0x48 10 //Effective AC (was 0)
