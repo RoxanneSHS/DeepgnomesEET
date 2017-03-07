@@ -638,7 +638,6 @@ END
 
 COPY ~Deepgnomes/cre/agaluf01.cre~ ~override~ //Alu-Fiend (summoned)
      ~Deepgnomes/cre/agaluf02.cre~ ~override~ //Alu-Fiend (hostile)
-  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
     SAY NAME1 @436
     SAY NAME2 @436
     SAY BATTLE_CRY1 ~~ [T-MAD02A]
@@ -649,7 +648,7 @@ COPY ~Deepgnomes/cre/agaluf01.cre~ ~override~ //Alu-Fiend (summoned)
     SAY SELECT_COMMON1 ~~ [T-MAD01A]
     SAY SELECT_COMMON2 ~~ [T-MAD01B]
     REPLACE_CRE_ITEM ~agwing01~ #0 #0 #0 ~NONE~ ~HELMET~
-  END
+
 
 COPY ~Deepgnomes/cre/agcamb01.cre~ ~override~ //Cambion (summoned)
      ~Deepgnomes/cre/agcamb02.cre~ ~override~ //Cambion (hostile)
@@ -757,13 +756,6 @@ COPY ~Deepgnomes/cre/agkaraea.cre~ ~override~ //Karaea (ar2010 Trademeet, fw4800
   SAY CRITICAL_MISS @131
   SAY DIALOGUE_HOSTILE @123
   SAY SPELL_DISRUPTED @132
-  PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
-    REPLACE_CRE_ITEM ~_ring06~ #0 #0 #0 ~UNSTEALABLE~ ~LRING~
-    REPLACE_CRE_ITEM ~_slng02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ EQUIP
-    REPLACE_CRE_ITEM ~_bull01~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER1~
-    REPLACE_CRE_ITEM ~_potn14~ #1 #0 #0 ~UNSTEALABLE~ ~QITEM3~
-    REPLACE_CRE_ITEM ~_gberry~ #3 #0 #0 ~NONE~ ~INV1~
-  END
 
 COPY ~Deepgnomes/cre/agmyrlo1.cre~ ~override~ //Myrlochar (summoned)
      ~Deepgnomes/cre/agmyrlo2.cre~ ~override~ //Myrlochar (hostile)
@@ -799,29 +791,8 @@ COPY ~Deepgnomes/cre/agtime01.cre~ ~override~ //Ancient Timepiece
   SAY NAME2 @348
 
 COPY ~Deepgnomes/cre/agwlfv01.cre~ ~override~ //Vampiric Wolf (summoned)
-  PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
-    SAY BATTLE_CRY1 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
-    SAY BATTLE_CRY2 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
-    SAY BATTLE_CRY3 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
-    SAY BATTLE_CRY4 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
-    SAY BATTLE_CRY5 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
-    SAY ATTACK1 ~[WOLF, VAMPIRIC 05]~ [_VWOLF05]
-    SAY ATTACK2 ~[WOLF, VAMPIRIC 06]~ [_VWOLF06]
-    SAY DAMAGE ~[WOLF, VAMPIRIC 08]~ [_VWOLF08]
-    SAY DYING ~[WOLF, VAMPIRIC 09]~ [_VWOLF09]
-    SAY SELECT_COMMON1 ~[WOLF, VAMPIRIC 01]~ [_VWOLF01]
-    SAY SELECT_COMMON2 ~[WOLF, VAMPIRIC 02]~ [_VWOLF02]
-    WRITE_ASCII 0x268 ~_tasight~ #8 //Default script
-    REPLACE_CRE_ITEM ~_immune1~ #0 #0 #0 ~NONE~ ~LRING~
-    REPLACE_CRE_ITEM ~_ring95~ #0 #0 #0 ~NONE~ ~RRING~
-    REPLACE_CRE_ITEM ~_wolfva1~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
-  END
 
 COPY ~Deepgnomes/cre/agworg01.cre~ ~override~ //Worg
-  PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
-    WRITE_ASCII 0x268 ~_tasight~ #8 //Default script
-    REPLACE_CRE_ITEM ~_p1-8~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
-  END
   PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
     SAY BATTLE_CRY1 ~~ [T-WOR01A]
     SAY ATTACK1 ~~ [T-WOR03A]
@@ -853,13 +824,6 @@ END
 
 ACTION_IF NOT(FILE_EXISTS_IN_GAME ~fw0125.are~) AND NOT(FILE_EXISTS_IN_GAME ~tc1300.are~) BEGIN
   COPY ~Deepgnomes/audio~ ~override~
-  ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ = 1) BEGIN //if Windows
-    AT_NOW                   ~Deepgnomes/batchlog/agaurain.bat~ //install
-    AT_INTERACTIVE_UNINSTALL ~Deepgnomes/batchlog/agauraun.bat~ //uninstall
-  END ELSE BEGIN //if Linux or OS X
-    AT_NOW                   ~Deepgnomes/batchlog/agaurain.sh~ //install
-    AT_INTERACTIVE_UNINSTALL ~Deepgnomes/batchlog/agauraun.sh~ //uninstall
-  END
 END
 
 COPY ~Deepgnomes/bam~ ~override~
