@@ -1,0 +1,3941 @@
+File	Name	Slot	Script
+banditcy	Ruffian	Slot 600	agrandbr
+basilmut	Greater Basilisk	Slot 592	agrandbr
+basilnad	Greater Basilisk	Slot 592	agrandbr
+daerragh	Daer'Ragh	Slot 600	agrandrb
+daesewlf	Daese	Slot 584	agrandlx
+duplica1	Mirror Fiend	Slot 584	agrandrb
+duplica2	Mirror Fiend	Slot 592	agrandrb
+duplica3	Mirror Fiend	Slot 592	agrandbr
+duplica4	Mirror Fiend	Slot 592	agrandrb
+duplica5	Mirror Fiend	Slot 592	agrandrb
+duplica6	Mirror Fiend	Slot 592	agrandrb
+flambrid	Flaming Fist Mercenary	Slot 600	agrandbr
+flamhusb	Flaming Fist Enforcer	Slot 608	agrandrb
+flampun2	Flaming Fist Enforcer	Slot 584	agrandrb
+gatewere	Gatekeeper	Slot 592	agrandrp
+ghoullor	Greater Ghoul	Slot 592	agrandrb
+gnollper	Gnoll	Slot 592	agrandrb
+gooddeat	Mirror Fiend	Slot 592	agrandbr
+hobelite	Hobgoblin Elite	Slot 592	agrandrg
+hobgoa_a	Hobgoblin	Slot 592	agrandrb
+hobgoa_b	Hobgoblin	Slot 592	agrandrb
+hobgoa_c	Hobgoblin	Slot 592	agrandrb
+hobgoa_d	Hobgoblin	Slot 592	agrandrb
+hobgoa_e	Hobgoblin	Slot 592	agrandrb
+hobgob_a	Hobgoblin	Slot 592	agrandsw
+hobgob_b	Hobgoblin	Slot 592	agrandrb
+hobgob_c	Hobgoblin	Slot 592	agrandrp
+hobgob_d	Hobgoblin	Slot 592	agrandrp
+hobgob_e	Hobgoblin	Slot 592	agrandbr
+hobgzhur	Hobgoblin	Slot 592	agrandrb
+ironelit	Blacktalon Elite	Slot 600	agrandbr
+ironguar	Guard	Slot 600	agrandrb
+kaishwlf	Kaishas Gan	Slot 584	agrandbr
+knightsk	Undead Knight	Slot 592	agrandrb
+kobola_e	Kobold	Slot 592	agrandrb
+kobold_d	Kobold	Slot 592	agrandbr
+kobold_e	Kobold	Slot 592	agrandbr
+koboldab	Kobold	Slot 592	agrandcl
+koboldal	Kobold	Slot 592	agrandrb
+koboldfl	Kobold	Slot 592	agrandbr
+ogreberz	Ogre Berserker	Slot 592	agrandrb
+ogrebjor	Half Ogre	Slot 584	agrandrb
+ogregr_b	Ogrillon	Slot 592	agrandrb
+ogregr_c	Ogrillon	Slot 592	agrandnc
+ogregr_d	Ogrillon	Slot 592	agrandbr
+ogreha_b	Half Ogre	Slot 592	agrandbr
+ogrema_a	Ogre Mage	Slot 592	agrandbr
+ogrema_b	Ogre Mage	Slot 592	agrandrb
+ogrema_c	Ogre Mage	Slot 592	agrandrb
+ogrema_d	Ogre Mage	Slot 592	agrandbr
+ogrema02	Ogre Mage	Slot 592	agrandea
+ogrema03	Ogre Mage	Slot 592	agrandrb
+ogremiri	Ogrillon	Slot 592	agrandrb
+ogreunsh	Ogre	Slot 592	agrandbr
+pheoarch	Phoenix Guard	Slot 592	agrandbr
+pheogurd	Phoenix Guard	Slot 592	agrandbr
+sirine_a	Sirine	Slot 584	agrandrb
+sirine_b	Sirine	Slot 584	agrandrb
+sirine02	Sirine	Slot 608	agrandbr
+skelet_b	Skeleton	Slot 592	agrandlx
+skelet_c	Skeleton	Slot 592	agrandbr
+skelet03	Skeleton	Slot 592	agrandcl
+skelfire	Skeleton	Slot 592	agrandrb
+skelpetr	Skeleton	Slot 592	agrandbr
+skelwa02	Skeleton Warrior	Slot 592	agrandbr
+skelwa03	Skeleton Warrior	Slot 592	agrandrb
+taslgurk	Tasloi	Slot 592	agrandrb
+zombie_c	Zombie	Slot 592	agrandbr
+zombie_d	Zombie	Slot 592	agrandrb
+zombie_e	Zombie	Slot 592	agrandbr
+0xal2dg	Hooded Alchemist	Slot 600	agrandbr
+0xalchdg	Hooded Man	Slot 600	agrandrb
+0xbegdg	Beggar	Slot 592	agrandrb
+0xcom1dg	Man	Slot 592	agrandbr
+0xcom2dg	Man	Slot 592	agrandbr
+0xcom3dg	Man	Slot 592	agrandbr
+0xcom4dg	Man	Slot 592	agrandrb
+0xcom5dg	Man	Slot 592	agrandrb
+0xdreadg	Colour's Dream	Slot 592	agrandbr
+0xelddg	Elder	Slot 600	agrandrb
+0xgguadg	Guardian	Slot 608	agrandrg
+0xgoldg	Envious Gold	Slot 592	agrandbr
+0xguidg	Marble Gaze	Slot 592	agrandsw
+0xindg	Man	Slot 592	agrandrb
+0xlorddg	Lord of Black Dream	Slot 592	agrandrb
+0xlov1dg	Gentle Touch	Slot 592	agrandrb
+0xlov2dg	Temper Touch	Slot 592	agrandsw
+0xm1dg	Hooded Alchemist	Slot 592	agrandbr
+0xm2dg	Hooded Keeper	Slot 592	agrandbr
+0xmandg	Troubled man	Slot 592	agrandbr
+0xolddg	Senex	Slot 600	agrandsr
+0xpridg	Hooded Priest	Slot 592	agrandrb
+0xrguadg	Guardian	Slot 608	agrandbr
+0xsguadg	Guardian	Slot 608	agrandrb
+0xstdg	Silvertongue	Slot 592	agrandrb
+0xthi2dg	Woman	Slot 592	agrandnc
+0xuddg	Skeleton	Slot 592	agrandrg
+0xwi2dg	Mysterious Wizard	Slot 592	agrandbr
+0xwizdg	Mysterious Wizard	Slot 592	agrandrb
+0xyhdg	Gray Victim	Slot 600	agrandbr
+0xym1dg	Man wearing Yellow	Slot 592	agrandcl
+0xym2dg	Man wearing Yellow	Slot 592	agrandrb
+3303grd1	Riatavin Elite Warrior	Slot 600	agrandbr
+3303grd2	Riatavin Elite Warrior	Slot 608	agrandrb
+3303prst	Studying Monk	Slot 592	agrandrb
+3307wiz	Avrabar	Slot 600	agrandbr
+3308grd1	Mercenary	Slot 600	agrandrb
+3308grd2	Mercenary	Slot 608	agrandbr
+3308grd3	Mercenary	Slot 600	agrandrb
+aataqah	Aataqah	Slot 592	agrandbr
+abazdg02	Tamah	Slot 592	agrandbr
+abazigal	Abazigal	Slot 592	agrandrb
+abisred1	Abishai	Slot 592	agrandsh
+abydem01	Tanar'ri	Slot 600	agrandrg
+achen	Statue	Slot 600	agrandrb
+acolyte1	Talon Zogas	Slot 592	agrandbr
+acolyte2	Dawnbringer Alvanna	Slot 608	agrandcl
+acolyte3	Watchknight Aabir	Slot 592	agrandrb
+adadop1b	Doppelganger	Slot 592	agrandbr
+adamag1	Amnian Guard	Slot 600	agrandrb
+adamag2	Amnian Guard	Slot 600	agrandbr
+adamara	Officer Amarant	Slot 592	agrandrb
+adangma1	Caius Blackwater	Slot 592	agrandbr
+adangma2	Lucius Blackwater	Slot 592	agrandsh
+adangma3	Marcus Blackwater	Slot 584	agrandrb
+adangma4	Mencius Blackwater	Slot 584	agrandrb
+adangvam	Jiki-ketsu-gakki	Slot 592	agrandbr
+adasg1	Thug	Slot 592	agrandbr
+adasg2	Thug	Slot 592	agrandrb
+adasgurz	Asgurz	Slot 592	agrandbr
+adblack	Blackthorne	Slot 608	agrandrb
+adginpac	Ginpachi	Slot 600	agrandrb
+adguard	Guard	Slot 592	agrandbr
+adhayate	Hayate	Slot 592	agrandrb
+adkaede	Lady Kaede	Slot 592	agrandrb
+admerch	Seline	Slot 592	agrandbr
+admerz1	Yilli	Slot 600	agrandrb
+admerz2	Senoj	Slot 592	agrandrb
+admerz3	Akasha	Slot 592	agrandrb
+admerz4	Bounty Hunter	Slot 592	agrandrb
+admerz5	Bounty Hunter	Slot 592	agrandbr
+admerzer	Desmond Merzer	Slot 600	agrandbr
+adnin01	Master Ninja	Slot 592	agrandbr
+adnin02	Master Ninja	Slot 592	agrandbr
+adoli3	Bodyguard	Slot 592	agrandrg
+adoliver	Oliver	Slot 592	agrandbr
+adoyaji	Oyaji	Slot 592	agrandlx
+adsakaki	Sakaki	Slot 592	agrandbr
+adsawara	Sawara	Slot 592	agrandrb
+adsuu	Suu	Slot 592	agrandrb
+adsuu25	Suu	Slot 592	agrandbr
+aeextort	Hanj	Slot 592	agrandrb
+aegnoll	Gnoll	Slot 592	agrandbr
+aemerhob	Hobgoblin Archer	Slot 600	agrandrb
+aemess	Messenger	Slot 608	agrandrb
+aesold	Soldier	Slot 600	agrandrb
+aewere1	Fighter	Slot 600	agrandbr
+aewere2	Fighter	Slot 600	agrandbr
+aewere3	Fighter	Slot 600	agrandbr
+aewere4	Fighter	Slot 600	agrandbr
+aewere5	Fighter	Slot 600	agrandrb
+aewere6	Fighter	Slot 600	agrandrb
+agaluf02	Alu-Fiend	Slot 584	agrandbr
+agcamb02	Cambion	Slot 584	agrandbr
+aggob05	Goblin Chief	Slot 592	agrandbr
+aggob06	Goblin Shaman	Slot 592	agrandbr
+aggob07	Goblin Shaman	Slot 592	agrandbr
+airaspec	Air Aspect	Slot 592	agrandbr
+akae	Akae	Slot 608	agrandbr
+alagar	Alagar	Slot 592	agrandrb
+alar	Alar	Slot 592	agrandbr
+alex	Sir Beverus	Slot 592	agrandbr
+alhel	Alhelor	Slot 600	agrandbr
+alufie01	Alu-Fiend	Slot 592	agrandbr
+alust01	Alustriel	Slot 592	agrandnc
+alust02	Alustriel	Slot 592	agrandrb
+alust03	Alustriel	Slot 592	agrandrb
+alynar	Sir Alynar	Slot 608	agrandbr
+amarch01	Captain Erelon	Slot 592	agrandbr
+amarch02	Mercenary	Slot 592	agrandrb
+ambush01	Gatekeeper	Slot 584	agrandrb
+amcapt01	Mercenary Captain	Slot 600	agrandrb
+amcarras	Carras	Slot 608	agrandsr
+amcst02	Mercenary	Slot 600	agrandrb
+amcst03	Mercenary	Slot 600	agrandsh
+amcst04	Mage	Slot 600	agrandrb
+amduel03	Mercenary Captain	Slot 600	agrandbr
+amfaheed	Faheed	Slot 600	agrandrb
+amlich01	Vongoethe	Slot 592	agrandbr
+ammag01	Mage	Slot 592	agrandbr
+ammajira	Majira	Slot 592	agrandrb
+ammerc01	Mercenary	Slot 600	agrandbr
+ammerc02	Mercenary	Slot 592	agrandbr
+ammerc03	Mercenary	Slot 600	agrandrb
+ammerc04	Mercenary	Slot 600	agrandsw
+ammerc07	Mercenary	Slot 584	agrandnc
+ammerc08	Mercenary	Slot 584	agrandbr
+ammerc09	Mercenary	Slot 584	agrandrb
+ammgrd01	Monk	Slot 600	agrandrb
+ammgrd02	Monk	Slot 608	agrandbr
+ammgrd03	Monk	Slot 592	agrandbr
+ammgrd04	Guard Captain	Slot 600	agrandrb
+ammgrd05	Monk	Slot 600	agrandrb
+amminot	Minotaur	Slot 584	agrandrp
+ammlegs	Monk	Slot 600	agrandbr
+ammonk01	Monk	Slot 592	agrandrb
+ammonk02	Monk	Slot 592	agrandrb
+ammonk03	Monk	Slot 600	agrandrb
+ammonk04	Monk	Slot 600	agrandsw
+ammonk05	Monk	Slot 600	agrandrb
+ammonk06	Monk	Slot 600	agrandrp
+ammonk07	Monk	Slot 592	agrandbr
+ammonk08	Monk	Slot 592	agrandrb
+amncen1	Amnian Centurion	Slot 608	agrandrb
+amnleg01	Amnian Legionary	Slot 592	agrandbr
+amnleg1	Amnian Legionary	Slot 600	agrandrb
+amsaemon	Saemon Havarian	Slot 592	agrandsh
+amsi	Am-Si	Slot 592	agrandrb
+amsmug01	Smuggler	Slot 608	agrandrb
+amtarc01	Tethyrian Archer	Slot 592	agrandrb
+amtcap01	Tethyrian Captain	Slot 592	agrandbr
+amtcle01	Cleric Of Lathander	Slot 592	agrandbr
+amtcler0	Cleric Of Lathander	Slot 592	agrandlx
+amtgen01	Jamis Tombelthen	Slot 592	agrandrg
+amtmag01	Tethyrian Battlemage	Slot 592	agrandsh
+amtpik01	Tethyrian Pikeman	Slot 592	agrandbr
+amumber	Umber Hulk	Slot 584	agrandrb
+amwyvern	Lucy	Slot 608	agrandcl
+anast	Valen	Slot 600	agrandbr
+andrath	Andrath	Slot 592	agrandrb
+ankheg	Ankheg	Slot 592	agrandrb
+ankheg01	Ankheg	Slot 592	agrandbr
+ankhegg	Ankheg	Slot 584	agrandsh
+ankhegq	Ankheg	Slot 592	agrandbr
+anno1	Announcer	Slot 600	agrandbr
+anothug	Guard	Slot 592	agrandea
+antenos	Antenos	Slot 592	agrandrb
+appar	Skeleton	Slot 592	agrandrb
+ar18arch	Archer	Slot 600	agrandrb
+ar18dwaf	Duergar	Slot 600	agrandbr
+ar18fam	Mist Mephit	Slot 592	agrandbr
+ar18fig	Mercenary	Slot 600	agrandrb
+ar18mage	Mage	Slot 608	agrandrb
+ar18prie	Priest of Cyric	Slot 600	agrandbr
+ar18skel	Skeleton Warrior	Slot 600	agrandbr
+ar18thif	Thief	Slot 608	agrandcl
+aran	Aran Linvail	Slot 600	agrandrb
+aran02	Aran Linvail	Slot 608	agrandrb
+aranor	Aranor	Slot 600	agrandrb
+arenthis	Arenthis	Slot 600	agrandsr
+arianna	Arianna	Slot 592	agrandrb
+arianna1	Arianna	Slot 592	agrandrb
+arkani	Arkanis	Slot 592	agrandrb
+arkanisg	Arkanis Gath	Slot 592	agrandbr
+arled	Arledrian	Slot 592	agrandcl
+army01	Orc	Slot 592	agrandbr
+arnboy01	Apprentice Torturer Douglas	Slot 608	agrandbr
+arnfgt01	Shadow Thief	Slot 592	agrandbr
+arnfgt02	Shadow Thief	Slot 592	agrandbr
+arnfgt03	Shadow Thief Archer	Slot 600	agrandrb
+arnfgt04	Shadow Thief Thug	Slot 600	agrandbr
+arnfgt05	Shadow Thief	Slot 592	agrandrb
+arngrl01	Missy	Slot 592	agrandrb
+arnman03	Cuchul	Slot 592	agrandrb
+arnman04	Mitsu	Slot 592	agrandbr
+arnman05	Achon	Slot 592	agrandrb
+arnman08	Shadow Thief	Slot 592	agrandbr
+arnman09	Shadow Thief	Slot 592	agrandrb
+arnman10	Trainee	Slot 608	agrandbr
+arnman11	Trainee	Slot 608	agrandbr
+arntra01	Trainee	Slot 608	agrandrb
+arntra02	Trainee	Slot 608	agrandbr
+arntra03	Trainee	Slot 600	agrandrb
+arntra04	Trainee	Slot 600	agrandbr
+arntra05	Shadow Thief	Slot 608	agrandrb
+arntra06	Shadow Thief	Slot 600	agrandbr
+arnwar01	Shadow Thief Archer	Slot 592	agrandrb
+arnwar02	Shadow Thief Thug	Slot 592	agrandrb
+arnwar03	Shadow Thief	Slot 592	agrandnc
+arnwar04	Shadow Thief Footpad	Slot 592	agrandrb
+arnwar05	Shadow Thief	Slot 592	agrandbr
+arnwar06	Haz	Slot 584	agrandrb
+arnwar07	Dedral	Slot 600	agrandrb
+arnwar08	Tizzak	Slot 608	agrandrb
+arnwar09	Shadow Thief	Slot 600	agrandrb
+arnwar10	Priest of Mask	Slot 592	agrandrb
+arval	High Mornmaster Arval	Slot 608	agrandrb
+assagrd1	Kalvassa Guard	Slot 592	agrandbr
+assagrd2	Kalvassa Guard	Slot 592	agrandbr
+assagrd3	Kalvassa Guard	Slot 600	agrandbr
+assagrd4	Kalvassa Guard	Slot 600	agrandbr
+assagrd5	Kalvassa Guard	Slot 600	agrandrb
+assagrd6	Kalvassa Guard	Slot 600	agrandrb
+avarice	Warder	Slot 592	agrandbr
+avaun11	Avaunis Adelez	Slot 592	agrandbr
+avaun13	Avaunis Adelez	Slot 592	agrandbr
+avaun9	Avaunis Adelez	Slot 592	agrandrb
+avbatt02	Avrabar	Slot 600	agrandrb
+avrabatt	Avrabar	Slot 600	agrandbr
+avracut1	Avrabar	Slot 600	agrandrb
+b!bertra	Bertram	Slot 608	agrandrb
+b!gustav	Gustav	Slot 600	agrandrb
+b!jolun	Jolun	Slot 592	agrandbr
+b!laran	Laran	Slot 592	agrandbr
+b!penny	Penny	Slot 600	agrandrb
+b!reed	Reed	Slot 592	agrandrb
+b!thug1	Plato	Slot 600	agrandbr
+b!thug2	Crusher	Slot 600	agrandbr
+b!thug3	Spike	Slot 600	agrandbr
+b!valer	Valeria	Slot 600	agrandbr
+badluck	Jariel	Slot 592	agrandbr
+balelit1	Adherent	Slot 584	agrandbr
+balelit2	Adherent	Slot 584	agrandbr
+balelit3	Adherent	Slot 584	agrandbr
+balelit4	Adherent	Slot 584	agrandbr
+balelite	Monk	Slot 600	agrandbr
+balth	Balthazar	Slot 592	agrandbr
+bamng01	Amnian Guard	Slot 600	agrandrp
+bamng02	Amnian Guard	Slot 600	agrandrb
+bandit2	Bandit	Slot 608	agrandea
+baninvi	Barl	Slot 592	agrandrb
+banshe01	Banshee	Slot 592	agrandsw
+bansumon	Elven Demon	Slot 592	agrandea
+barb1	Barbarian Tribesman	Slot 600	agrandbr
+barb2	Barbarian Tribesman	Slot 600	agrandbr
+barb3	Ornamus	Slot 600	agrandbr
+barb4	Ornamus	Slot 592	agrandnc
+barbgood	Barbarian Armsman	Slot 592	agrandbr
+barbgrd	Barbarian Tribesman	Slot 592	agrandbr
+barbgrd2	Barbarian Tribesman	Slot 600	agrandbr
+barbheal	Barbarian Healer	Slot 592	agrandbr
+barbkin2	King Heafnall	Slot 592	agrandrb
+barbking	King Heafnall	Slot 592	agrandrb
+barbmess	Barbarian Tribesman	Slot 592	agrandbr
+barborn	Ornamus	Slot 592	agrandrb
+bargood	Barbarian Armsman	Slot 592	agrandbr
+barheal	Barbarian Healer	Slot 592	agrandbr
+barl	Barl	Slot 600	agrandrb
+baronp	Baron Ployer	Slot 600	agrandbr
+barsail1	Sailor	Slot 592	agrandbr
+barsail2	Sailor	Slot 592	agrandrb
+basgrt01	Greater Basilisk	Slot 592	agrandbr
+basill	Lesser Basilisk	Slot 592	agrandrb
+basles01	Lesser Basilisk	Slot 592	agrandrb
+baurian	Baurian Arathor	Slot 592	agrandbr
+baurian2	Baurian Arathor	Slot 592	agrandbr
+bazdra01	Draconis	Slot 592	agrandbr
+bazdra02	Draconis	Slot 592	agrandbr
+bazdra03	Fll'Yissetat	Slot 608	agrandbr
+bazeye01	Iycanth the Mad	Slot 592	agrandbr
+bazeye02	Iycanth the Mad	Slot 600	agrandrb
+bazgau01	Gauth	Slot 600	agrandbr
+bazliz01	Lizard Man Shaman	Slot 584	agrandbr
+bazliz02	Lizard Man Shaman	Slot 584	agrandrb
+bazliz03	Lizard Man	Slot 584	agrandbr
+bazliz04	Lizard Man Captain	Slot 584	agrandbr
+bazmonk	Monk	Slot 592	agrandrb
+bazpat01	Bondari	Slot 600	agrandrb
+bazpat02	Nanoc the Barbarian	Slot 600	agrandrb
+bazpat03	Tim Goldenhand	Slot 600	agrandbr
+bdbart01	Samuel Thunderburp	Slot 592	agrandrb
+bdcoun03	Bodyguard	Slot 592	agrandrb
+bdock1	Dockhand Ogre	Slot 592	agrandrb
+bdock2	Dockhand Ogre	Slot 592	agrandrb
+bdprst01	Shvanana	Slot 600	agrandbr
+bdturm01	Turmish Leader	Slot 600	agrandbr
+bdturm02	Turmish Thief	Slot 592	agrandbr
+bdturm03	Turmish Sorceress	Slot 600	agrandbr
+bdturm04	Turmish Thug	Slot 600	agrandbr
+beast	Beastmaster	Slot 600	agrandrb
+beeloo	Beeloo Jansen	Slot 600	agrandrb
+behdir01	Director	Slot 592	agrandbr
+beheld01	Elder Orb	Slot 592	agrandbr
+behgas01	Gas Spore	Slot 592	agrandrb
+behgau01	Gauth	Slot 592	agrandbr
+behhiv01	Hive Mother	Slot 592	agrandrb
+behobs01	Observer	Slot 592	agrandrb
+behold01	Beholder	Slot 592	agrandbr
+behspe01	Spectator	Slot 592	agrandbr
+behund01	Death Tyrant	Slot 592	agrandrb
+belmin	Belmin Gergas	Slot 592	agrandbr
+bendalis	Bendalis	Slot 592	agrandrb
+bentha	Bentha	Slot 592	agrandbr
+berinvar	Berinvar	Slot 600	agrandcl
+berkref	Zorl	Slot 600	agrandbr
+bgctboss	Amroch	Slot 600	agrandrb
+bggard1	Riatavin Soldier	Slot 592	agrandrb
+bghq1	Laelbor	Slot 600	agrandbr
+bghq2	Dilfin	Slot 600	agrandrb
+bghq3	Redandon	Slot 592	agrandbr
+bgrape01	Prison Guard	Slot 592	agrandrb
+bgrape02	Prison Guard	Slot 592	agrandbr
+bgsavior	Araphor Carvel	Slot 592	agrandbr
+bgsell1	Black Market Thief	Slot 600	agrandbr
+bgsell2	Black Market Thief	Slot 600	agrandrb
+bgsh01	Soldier	Slot 592	agrandea
+bgsh02	Soldier	Slot 600	agrandnc
+bgsh03	Soldier	Slot 600	agrandrb
+bgsh04	Soldier	Slot 592	agrandbr
+bgsh05	Sir Mardus	Slot 608	agrandrb
+bgsh06	Soldier	Slot 600	agrandbr
+bgsh07	Soldier	Slot 608	agrandbr
+bgshbad1	Soldier	Slot 600	agrandbr
+bgshbad2	Soldier	Slot 600	agrandrb
+bgshbad3	Soldier	Slot 600	agrandrb
+bgshbad4	Soldier	Slot 600	agrandrb
+bgshbad5	Soldier	Slot 600	agrandbr
+bgshbad6	Soldier	Slot 600	agrandrb
+bgshboss	Amroch	Slot 600	agrandbr
+bguard1	Guard	Slot 600	agrandrb
+bhaal01	Bhaal	Slot 592	agrandcl
+bhalf1	Stivan the Hunter	Slot 592	agrandrb
+bharval	High Mornmaster Arval	Slot 608	agrandbr
+bhcapt01	Elite Guard Captain	Slot 600	agrandrg
+bhelm	Guardian Vottnar	Slot 600	agrandrb
+bheye	Unseeing Eye	Slot 592	agrandbr
+bhgaal01	Elite Guard	Slot 600	agrandrb
+bhghoul1	Ghoul	Slot 600	agrandrb
+bhghoul2	Ghast	Slot 584	agrandsr
+bhghoul3	Zombie	Slot 592	agrandbr
+bhghoul4	Ghast	Slot 584	agrandbr
+bhghoul5	Zombie	Slot 592	agrandrb
+bhguard	Elite Guard	Slot 592	agrandbr
+bhguard2	Elite Guard	Slot 592	agrandbr
+bhnalla	Stormherald Nallabir	Slot 600	agrandbr
+bhoisig	High Watcher Oisig	Slot 600	agrandnc
+bishop	Bishop	Slot 584	agrandsh
+blackl	Black Lily	Slot 592	agrandrb
+blood01	Barbazu	Slot 584	agrandrb
+blood01x	Barbazu	Slot 600	agrandbr
+blood02	Amnizu Wizard	Slot 584	agrandbr
+blood02x	Amnizu Wizard	Slot 600	agrandrb
+bmerch1	Qadeel	Slot 592	agrandbr
+bmthief	Marina	Slot 600	agrandrb
+bmugg1	Mugger	Slot 600	agrandbr
+bodfgt03	Guild Contact	Slot 592	agrandrb
+bodhi	Bodhi	Slot 584	agrandbr
+bodhi2	Bodhi	Slot 592	agrandbr
+bodhiamb	Bodhi	Slot 592	agrandrb
+bodtan	Tanova	Slot 600	agrandrb
+bodvam01	Durst	Slot 600	agrandbr
+bodvam02	Gellal	Slot 600	agrandnc
+bogre1	Ogre	Slot 584	agrandbr
+booter	Booter	Slot 600	agrandbr
+booter02	Booter	Slot 592	agrandbr
+borinall	Borinall	Slot 600	agrandrb
+bounha02	Bounty Hunter	Slot 592	agrandbr
+bounha03	Bounty Hunter	Slot 592	agrandbr
+bounha04	Bounty Hunter	Slot 592	agrandbr
+brage	Brage	Slot 600	agrandbr
+braiwa1	Blind Priest	Slot 600	agrandsw
+braiwa2	Blind Priest	Slot 608	agrandrb
+braiwa3	Blind Priest	Slot 600	agrandrb
+braiwa4	Blind Priest	Slot 608	agrandrg
+braiwa5	Blind Priest	Slot 600	agrandbr
+breg03	D'aerthe Guard	Slot 592	agrandbr
+bregg	Bregg	Slot 592	agrandrb
+brelm	Brelm	Slot 600	agrandrb
+brielb	Brielbara	Slot 600	agrandrb
+bsailor1	Sailor	Slot 600	agrandrb
+bsailor2	Sailor	Slot 592	agrandsr
+bsailor3	Sailor	Slot 592	agrandbr
+bshop01	Cutpurse	Slot 592	agrandbr
+btelite	Black Talon Elite	Slot 600	agrandbr
+bugarch	Bugbear	Slot 592	agrandcl
+bugbear	Bugbear	Slot 592	agrandbr
+bunkin	Bunkin	Slot 600	agrandsh
+burn01	Body	Slot 592	agrandbr
+bw05ba01	Grey Clan Bandit	Slot 584	agrandrb
+bw05ba02	Grey Clan Bandit	Slot 584	agrandrb
+bw05ba03	Grey Clan Bandit	Slot 584	agrandrb
+bw05ba04	Grey Clan Bandit	Slot 584	agrandbr
+bw05ba05	Grey Clan Bandit	Slot 600	agrandbr
+bw05ba06	Grey Clan Bandit	Slot 600	agrandrb
+bw05ba07	Grey Clan Bandit	Slot 584	agrandbr
+bw05baat	Grey Clan Bandit	Slot 584	agrandrb
+bw05bach	Grey Clan Bandit	Slot 600	agrandrb
+bw05barp	Grey Clan Bandit	Slot 608	agrandbr
+bw05bbgd	Bodyguard	Slot 584	agrandbr
+bw05bl01	Bandit Leader	Slot 584	agrandbr
+bw05bl02	Bandit Leader	Slot 600	agrandnc
+bw05bl03	Bandit Leader	Slot 592	agrandbr
+bw05bloj	"Bloody" Jim	Slot 600	agrandbr
+bw05bori	Boris	Slot 600	agrandrb
+bw05brma	Black-Robed Man	Slot 592	agrandbr
+bw05char	Charles	Slot 608	agrandbr
+bw05cou1	Courtesan	Slot 584	agrandbr
+bw05cou2	Courtesan	Slot 584	agrandbr
+bw05cou3	Courtesan	Slot 584	agrandrb
+bw05dami	Damien	Slot 584	agrandbr
+bw05dw01	Fundor Balorslayer	Slot 600	agrandrb
+bw05dw02	Frar Balorslayer	Slot 600	agrandrg
+bw05dw03	Dwarven Warrior	Slot 600	agrandcl
+bw05dw04	Dwarven Warrior	Slot 600	agrandbr
+bw05dw05	Dwarven Warrior	Slot 600	agrandrp
+bw05erne	Ernest	Slot 592	agrandbr
+bw05eros	Eros	Slot 600	agrandrb
+bw05fd01	Traitor	Slot 592	agrandcl
+bw05ffap	Injured Woman	Slot 600	agrandrb
+bw05ffde	Flaming Fist Deserter	Slot 584	agrandrb
+bw05ffge	General Jedyan	Slot 584	agrandbr
+bw05fist	Commander "Greyfist"	Slot 584	agrandsr
+bw05gart	Gartuffe	Slot 584	agrandbr
+bw05gra0	Tattooed Man	Slot 584	agrandbr
+bw05grac	Grachus	Slot 592	agrandbr
+bw05grs1	Moon Horror	Slot 584	agrandlx
+bw05grs2	Moon Horror	Slot 584	agrandbr
+bw05grz0	Wind Horror	Slot 600	agrandbr
+bw05grz1	Undead Jedyan	Slot 584	agrandrb
+bw05grz2	Undead Guard	Slot 584	agrandbr
+bw05grz3	Undead Soldier	Slot 584	agrandbr
+bw05hert	Hertuk	Slot 584	agrandbr
+bw05john	John	Slot 592	agrandrb
+bw05jusm	Jusam	Slot 608	agrandbr
+bw05lind	High Sorceress Linda	Slot 592	agrandbr
+bw05mold	Crystal Servant	Slot 592	agrandbr
+bw05moni	Monica	Slot 592	agrandbr
+bw05octa	High Sorceress Octavia	Slot 592	agrandbr
+bw05ogma	Ogre Mage	Slot 592	agrandrb
+bw05ogre	Ogre	Slot 592	agrandcl
+bw05petr	High Sorceress Petrarca	Slot 592	agrandrb
+bw05pump	Pumpkin	Slot 584	agrandbr
+bw05reuf	Reufasio	Slot 600	agrandrb
+bw05rud2	Rudi "The Metaphysician"	Slot 592	agrandrb
+bw05rudi	Rudi "The Metaphysician"	Slot 592	agrandrb
+bw05sert	Dervanto	Slot 592	agrandrb
+bw05skw1	Undead Knight	Slot 592	agrandbr
+bw05skw2	Publius Dawnbringer	Slot 592	agrandbr
+bw05tali	Talibehius	Slot 584	agrandrb
+bw05tame	Tamer	Slot 584	agrandrb
+bw05tbg1	Bodyguard	Slot 584	agrandrb
+bw05tbg2	Bodyguard	Slot 584	agrandrb
+bw05tbg3	Bodyguard	Slot 584	agrandrb
+bw05tbg4	Bodyguard	Slot 584	agrandrb
+bw05tbg5	Bodyguard	Slot 584	agrandbr
+bw05tbg6	Bodyguard	Slot 584	agrandrb
+bw05terg	Tergius	Slot 584	agrandsr
+bw05teve	Teven	Slot 584	agrandbr
+bw05thie	Thief	Slot 592	agrandsr
+bw05tobo	Tobordur	Slot 584	agrandbr
+bw05vlai	Vladimir	Slot 600	agrandrb
+bw05will	William	Slot 600	agrandbr
+bw05xeph	Xephistagoras	Slot 592	agrandbr
+c#ajalex	Sir Beverus	Slot 600	agrandrb
+c#ajan08	Sir Ajantis	Slot 592	agrandbr
+c#ajan09	Sir Ajantis	Slot 592	agrandbr
+c#ajan10	Sir Ajantis	Slot 592	agrandbr
+c#ajan12	Sir Ajantis	Slot 592	agrandrb
+c#ajan14	Sir Ajantis	Slot 592	agrandrb
+c#ajan16	Sir Ajantis	Slot 592	agrandbr
+c#ajdoug	Douglas	Slot 608	agrandbr
+c#ajkend	Sir Laren	Slot 600	agrandbr
+c#ajpr01	Priest Antaunus	Slot 608	agrandrb
+c#ajshbo	Messenger	Slot 608	agrandrb
+c#ajske1	Skeleton	Slot 592	agrandrb
+c#ajske2	Skeleton Warrior	Slot 592	agrandbr
+c#ajsked	Skeleton	Slot 592	agrandrb
+c#ajtrae	Malmae	Slot 600	agrandcl
+c#ajudzo	Handmaiden of Lolth	Slot 600	agrandbr
+c#dkn01	Adventurer	Slot 592	agrandrb
+c#dkn02	Adventurer	Slot 592	agrandbr
+c#dkn03	Adventurer	Slot 592	agrandbr
+c#dkn04	Adventurer	Slot 592	agrandrb
+c#dkn05	Adventurer	Slot 592	agrandrb
+c#knig01	Lady Eleiana	Slot 608	agrandsw
+c#knig02	Lady Tebena	Slot 608	agrandbr
+c#knig03	Lady Uria	Slot 608	agrandrb
+c#knig04	Lady Kayla	Slot 608	agrandrb
+c#knig05	Sir Dalahn	Slot 608	agrandbr
+c#knig06	Sir Mahlam	Slot 592	agrandrb
+c#knig07	Squire Roman	Slot 608	agrandrb
+c#q01004	Tulbor	Slot 592	agrandrb
+c#q04002	Baby Wyvern	Slot 592	agrandbr
+c#q06002	Zombie	Slot 592	agrandbr
+c#ryan	Sir Paritin	Slot 600	agrandbr
+c#sbabol	Aboleth	Slot 592	agrandbr
+c#sbdrc1	Drow	Slot 592	agrandrb
+c#sbdrc2	Drow	Slot 592	agrandbr
+c#sbdrf0	Drow	Slot 592	agrandbr
+c#sbdrf1	Drow	Slot 592	agrandrb
+c#sbdrf2	Drow	Slot 592	agrandbr
+c#sbdrf3	Drow	Slot 592	agrandrb
+c#sbdrf4	Drow	Slot 592	agrandrb
+c#sbdrf5	Drow	Slot 592	agrandbr
+c#sbdrf6	Drow	Slot 592	agrandbr
+c#sbdrf7	Drow	Slot 592	agrandbr
+c#sbdrf8	Drow	Slot 592	agrandbr
+c#sbdrf9	Drow	Slot 592	agrandbr
+c#sbdrm1	Drow	Slot 592	agrandbr
+c#sbdrm2	Drow	Slot 592	agrandrb
+c#sbdrm3	Drow	Slot 592	agrandbr
+c#sbdrm4	Drow	Slot 592	agrandbr
+c#sbduer	Duergar	Slot 592	agrandbr
+c6bguard	Guard	Slot 592	agrandrb
+c6bodhi	Bodhi	Slot 608	agrandbr
+c6cler1	Cleric Of Lathander	Slot 592	agrandbr
+c6cler2	Cleric Of Helm	Slot 592	agrandsw
+c6cler3	Cleric Of Talos	Slot 592	agrandbr
+c6del	Del	Slot 600	agrandrb
+c6drow1	Drow	Slot 592	agrandrb
+c6drow2	Drow	Slot 592	agrandrb
+c6elf1	Elven Warrior	Slot 600	agrandbr
+c6elhan	Elhan	Slot 600	agrandrb
+c6elven2	Elven War Guard	Slot 608	agrandsh
+c6elvenw	Elven War Guard	Slot 600	agrandbr
+c6extr01	Elven Warrior	Slot 600	agrandrb
+c6extr02	Elven Mage	Slot 600	agrandbr
+c6extr03	Elven Warrior	Slot 600	agrandrb
+c6extr04	Elven Mage	Slot 600	agrandrb
+c6fake	Elhan	Slot 592	agrandrg
+c6gener	General Sovalidaas	Slot 600	agrandrb
+c6god	Elven God	Slot 592	agrandbr
+c6harei	Hareishan	Slot 592	agrandrb
+c6harp	Malchor Harpell	Slot 600	agrandrb
+c6kach2	Kachiko	Slot 592	agrandlx
+c6kngt1	Morning Knight	Slot 592	agrandbr
+c6kngt2	Shield Knight	Slot 592	agrandrb
+c6kngt3	Storm Knight	Slot 592	agrandrb
+c6lanf	Lanfear	Slot 600	agrandrb
+c6mere	Meredath	Slot 592	agrandbr
+c6mess	Shadow Thief	Slot 600	agrandrb
+c6salia	Salia	Slot 592	agrandbr
+c6squire	Squire Cathras	Slot 600	agrandlx
+c6tanov	Tanova	Slot 600	agrandrb
+c6valen	Valen	Slot 600	agrandrb
+c6vamp01	Fledgling Vampire	Slot 592	agrandrb
+c6vflm01	Fledgling Vampire	Slot 584	agrandlx
+c6were1	Wolfwere	Slot 584	agrandrb
+c6were2	Wolfwere	Slot 600	agrandea
+c6wulf	Wulfgar	Slot 592	agrandbr
+cadril	Sir Cadril	Slot 608	agrandcl
+caehan	Caehan	Slot 600	agrandrb
+cailan	Statue	Slot 592	agrandrb
+calaha	Calahan	Slot 592	agrandbr
+caligen1	Noble Efreeti	Slot 592	agrandbr
+caligen2	Efreeti	Slot 592	agrandea
+caligen3	Noble Djinni	Slot 592	agrandcl
+calimart	Giblan	Slot 592	agrandsr
+caliprig	Arabic Thug	Slot 592	agrandrb
+calistel	Store Guard	Slot 608	agrandrb
+calitemp	Priest of Waukeen	Slot 592	agrandbr
+calithug	Arabic Thug	Slot 592	agrandbr
+caliwolf	Wererat	Slot 584	agrandbr
+calmeet1	Arab	Slot 584	agrandbr
+calshop1	Trader	Slot 584	agrandbr
+calshop2	Trader	Slot 584	agrandbr
+cambion2	Cambion	Slot 592	agrandrp
+camitis	Camitis	Slot 592	agrandbr
+candx01	Brother Masoj	Slot 592	agrandbr
+candx02	Brother Haunnas	Slot 592	agrandrb
+candx03	Brother Entris	Slot 592	agrandbr
+candx04	Brother Canidez	Slot 592	agrandrb
+candx05	Brother Eviane	Slot 592	agrandbr
+candx06	Brother Thael	Slot 592	agrandrb
+candx07	Brother Alden	Slot 592	agrandbr
+carbos	Carbos	Slot 600	agrandbr
+cavdrow1	Drow	Slot 592	agrandbr
+cavdrow2	Drow	Slot 584	agrandrb
+cavdrow3	Drow	Slot 592	agrandbr
+ccguard1	Copper Coronet Guard	Slot 592	agrandrb
+ccguard2	Copper Coronet Guard	Slot 592	agrandrb
+cdtroll1	Troll	Slot 592	agrandbr
+cdtroll2	Troll	Slot 592	agrandbr
+cearwin	Cearwin	Slot 592	agrandrb
+cechal02	Master Verthan	Slot 608	agrandrb
+cechalle	Master Verthan	Slot 608	agrandbr
+cedelich	Deril Lich	Slot 600	agrandrb
+cederil	Deril	Slot 608	agrandbr
+cedruid1	Pauden	Slot 592	agrandrb
+cedruid2	Dalok	Slot 592	agrandrb
+cefgt01	Adherent	Slot 608	agrandbr
+cefgt02	Shadow Druid	Slot 608	agrandrb
+cefgt03	Adherent	Slot 608	agrandbr
+ceglut	Glut	Slot 592	agrandbr
+ceigarol	Igarol	Slot 600	agrandrb
+celich	Lagole Gon	Slot 600	agrandbr
+celvan	Crazy Celvan	Slot 592	agrandbr
+centeo01	Centeol	Slot 592	agrandbr
+ceskel01	Skeleton Warrior	Slot 592	agrandrb
+cguard1	Cultist Guard	Slot 600	agrandrb
+cguard2	Cultist Guard	Slot 608	agrandrg
+ch3grd01	Shadow Thief	Slot 592	agrandbr
+ch3mag01	Shadow Thief	Slot 592	agrandrb
+chak	Chak	Slot 592	agrandrb
+chalcy01	Cyric	Slot 592	agrandbr
+chalcy02	Favored of Cyric	Slot 592	agrandbr
+chalslay	Slayer	Slot 592	agrandrb
+chalsp01	Gavid	Slot 592	agrandbr
+chaltrol	Giant Troll	Slot 608	agrandbr
+chang01	Angelo	Slot 592	agrandbr
+chang02	Angelo	Slot 592	agrandbr
+chevil01	Kobold Commando	Slot 608	agrandbr
+chevil02	Doppelganger	Slot 600	agrandrb
+chevil03	Ogre Mage	Slot 600	agrandrb
+chevil04	Sahuagin	Slot 600	agrandrb
+chevil05	Gnoll Captain	Slot 600	agrandbr
+chevil06	Drow Warrior	Slot 600	agrandbr
+chevil07	Drow Priestess	Slot 600	agrandrb
+chevil08	Bodhi	Slot 600	agrandbr
+chgood04	Elven Warrior	Slot 600	agrandbr
+chgood05	Elven Warrior	Slot 600	agrandrb
+chgood06	Knight of the Order	Slot 600	agrandbr
+chgood07	Duke Eltan	Slot 600	agrandrb
+chgood08	Aran Linvail	Slot 608	agrandrb
+chgood09	Ellesime	Slot 600	agrandrb
+chsam01	Semaj	Slot 592	agrandbr
+chsam02	Semaj	Slot 592	agrandrb
+chtaz01	Tazok	Slot 592	agrandrb
+chtaz02	Tamoko	Slot 592	agrandrb
+chwraith	Child Spirit	Slot 592	agrandrb
+cileen	Cileen	Slot 584	agrandbr
+civfrus1	Jeremiah Jamtoes	Slot 592	agrandrb
+civil03	Civil Servant	Slot 600	agrandrb
+clcoti01	Cotirso	Slot 600	agrandbr
+cldad	Talon Nirkhas	Slot 592	agrandrb
+clelun01	Eluno	Slot 592	agrandbr
+clgijj01	Gijjal of the House Malario	Slot 592	agrandnc
+cllatp01	Dawnmistress	Slot 592	agrandrb
+clmalg01	Malario Soldier	Slot 592	agrandbr
+clone01	Escaped Clone	Slot 608	agrandrb
+clone1	Escaped Clone	Slot 600	agrandbr
+clrani01	Rania	Slot 592	agrandbr
+clstkn01	Storm Knight	Slot 592	agrandbr
+cltalp01	Weather Master	Slot 592	agrandrb
+cltcut01	Cultist	Slot 600	agrandbr
+cltcut02	Cultist	Slot 592	agrandbr
+cltcut03	Elite Guard	Slot 592	agrandrb
+cltiva01	Ti'Vael	Slot 592	agrandrp
+cm02a514	Khan Noonian Singh	Slot 592	agrandsr
+cm03a514	Quintus the Quick	Slot 600	agrandbr
+cm04a514	Garak the Banelord	Slot 600	agrandbr
+cm05a514	Gorth	Slot 592	agrandrp
+cm1800a1	Black Talon Elite	Slot 600	agrandrb
+cm1803a1	Black Talon Elite	Slot 600	agrandbr
+cm1803a2	Black Talon Elite	Slot 600	agrandbr
+cm1803a3	Dark Silvia	Slot 584	agrandrb
+cm1803a4	Morgan	Slot 584	agrandrp
+cm1a2100	Druid	Slot 600	agrandrb
+cm2300a1	Caravan Guard	Slot 592	agrandrb
+cm2300a2	Caravan Guard	Slot 592	agrandbr
+cm2300a3	Caravan Guard	Slot 592	agrandbr
+cm2a2100	Druid	Slot 600	agrandrb
+cm330007	Morninglord	Slot 592	agrandbr
+cm330008	Morninglord	Slot 592	agrandrb
+cm3a2100	Selene	Slot 608	agrandbr
+cmapoc1	Burning Dead	Slot 592	agrandrb
+cmapoc2	Burning Dead	Slot 592	agrandbr
+cmashiru	Ashirukuru	Slot 592	agrandrb
+cmbou01	Zargos Flintblade	Slot 592	agrandbr
+cmbou03	Malious	Slot 592	agrandbr
+cmbou04	Phallen Nightsbane	Slot 592	agrandbr
+cmbou05	Necardian	Slot 600	agrandrg
+cmbou06	Isolde	Slot 592	agrandbr
+cmbou07	Mendas	Slot 592	agrandrp
+cmbou08	Garret	Slot 592	agrandrb
+cmbou09	Allister	Slot 600	agrandea
+cmbou10	Zara	Slot 592	agrandrb
+cmbou11	Hilgaar	Slot 592	agrandrb
+cmdrag	Dragon	Slot 592	agrandlx
+cmdru02	Kieran	Slot 608	agrandbr
+cmdru04	Druid	Slot 592	agrandbr
+cmdru05	Druid	Slot 592	agrandrb
+cmdru06	Druid	Slot 592	agrandrb
+cmdru07	Druid	Slot 592	agrandrb
+cmdry01	Crazy Dryad	Slot 600	agrandbr
+cmelf01	Jhaeros Auglathla	Slot 600	agrandbr
+cmelf02	Ygrainne Windstar	Slot 592	agrandrb
+cmelf03	Elven Body Guard	Slot 600	agrandbr
+cmelf04	Elven Body Guard	Slot 600	agrandbr
+cmelf05	Elven Body Guard	Slot 600	agrandea
+cmggo1	Goblin	Slot 592	agrandrb
+cmggob1	Goblin	Slot 592	agrandrb
+cmghau01	Greater Ghoul	Slot 592	agrandrb
+cmghst01	Arch Mage Arias	Slot 600	agrandrb
+cmghst02	Ghost Knight	Slot 592	agrandsr
+cmghst03	Ghost Knight	Slot 592	agrandrb
+cmghst04	Ghost Knight	Slot 592	agrandbr
+cmghst05	Anton Valor	Slot 584	agrandbr
+cmghst06	Garrett	Slot 584	agrandbr
+cmghst07	Synthia Malivore	Slot 584	agrandrb
+cmghst08	Arch Mage Natas	Slot 584	agrandrb
+cmgnol01	Gnoll Clan Leader	Slot 592	agrandsw
+cmgnol02	Gnoll Clan Guard	Slot 592	agrandrb
+cmgnol03	Gnoll Elite Warrior	Slot 592	agrandrb
+cmgnol04	Gnoll Veteran Warrior	Slot 592	agrandnc
+cmhob01	Hobgoblin	Slot 592	agrandsh
+cmhob02	Hobgoblin Elite	Slot 592	agrandbr
+cmhob03	Hobgoblin General	Slot 592	agrandsw
+cmirone	Black Talon General	Slot 600	agrandrb
+cmkob01	Kobold	Slot 592	agrandnc
+cmkob02	Kobold Clan Leader	Slot 592	agrandrb
+cmkob03	Kobold Witch Doctor	Slot 592	agrandbr
+cmmagnu	Magnus	Slot 600	agrandbr
+cmmystr	Ratava Artsym	Slot 592	agrandbr
+cmnajar2	Guard	Slot 592	agrandbr
+cmnajar4	Guard	Slot 592	agrandrb
+cmogrem1	Ogre Mage	Slot 592	agrandbr
+cmosec01	Oversight Guard	Slot 592	agrandrb
+cmosec02	Oversight Guard	Slot 592	agrandbr
+cmosec03	Oversight Priest	Slot 608	agrandrb
+cmosec04	Oversight War Wizard	Slot 608	agrandrb
+cmosec05	Oversight Elite	Slot 592	agrandrb
+cmosec06	Oversight Elite	Slot 592	agrandrg
+cmosec07	Oversight Elite	Slot 592	agrandsh
+cmosec08	Oversight Bard	Slot 600	agrandbr
+cmosec09	Oversight Priest	Slot 600	agrandrb
+cmosec10	Torture Twin	Slot 592	agrandrb
+cmosec11	Torture Twin	Slot 600	agrandrb
+cmosec13	Oversight War Wizard	Slot 608	agrandbr
+cmosec14	Oversight War Wizard	Slot 608	agrandrb
+cmosec15	Oversight Guard	Slot 592	agrandrb
+cmosec16	Oversight Guard	Slot 592	agrandbr
+cmrwiz02	Erica	Slot 600	agrandrb
+cmrwiz03	Jeneik	Slot 600	agrandbr
+cmsec01	Paul Wolfe	Slot 600	agrandrb
+cmsec02	Nikita	Slot 592	agrandrb
+cmsec03	Madeline	Slot 592	agrandbr
+cmsec04	Michael Samuelle	Slot 592	agrandrb
+cmsec05	Quinn	Slot 592	agrandbr
+cmsec06	Davenport	Slot 592	agrandcl
+cmsec07	Andrea	Slot 608	agrandrb
+cmsec08	George	Slot 592	agrandbr
+cmsec08a	George	Slot 608	agrandrb
+cmsec10	Section Operative	Slot 608	agrandea
+cmsec10a	Section Operative	Slot 608	agrandrb
+cmsec10b	Section Operative	Slot 608	agrandbr
+cmsec10c	Section Operative	Slot 608	agrandrb
+cmsec11	Section Operative	Slot 592	agrandrb
+cmsec12	Section Operative	Slot 592	agrandbr
+cmsec12a	Section Elite	Slot 608	agrandbr
+cmsec12b	Section Operative	Slot 592	agrandbr
+cmsec12c	Section Operative	Slot 592	agrandrb
+cmsec12d	Section Operative	Slot 592	agrandbr
+cmsec13	Section Operative	Slot 592	agrandrb
+cmsec14	Section Elite	Slot 592	agrandbr
+cmsec14a	Section Elite	Slot 592	agrandrb
+cmsec14b	Section Elite	Slot 592	agrandcl
+cmsec15	Section Operative	Slot 592	agrandrb
+cmsec16	Section Operative	Slot 592	agrandbr
+cmsec17	Section Operative	Slot 592	agrandbr
+cmsec18	Section Operative	Slot 592	agrandbr
+cmsec19	Section Elite	Slot 608	agrandrb
+cmsec20	Section Operative	Slot 584	agrandbr
+cmsec20a	Section Operative	Slot 608	agrandrb
+cmsec21	Lillian Darkwater	Slot 584	agrandrb
+cmsec22	Section Operative	Slot 608	agrandbr
+cmsec23	Section Operative	Slot 592	agrandsr
+cmsec24	Section Elite	Slot 592	agrandbr
+cmsec25	Section Elite	Slot 592	agrandrb
+cmske01	Skeleton	Slot 592	agrandbr
+cmske02	Skeleton	Slot 592	agrandrp
+cmske03	Skeleton	Slot 592	agrandcl
+cmske04	Skeleton	Slot 592	agrandbr
+cmskel01	Skeleton Warrior	Slot 592	agrandbr
+cmskel02	Skeleton Warrior	Slot 592	agrandsh
+cmskel03	Death Knight	Slot 584	agrandrb
+cmskel04	Death Knight	Slot 584	agrandbr
+cmwyba	Baby Wyvern	Slot 592	agrandcl
+cmwybi1	Beren	Slot 592	agrandrb
+cmwybi2	Luthian	Slot 592	agrandrb
+cohnta	Cohn Ta'glaen	Slot 592	agrandea
+cohrvale	Cohrvale	Slot 600	agrandrb
+copamb01	Gladiator	Slot 592	agrandbr
+copamb02	Copper Coronet Guard	Slot 592	agrandbr
+copamb03	Gladiator	Slot 592	agrandnc
+copamb04	Gladiator	Slot 592	agrandrb
+copamb05	Copper Coronet Guard	Slot 592	agrandrb
+copcust3	Nobleman	Slot 592	agrandbr
+copgreet	Frankie	Slot 608	agrandsr
+cor	Cor Delryn	Slot 592	agrandrb
+corgeig	Corgeig Axehand	Slot 592	agrandrb
+corneil	Corneil	Slot 592	agrandbr
+counsec	Council Secretary Ewenn	Slot 600	agrandsr
+cowenf02	Cowled Enforcer	Slot 608	agrandbr
+cowenf1	Cowled Enforcer	Slot 608	agrandbr
+cowenf3	Cowled Enforcer	Slot 608	agrandbr
+cowenf4	Cowled Enforcer	Slot 608	agrandrb
+cowld	Cowled Wizard	Slot 600	agrandrb
+cowled	Cowled Wizard	Slot 592	agrandbr
+cowled01	Cowled Wizard	Slot 600	agrandbr
+cragmoon	Mrs. Cragmoon	Slot 600	agrandbr
+c-renal	Renal	Slot 600	agrandrb
+crothf01	Tiiro	Slot 592	agrandrb
+crothf02	Aulava	Slot 592	agrandrb
+cscleric	Dawnmaster Kreel	Slot 600	agrandbr
+cscowl1	Cowled Wizard	Slot 592	agrandbr
+cscowl2	Cowled Wizard	Slot 592	agrandsr
+cscowl3	Cowled Wizard	Slot 592	agrandrb
+cscowl4	Cowled Wizard	Slot 592	agrandbr
+cscowl5	Cowled Wizard	Slot 592	agrandrb
+cscowl6	Cowled Wizard	Slot 592	agrandbr
+cscowl7	Cowled Wizard	Slot 592	agrandrb
+cscowl8	Cowled Wizard	Slot 592	agrandcl
+cscowl9	Cowled Wizard	Slot 592	agrandbr
+csgaal	Gaal	Slot 608	agrandrb
+csgayl	Assassin	Slot 592	agrandrb
+csiren	Mage	Slot 592	agrandrb
+csjon	Mage	Slot 592	agrandcl
+csthief1	Assassin	Slot 592	agrandrb
+csthief2	Assassin	Slot 592	agrandrb
+csthief3	Assassin	Slot 592	agrandbr
+csthief4	Assassin	Slot 592	agrandea
+ctraitor	Tad	Slot 608	agrandsh
+cuardul	Matron Mother Ardulace	Slot 592	agrandbr
+cubodhi	Bodhi	Slot 592	agrandbr
+cucow1	Cowled Enforcer	Slot 592	agrandrb
+cucow2	Cowled Enforcer	Slot 592	agrandrb
+cucow3	Cowled Enforcer	Slot 592	agrandrg
+cuguard	Baragh	Slot 592	agrandrb
+cultbh1	Gauth	Slot 592	agrandrb
+cultbh2	Gauth	Slot 592	agrandnc
+cultbh3	Beholder	Slot 592	agrandbr
+cultbh4	Spectator	Slot 592	agrandrb
+cultist1	Cultist	Slot 600	agrandlx
+cultist2	Cultist	Slot 600	agrandbr
+cupris1	Elven Warrior	Slot 592	agrandrb
+cupris2	Elven Warrior	Slot 592	agrandbr
+cushad1	Shadow Thief	Slot 592	agrandbr
+cushad2	Shadow Thief	Slot 592	agrandbr
+cushad3	Shadow Thief	Slot 592	agrandrb
+cushad4	Shadow Thief	Slot 592	agrandbr
+cushad5	Shadow Thief	Slot 592	agrandbr
+cushad6	Shadow Thief	Slot 592	agrandrb
+cutamfig	Fighter	Slot 584	agrandrg
+cutamgrd	Monk	Slot 592	agrandrb
+cutammag	Mage	Slot 592	agrandrb
+cutbalth	Balthazar	Slot 592	agrandnc
+cutgrd01	Monk	Slot 592	agrandbr
+cutgrd02	Monk	Slot 592	agrandbr
+cutgrd03	Monk	Slot 592	agrandbr
+cutgrd04	Monk	Slot 592	agrandbr
+cutmelis	Melissan	Slot 592	agrandrb
+cuwiz1	Cowled Enforcer	Slot 592	agrandrp
+cuwiz2	Cowled Enforcer	Slot 592	agrandrb
+cuwiz3	Cowled Enforcer	Slot 592	agrandbr
+cuwiz4	Cowled Enforcer	Slot 592	agrandbr
+cuwiz5	Cowled Enforcer	Slot 592	agrandrb
+cuwiz6	Cowled Enforcer	Slot 592	agrandbr
+cuwizc	Cowled Enforcer	Slot 592	agrandbr
+cuwizsu	Cowled Enforcer	Slot 592	agrandbr
+cyc01	Cyclops	Slot 592	agrandrb
+cyccali1	Cyclops	Slot 592	agrandrb
+cyccali2	Cyclops	Slot 592	agrandbr
+cyccali3	Cyclops	Slot 592	agrandrb
+cyrando	Cyrando	Slot 592	agrandbr
+cythan	Cythandria	Slot 608	agrandrb
+d1ghost	Alianna	Slot 592	agrandbr
+d1mothdw	Alianna	Slot 592	agrandrb
+d1mothel	Alianna	Slot 592	agrandrb
+d1mothha	Alianna	Slot 592	agrandlx
+d1mothhu	Alianna	Slot 592	agrandrb
+d2fue	Fuernebol	Slot 608	agrandbr
+daabol	Aboleth	Slot 592	agrandsw
+dadrow1	Drow Servant	Slot 600	agrandrb
+dadrow10	Drow Torturer	Slot 600	agrandrb
+dadrow11	Drow Torturer	Slot 592	agrandrb
+dadrow12	Overseer Handmaiden	Slot 608	agrandrb
+dadrow13	Drow	Slot 592	agrandbr
+dadrow14	Drow	Slot 600	agrandbr
+dadrow15	Drow	Slot 592	agrandrb
+dadrow16	Drow	Slot 600	agrandrb
+dadrow17	Taso Kala	Slot 600	agrandbr
+dadrow18	Spelljammer Drow	Slot 600	agrandrb
+dadrow19	Drow	Slot 600	agrandbr
+dadrow2	Drow Servant	Slot 600	agrandbr
+dadrow21	Drow	Slot 592	agrandrb
+dadrow22	Drow	Slot 592	agrandbr
+dadrow23	Drow	Slot 600	agrandbr
+dadrow24	Drow	Slot 592	agrandrb
+dadrow25	Drow	Slot 592	agrandrb
+dadrow26	Drow	Slot 600	agrandbr
+dadrow3	Drow Slave Trader	Slot 592	agrandbr
+dadrow4	Drow Priestess	Slot 592	agrandbr
+dadrow5	Drow	Slot 608	agrandrb
+dadrow7	Drow	Slot 600	agrandrb
+dadrow8	Drow Torturer	Slot 600	agrandbr
+dadrow9	Drow Torturer	Slot 600	agrandrb
+daduer1	Duergar	Slot 592	agrandbr
+daduer2	Duergar	Slot 608	agrandrp
+daduer3	Duergar	Slot 600	agrandbr
+daduer4	Duergar	Slot 592	agrandrb
+dadwarf	Dwarf	Slot 600	agrandrb
+daelf	Elven Mage	Slot 600	agrandrb
+daelf2	Elven Mage	Slot 600	agrandrb
+dagenie	Dola Fadoon	Slot 600	agrandnc
+daghaun1	Ghaunadaur Priest Leader	Slot 592	agrandrb
+daghaun2	Ghaunadaur Priest	Slot 592	agrandrb
+dagith1	Githyanki Captain	Slot 600	agrandrb
+dagith2	Githyanki	Slot 600	agrandbr
+dagmag01	Relonar	Slot 592	agrandbr
+dagnoll	Gnoll	Slot 592	agrandrb
+daitel	Ghost	Slot 592	agrandbr
+dakobold	Kobold	Slot 608	agrandbr
+damind1	Mind Flayer	Slot 592	agrandbr
+damind2	Mind Flayer	Slot 592	agrandrb
+danno	Danno Fairfoot	Slot 592	agrandsw
+daqilue	Qilue	Slot 600	agrandrb
+dario	Dario Thet	Slot 592	agrandrb
+dariogr1	Assassin Mage	Slot 584	agrandrb
+dariogr2	Assassin Warrior	Slot 592	agrandrb
+dariogr3	Assassin Warrior	Slot 592	agrandrb
+dariogr4	Assassin Warrior	Slot 592	agrandbr
+dariogr5	Assassin Warrior	Slot 592	agrandrp
+darioms2	Calimport Messenger	Slot 592	agrandrb
+dariomsg	Calimport Messenger	Slot 592	agrandnc
+daslave1	Slave Leader	Slot 592	agrandbr
+daslave3	Slave Boy	Slot 592	agrandrb
+daslave4	Slave Girl	Slot 592	agrandbr
+daspitro	Spirit Troll	Slot 592	agrandrp
+dassin	Shadow Thief	Slot 584	agrandrb
+datroll	Troll	Slot 592	agrandbr
+daumber	Umber Hulk	Slot 592	agrandrb
+dawnmas	Dawnmaster Kreel	Slot 592	agrandbr
+dbonef01	Bone Fiend	Slot 592	agrandbr
+dcleric	Mad Cleric	Slot 592	agrandrb
+dcowl1	Rayic Gethras	Slot 600	agrandbr
+dd1700cl	Berun	Slot 592	agrandbr
+dd1700fi	Giron	Slot 592	agrandbr
+dd1700ra	Yulur	Slot 592	agrandrb
+dd1700wi	Slurice	Slot 592	agrandrb
+ddarnie	Arnie	Slot 592	agrandbr
+ddassa01	Assassin of Cyric	Slot 592	agrandrb
+ddassa02	Assassin of Cyric	Slot 592	agrandbr
+ddbandi1	Soldier	Slot 592	agrandbr
+ddbandi2	Soldier	Slot 592	agrandrb
+ddbandi3	Soldier	Slot 592	agrandbr
+ddblbl01	Black Blade Assassin	Slot 592	agrandrb
+ddblbl02	Black Blade Assassin	Slot 592	agrandbr
+ddcapt01	Captain	Slot 592	agrandbr
+ddcrazy1	Manifest Lunatic	Slot 600	agrandbr
+ddcyric2	Larala	Slot 592	agrandbr
+ddcyric3	Larala	Slot 592	agrandrb
+ddcyric4	Larala	Slot 592	agrandrb
+ddfrost1	Frost Giant	Slot 592	agrandsr
+ddgame01	Man	Slot 592	agrandbr
+ddgame03	Venonocanes Staff	Slot 592	agrandbr
+ddguar01	Guard	Slot 592	agrandcl
+ddguard1	Guardian	Slot 592	agrandbr
+ddguard2	Guardian	Slot 592	agrandea
+ddguard3	Guardian	Slot 592	agrandrb
+ddguard4	Guardian	Slot 592	agrandrb
+ddguard5	Guardian	Slot 592	agrandbr
+ddguard6	Guardian	Slot 592	agrandlx
+ddhall01	Krent	Slot 592	agrandrb
+ddmanarc	Manifest Archer	Slot 592	agrandrb
+ddmanpea	Manifest Peasant	Slot 592	agrandrb
+ddmansha	Manifest Shadow	Slot 592	agrandbr
+ddmary	Mary Magus	Slot 592	agrandrb
+ddogre01	Ogre	Slot 592	agrandrb
+ddpkmap	Salesman	Slot 592	agrandrb
+ddplota4	Manifest Shadow	Slot 592	agrandbr
+ddplota5	Monster	Slot 600	agrandbr
+ddpo05ab	Ranger	Slot 592	agrandrb
+ddpoten1	Potencius	Slot 592	agrandrb
+ddragbrw	Arrellaxerrontoal	Slot 592	agrandea
+ddsold01	Soldier	Slot 592	agrandbr
+ddsold02	Soldier	Slot 592	agrandrb
+ddsold03	Soldier	Slot 592	agrandea
+ddsold04	Soldier	Slot 592	agrandbr
+ddsold06	Scout	Slot 592	agrandrb
+ddspectr	Manifest Spectre	Slot 592	agrandrb
+ddtempl1	Battle Cleric	Slot 592	agrandrb
+ddtero01	Tero	Slot 600	agrandrb
+ddtroll1	Troll	Slot 592	agrandrb
+ddtroll2	Troll	Slot 592	agrandbr
+ddwarp01	Elven Wizard	Slot 600	agrandrb
+ddyolkum	Yolkum	Slot 592	agrandbr
+ddyuan01	Yuan-Ti	Slot 592	agrandbr
+ddyuan02	Greater Yuan-ti	Slot 592	agrandrb
+ddyuan03	Yuan-Ti Mage	Slot 592	agrandbr
+dead2	Amnian Soldier	Slot 592	agrandrb
+deadb01	Adventurer	Slot 592	agrandbr
+deadb02	Adventurer	Slot 592	agrandrb
+deadb03	Adventurer	Slot 592	agrandrb
+deadbeh1	Beholder	Slot 592	agrandrb
+deadbeh2	Gauth	Slot 592	agrandrb
+deaddem1	Cornugon	Slot 592	agrandbr
+deaddem2	Quasit	Slot 592	agrandrb
+deadfuck	Amnian Soldier	Slot 592	agrandbr
+deathk1	Demon Knight	Slot 592	agrandbr
+deathkni	Demon Knight	Slot 592	agrandbr
+deck615	Demon Knight	Slot 592	agrandrb
+deck622	Death Shade	Slot 592	agrandrb
+deckass1	Thief	Slot 592	agrandrb
+deckwar1	Fighter	Slot 592	agrandrb
+dedsmug	Smuggler	Slot 608	agrandrb
+degard	Degardan	Slot 608	agrandbr
+del	Del	Slot 592	agrandbr
+dellow	Del	Slot 592	agrandsh
+delnob01	Nobleman	Slot 600	agrandrb
+delryng1	Delryn Door Guard	Slot 608	agrandbr
+delsvir	Delsvirftanyon	Slot 592	agrandbr
+demabi01	Abishai	Slot 592	agrandbr
+demcor01	Cornugon	Slot 592	agrandrb
+demfig01	Falahar	Slot 600	agrandbr
+demfig02	Valeria	Slot 608	agrandbr
+demgla01	Glabrezu	Slot 592	agrandbr
+demglab2	Glabrezu	Slot 592	agrandea
+demgrdr1	Amnish Soldier	Slot 592	agrandrb
+demgrdr2	Amnish Soldier	Slot 592	agrandbr
+demgrdr3	Amnish Soldier	Slot 592	agrandrb
+demgrdr4	Amnish Soldier	Slot 592	agrandsr
+demgrdrx	Amnish Soldier	Slot 592	agrandlx
+demilich	Demilich	Slot 584	agrandrb
+demlord	Lesser Demon Lord	Slot 584	agrandbr
+demmag	Dracandros	Slot 592	agrandrb
+demmau01	Maurezhi	Slot 592	agrandrp
+demnab02	Nabassu	Slot 592	agrandrg
+demninv2	Barl	Slot 592	agrandbr
+demninvi	Barl	Slot 592	agrandbr
+demoarch	Fighter	Slot 600	agrandbr
+democler	Cleric	Slot 600	agrandrb
+demogor1	Imprisoned One	Slot 592	agrandbr
+demogor2	Demogorgon	Slot 592	agrandnc
+demosum1	Marilith	Slot 592	agrandbr
+demosum2	Balor	Slot 592	agrandrb
+demosum3	Glabrezu	Slot 592	agrandrb
+dempit01	Pit Fiend	Slot 592	agrandbr
+dempitr1	Pit Fiend	Slot 592	agrandbr
+dempitr2	Pit Fiend	Slot 592	agrandrb
+dempri	Pitre	Slot 592	agrandbr
+demson	Sir William Reirrac	Slot 608	agrandrb
+demsuc01	Succubus	Slot 592	agrandrb
+deriny01	Erinyes	Slot 592	agrandrb
+derrick	Derrick	Slot 592	agrandbr
+deshar	Ferric Ironblade	Slot 608	agrandrb
+devaevil	Fallen Deva	Slot 592	agrandbr
+devagood	Deva	Slot 592	agrandrb
+devast01	Astral Deva	Slot 592	agrandbr
+devmon01	Monadic Deva	Slot 592	agrandbr
+dgdru01	Druid	Slot 600	agrandbr
+dgfig01	Fighter	Slot 592	agrandrb
+dglab01	Glabrezu	Slot 592	agrandbr
+dgmag01	Mage	Slot 600	agrandbr
+dgtrol01	Troll	Slot 608	agrandsw
+dgtrol02	Troll	Slot 592	agrandrb
+dimp01	Imp	Slot 592	agrandrb
+dinan	Dinan	Slot 592	agrandbr
+dinan2	Dinan	Slot 592	agrandrb
+dinan3	Dinan	Slot 592	agrandrb
+disrup01	Wizard Slayer	Slot 600	agrandrb
+djinnisu	Djinni	Slot 592	agrandrp
+dmark1	Fovem	Slot 600	agrandbr
+dockhlp1	Shadow Thief	Slot 592	agrandlx
+dockhlp2	Shadow Thief	Slot 592	agrandbr
+dockhlp3	Knight of the Order	Slot 592	agrandrb
+dockhlp4	Knight of the Order	Slot 592	agrandrb
+dockmeet	Rylock	Slot 592	agrandrb
+dockpriz	Shadow Thief	Slot 592	agrandrb
+dopcle01	Kiel the Legion Killer	Slot 608	agrandrb
+dopdur	Durlag Trollkiller	Slot 608	agrandbr
+dopdur1	Durlag Trollkiller	Slot 600	agrandbr
+dopdur2	Durlag Trollkiller	Slot 600	agrandbr
+dopfue	Fuernebol	Slot 608	agrandrb
+dopgre01	Greater Doppelganger	Slot 592	agrandbr
+dopmag01	Islanne.	Slot 608	agrandrb
+dopmgr01	Islanne.	Slot 608	agrandrb
+dopple01	Doppelganger	Slot 592	agrandlx
+dopthi01	Fuernebol	Slot 608	agrandrb
+dopwar01	Durlag Trollkiller	Slot 608	agrandbr
+dorkus	Dorkus	Slot 592	agrandea
+doug	Festule the Alchemist	Slot 600	agrandrb
+dpim	Pimlico	Slot 600	agrandrb
+dpimg1	Pimlico Guard	Slot 592	agrandbr
+dpmon01	Mind Flayer	Slot 592	agrandbr
+dpmon02	Lich	Slot 592	agrandbr
+dpmon03	Vampire	Slot 592	agrandbr
+dpstat01	Eliya	Slot 592	agrandbr
+dpstat02	Petrified Man	Slot 592	agrandsr
+dpstat03	Petrified Woman	Slot 592	agrandrp
+dpstat04	Petrified Man	Slot 592	agrandrb
+dpstat05	Petrified Woman	Slot 592	agrandbr
+dquas01	Quasit	Slot 592	agrandbr
+dradee	Dradeel	Slot 600	agrandbr
+dragblac	Nizidramanii'yt	Slot 600	agrandlx
+dragblue	Abazigal	Slot 584	agrandnc
+dragbr1	Gnoll	Slot 592	agrandbr
+dragbr3	Gibberling	Slot 592	agrandbr
+dragbrow	Brown Dragon	Slot 592	agrandrb
+draggold	Garlokantha	Slot 592	agrandrb
+draggren	Linussaxanol	Slot 592	agrandrb
+draginvg	Barl	Slot 592	agrandrb
+dragpurp	Purple Dragon	Slot 584	agrandbr
+dragred	Red Dragon	Slot 592	agrandsh
+dragshad	Thaxll'ssillyia	Slot 592	agrandrb
+dragsilv	Silver Dragon	Slot 592	agrandbr
+dragtope	Tapanasacar	Slot 592	agrandrb
+dragund	Icebraniken	Slot 584	agrandrb
+dragyell	Yellow Dragon	Slot 592	agrandbr
+drake01	Shelligh	Slot 592	agrandrb
+drake02	Rill	Slot 592	agrandrg
+drake03	Rance	Slot 592	agrandbr
+drake04	Quenash	Slot 592	agrandbr
+draug	Draug Fea	Slot 592	agrandrb
+drbod	Bodhi	Slot 592	agrandrb
+dreampc	Dream Vision	Slot 592	agrandrb
+drelle	Dream Vision	Slot 592	agrandrb
+drelle2	Dream Vision	Slot 592	agrandbr
+drenden	Drenden Shale	Slot 592	agrandrb
+dreself1	Elf Male	Slot 592	agrandbr
+dreself2	Elf Female	Slot 592	agrandrb
+dreself3	Elf Male	Slot 592	agrandbr
+dreself4	Elf Female	Slot 592	agrandrb
+dreself5	Elf Male	Slot 592	agrandbr
+dreself6	Elf Female	Slot 592	agrandrb
+dreself7	Elf Male	Slot 592	agrandbr
+dreself8	Elf Female	Slot 592	agrandrb
+drofod01	Drow	Slot 592	agrandbr
+drofod02	Drow	Slot 592	agrandbr
+drofod03	Drow	Slot 592	agrandbr
+drofod04	Drow Priestess	Slot 592	agrandbr
+drow01	Drow Warrior	Slot 592	agrandrb
+drow02	Drow Warrior	Slot 592	agrandbr
+drow03	Drow Wizard	Slot 584	agrandbr
+drow04	Drow Priestess	Slot 592	agrandbr
+drow05	Drow	Slot 592	agrandrb
+drow06	Drow	Slot 600	agrandrb
+drow07	Drow Priestess	Slot 592	agrandrb
+drowbd01	Drow Warrior	Slot 592	agrandrb
+drowbd02	Drow Warrior	Slot 592	agrandbr
+drowbd03	Drow Warrior	Slot 592	agrandrb
+drowbd04	Drow Warrior	Slot 592	agrandsh
+drowbd05	Drow Warrior	Slot 592	agrandbr
+drowbd06	Drow Warrior	Slot 592	agrandrb
+drowbd07	Drow Wizard	Slot 600	agrandbr
+drowbd08	Drow Wizard	Slot 600	agrandrb
+drowbd09	Drow Priestess	Slot 592	agrandrb
+drowbd10	Drow Priestess	Slot 592	agrandrb
+drowbd11	Drow Wizard	Slot 600	agrandbr
+drowinvi	Barl	Slot 592	agrandrb
+drpc	Adventurer	Slot 592	agrandbr
+drshnl01	Nilthiri	Slot 608	agrandrb
+drshnl02	Nilthiri	Slot 592	agrandbr
+drshnl11	Nilthiri	Slot 592	agrandea
+drshnl21	Nilthiri	Slot 592	agrandbr
+drshsp01	Spirit of the Grove	Slot 600	agrandbr
+drslayer	Slayer	Slot 592	agrandrb
+druff1	Ruffian	Slot 592	agrandbr
+druff2	Ruffian	Slot 592	agrandrb
+druid10a	Zorl	Slot 600	agrandbr
+druid10b	Zorl	Slot 600	agrandrp
+druid12a	Zorl	Slot 592	agrandrb
+druid12b	Zorl	Slot 592	agrandrb
+druid6a	Zorl	Slot 600	agrandbr
+druid8a	Zorl	Slot 600	agrandrp
+druid8b	Zorl	Slot 600	agrandbr
+druidad	Druid	Slot 600	agrandbr
+drush	Drush	Slot 592	agrandrb
+dsailor1	Sailor	Slot 592	agrandbr
+dsailor2	Sailor	Slot 592	agrandrb
+dsbanshe	Banshee	Slot 592	agrandrb
+dsblane	Dawn Priest Blane	Slot 608	agrandnc
+dsbody01	Shadow Thief	Slot 592	agrandbr
+dsclars	Clairis	Slot 600	agrandbr
+dsdrow01	Drow Weapons Master	Slot 592	agrandrb
+dsdrow02	Drow Mage	Slot 600	agrandbr
+dsdrow03	Drow Warrior	Slot 592	agrandrb
+dsdrow04	Drow Elite	Slot 592	agrandrb
+dsduegm1	Duergar Fighter	Slot 592	agrandbr
+dsduegma	Duergar Mage	Slot 600	agrandrg
+dsduegsk	Duergar Skeletal Conjurer	Slot 592	agrandnc
+dsduerg1	Duergar Thief	Slot 600	agrandbr
+dsduerg2	Duergar Guard	Slot 592	agrandrb
+dsduerg3	Duergar Priest	Slot 584	agrandrb
+dsduerga	Duergar Miner	Slot 584	agrandbr
+dsfeydo	Fey'doch	Slot 600	agrandbr
+dsfordrg	Salandiaxarxes	Slot 592	agrandrb
+dsfrdrgb	Baby Forest Dragon	Slot 608	agrandea
+dsgnollc	Gnoll Chieftan	Slot 608	agrandrb
+dsgobchf	Goblin Chief	Slot 592	agrandbr
+dsgrunk	Grog	Slot 592	agrandrb
+dsguard	Guard	Slot 592	agrandea
+dshalf01	Gandolar Luckyfoot	Slot 600	agrandbr
+dshalf02	Halfling Fighter	Slot 592	agrandbr
+dshalf03	Halfling Fighter	Slot 592	agrandbr
+dshalf04	Halfling Thief	Slot 592	agrandbr
+dshalf05	Halfling Thief	Slot 592	agrandrb
+dshop01	Ikert	Slot 592	agrandrb
+dshop02	Jahaboam	Slot 592	agrandlx
+dsjabb	Jabress Xaendrassa Auvryndar	Slot 600	agrandbr
+dskalann	Kalannar	Slot 592	agrandrb
+dslich	The Dark One	Slot 592	agrandbr
+dslich1	The Dark One	Slot 592	agrandbr
+dslich2	The Dark One	Slot 584	agrandbr
+dslich3	The Dark One	Slot 584	agrandrb
+dsmortus	Mortius	Slot 592	agrandbr
+dsorc01	Orc	Slot 592	agrandrb
+dsphant1	Phantom	Slot 592	agrandrp
+dsphant2	Phantom	Slot 592	agrandrb
+dsphant3	Phantom	Slot 592	agrandbr
+dsphant4	Phantom	Slot 592	agrandrb
+dsphant5	Phantom	Slot 592	agrandbr
+dsphant6	Phantom	Slot 592	agrandbr
+dsroach	Atr'Jkslad'Roa'CH	Slot 584	agrandbr
+dsshar	Shar Nadal	Slot 584	agrandea
+dsspec	Spec	Slot 584	agrandrb
+dsthief	Shadow Thief	Slot 592	agrandsr
+dstrungl	Trungle	Slot 592	agrandbr
+dsvampf1	Fledgling Vampire	Slot 600	agrandbr
+dsvampf2	Fledgling Vampire	Slot 600	agrandsr
+dsvampm	Lord Daerthmac	Slot 600	agrandrb
+dswelf1	Wood Elf Warrior	Slot 600	agrandsh
+dswelf1e	Wood Elf Elite	Slot 600	agrandrb
+dswelf2	Wood Elf Warrior	Slot 600	agrandrb
+dswelf2e	Wood Elf Elite	Slot 600	agrandbr
+dszomblo	Zombie Lord	Slot 592	agrandbr
+duearc01	Duergar	Slot 600	agrandsh
+duecla01	Ilyich	Slot 592	agrandbr
+duegau01	Duergar	Slot 608	agrandsh
+duegau02	Duergar	Slot 608	agrandrb
+duegexit	Duergar	Slot 592	agrandrb
+duegmin1	Duergar	Slot 592	agrandbr
+duegmin2	Duergar Mage	Slot 600	agrandrg
+duegmin3	Duergar	Slot 592	agrandrb
+duegrune	Duergar	Slot 592	agrandbr
+duegsal1	Duergar	Slot 592	agrandnc
+duegsal2	Duergar	Slot 592	agrandrb
+duegsal3	Duergar	Slot 592	agrandrb
+duegske1	Duergar Skeletal Conjurer	Slot 592	agrandbr
+duemag01	Mage	Slot 608	agrandrb
+duemag02	Mage	Slot 592	agrandbr
+duergar	Duergar	Slot 600	agrandrb
+duergar1	Duergar	Slot 600	agrandrb
+duergar2	Duergar	Slot 592	agrandbr
+duergar3	Duergar	Slot 600	agrandrb
+dumfue	Sparring Dummy	Slot 592	agrandrb
+dumisl	Sparring Dummy	Slot 592	agrandbr
+dumkie	Sparring Dummy	Slot 592	agrandbr
+dungettn	Ettin	Slot 592	agrandrb
+dvampfl	Vampire	Slot 592	agrandbr
+dwbrg01	Drow Warrior	Slot 592	agrandbr
+dwbrg02	Drow Warrior	Slot 592	agrandbr
+dwgard01	Drow Warrior	Slot 592	agrandbr
+dwgard02	Drow Warrior	Slot 592	agrandbr
+dwgard03	Drow Warrior	Slot 592	agrandrb
+dwgard04	Drow Warrior	Slot 592	agrandbr
+dwwond01	Drow Warrior	Slot 592	agrandrb
+dwwond02	Drow Warrior	Slot 592	agrandrb
+dwwond03	Drow Warrior	Slot 592	agrandrb
+dwwond04	Drow Warrior	Slot 592	agrandnc
+dwwond05	Drow Wizard	Slot 584	agrandrb
+dwwond06	Drow Priestess	Slot 592	agrandrb
+dwwond07	Drow Warrior	Slot 592	agrandnc
+dwwond08	Drow Priestess	Slot 592	agrandbr
+dwwond09	Drow Warrior	Slot 592	agrandbr
+dwwond10	Drow Warrior	Slot 592	agrandrb
+dwwond11	Drow Warrior	Slot 592	agrandrb
+dwwond12	Drow Warrior	Slot 592	agrandbr
+dwwond13	Drow Wizard	Slot 584	agrandsr
+dwwond14	Drow Priestess	Slot 592	agrandcl
+dwwond15	Drow Warrior	Slot 592	agrandbr
+dwwond16	Drow Wizard	Slot 584	agrandrb
+dwwond17	Drow Warrior	Slot 592	agrandbr
+eastdem1	Glabrezu	Slot 592	agrandbr
+eastdem2	Balor	Slot 592	agrandsr
+eastdem3	Glabrezu	Slot 584	agrandbr
+eastdem4	Balor	Slot 592	agrandbr
+eastdem5	Glabrezu	Slot 592	agrandbr
+eastdem6	Glabrezu	Slot 592	agrandcl
+eastdem7	Balor	Slot 592	agrandrb
+eastdem8	Glabrezu	Slot 592	agrandrb
+eastdem9	Balor	Slot 592	agrandbr
+eastgol1	Guardian Of Easthaven	Slot 592	agrandrb
+eastgol2	Guardian Of Easthaven	Slot 592	agrandbr
+eastmage	Azim	Slot 592	agrandrb
+efreetsu	Efreeti	Slot 592	agrandbr
+elders	Elder Sorn	Slot 592	agrandrb
+elearb01	Apparition	Slot 592	agrandbr
+elearb02	Apparition	Slot 592	agrandbr
+elearb03	Apparition	Slot 592	agrandbr
+elearb04	Apparition	Slot 592	agrandrb
+elearb05	Apparition	Slot 592	agrandsr
+elearb06	Apparition	Slot 592	agrandrb
+elearb07	Apparition	Slot 592	agrandrb
+elearb08	Apparition	Slot 592	agrandbr
+elearb09	Apparition	Slot 592	agrandbr
+elearb10	Apparition	Slot 592	agrandbr
+elearb11	Apparition	Slot 592	agrandbr
+elehob01	Goblin Commando	Slot 592	agrandrp
+eleill01	Mind Flayer	Slot 592	agrandbr
+elekob01	Kobold Commando	Slot 592	agrandsr
+elekuo01	Kuo-toan Warrior	Slot 608	agrandbr
+elekuo02	Kuo-toan Whip	Slot 600	agrandrg
+elemep01	Ooze Mephit	Slot 592	agrandbr
+elemep02	Steam Mephit	Slot 592	agrandrb
+elemep03	Salt Mephit	Slot 592	agrandbr
+elemep04	Fire Mephit	Slot 592	agrandrb
+elemep05	Magma Mephit	Slot 592	agrandrb
+elemep06	Earth Mephit	Slot 600	agrandsw
+elemep07	Mineral Mephit	Slot 592	agrandrb
+elemep08	Dust Mephit	Slot 592	agrandrb
+eleoty01	Greater Otyugh	Slot 592	agrandrb
+elepuz01	Apparition	Slot 592	agrandrb
+elepuz02	Apparition	Slot 592	agrandbr
+elepuz03	Apparition	Slot 592	agrandrb
+elepuz04	Apparition	Slot 592	agrandbr
+elesah01	Sahuagin Baron	Slot 592	agrandcl
+elesah02	Sahuagin Baronial Guard	Slot 592	agrandbr
+eletro01	Troll	Slot 608	agrandrb
+eletro03	Troll	Slot 592	agrandbr
+elka9	Elka	Slot 600	agrandnc
+elmind01	Mind Flayer	Slot 592	agrandsw
+embarl	Embarl	Slot 592	agrandrb
+entill	Entillis Fulsom	Slot 608	agrandbr
+errtu01	Errtu	Slot 592	agrandbr
+errtu02	Errtu	Slot 592	agrandbr
+errtu03	Errtu	Slot 592	agrandbr
+etter01	Ettercap	Slot 592	agrandrb
+excult1	Garuk	Slot 600	agrandrb
+excult2	Zaelas	Slot 600	agrandbr
+eyebhl01	Eye of the Beholder	Slot 592	agrandbr
+eyeded01	Eye of the Dead	Slot 592	agrandbr
+eyegor01	Gorgon Eye	Slot 592	agrandlx
+eyesek01	Seeker	Slot 592	agrandrb
+eyesnt01	Sentinel	Slot 592	agrandbr
+eyevig01	Vigilant	Slot 592	agrandrb
+f_bearfm	Bear Tribe Woman	Slot 592	agrandbr
+f_bearol	Bear Tribe Elder	Slot 584	agrandbr
+f_bel	Belhifet	Slot 584	agrandrb
+f_cattib	Catti-Brie	Slot 600	agrandbr
+f_corn	Cornugon	Slot 592	agrandbr
+f_corn02	Cornugon	Slot 584	agrandbr
+f_cyclop	Cyclops	Slot 592	agrandsh
+f_deadbo	Dead Child	Slot 592	agrandcl
+f_deadm2	Wounded Man	Slot 600	agrandrb
+f_deadma	Wounded Man	Slot 592	agrandbr
+f_deadwm	Dead Woman	Slot 592	agrandrp
+f_deathk	Demonknight	Slot 592	agrandbr
+f_deathl	Lesser Demonknight	Slot 584	agrandrb
+f_demdrg	Greater Tanari	Slot 592	agrandbr
+f_demwar	Demonic Guardian	Slot 592	agrandbr
+f_dipnos	Nibby "Dipnose"	Slot 592	agrandrb
+f_dragon	Baby Dragon	Slot 584	agrandbr
+f_dromag	Drow Battle Mage	Slot 584	agrandbr
+f_drowar	Drow Warrior	Slot 584	agrandbr
+f_drowpr	Drow Priestess	Slot 584	agrandrb
+f_dwsmit	Varlag Silverhammer	Slot 592	agrandbr
+f_errtu	Errtu	Slot 584	agrandrb
+f_ettin	Ettin	Slot 592	agrandbr
+f_ghost	Ghost	Slot 584	agrandrb
+f_giantf	Frost Giant	Slot 592	agrandrb
+f_gobele	Goblin Elite	Slot 592	agrandrb
+f_goblin	Goblin	Slot 592	agrandrb
+f_harpy	Harpy	Slot 584	agrandbr
+f_lich	Kangaxx the Lich	Slot 592	agrandbr
+f_mari	Marilith	Slot 600	agrandea
+f_medusa	Medusa	Slot 592	agrandbr
+f_mummy	Mummy	Slot 592	agrandbr
+f_nib	Nib Jansen	Slot 600	agrandrb
+f_orc	Orc	Slot 592	agrandbr
+f_robed	Robed Figure	Slot 600	agrandrb
+f_robed2	Robed Figure	Slot 584	agrandbr
+f_shfien	Shadow Fiend	Slot 592	agrandbr
+f_slaysh	Slayer Shadow	Slot 584	agrandrb
+f_spibea	Spirit Bear	Slot 592	agrandnc
+f_spidqu	Demonic Spider Queen	Slot 584	agrandrb
+f_stongl	Demonic Skull	Slot 592	agrandbr
+f_tanari	Tanari	Slot 592	agrandbr
+f_wailin	Wailing Death	Slot 592	agrandrb
+f_werech	Greater Werewolf Leader	Slot 584	agrandbr
+f_wlfspr	Were Winterwolf Spirit	Slot 592	agrandbr
+faizah	Statue	Slot 592	agrandrb
+fangel01	Fallen Solar	Slot 592	agrandbr
+fear	Warder	Slot 592	agrandrb
+ffactor1	Kirinaldo	Slot 600	agrandbr
+ffactor2	Lunisia	Slot 600	agrandbr
+ffbart	Samuel Thunderburp	Slot 608	agrandbr
+ffcust01	Ercias	Slot 592	agrandrb
+ffcust06	Belle	Slot 592	agrandbr
+ffcust07	H'rothgar Firehammer	Slot 592	agrandrg
+ffcust08	Jerry Jamtoes	Slot 592	agrandrb
+ffrecep	Receptionist	Slot 608	agrandrb
+ffusher1	Usher	Slot 600	agrandrb
+ffusher2	Usher	Slot 600	agrandbr
+finabaz	Abazigal	Slot 592	agrandrb
+finaluf	Alu-Fiend	Slot 592	agrandbr
+finbabau	Babau	Slot 592	agrandbr
+finbalor	Balor	Slot 592	agrandrb
+finbalth	Balthazar	Slot 592	agrandrb
+finbodh	Bodhi	Slot 592	agrandrb
+fincamb2	Cambion	Slot 592	agrandbr
+finglab	Glabrezu	Slot 592	agrandrb
+fingrom	Gromnir Il-Khan	Slot 592	agrandrb
+finilla	Illasera	Slot 592	agrandbr
+finmaril	Marilith	Slot 592	agrandsh
+finmel01	Melissan	Slot 592	agrandrb
+finnabas	Nabassu	Slot 592	agrandrb
+finsend	Sendai	Slot 592	agrandrb
+finsol01	Solar	Slot 592	agrandsh
+finsol04	Fallen Solar	Slot 592	agrandrb
+finsola2	Fallen Solar	Slot 592	agrandsh
+finsolar	Fallen Solar	Slot 592	agrandrp
+finsucc	Succubus	Slot 592	agrandbr
+finyaga	Yaga-Shura	Slot 592	agrandnc
+firamb01	Captain	Slot 592	agrandrb
+firamb02	Gerg	Slot 592	agrandbr
+firamb03	Troll	Slot 600	agrandbr
+firamb04	Captain	Slot 592	agrandrb
+firamb05	Troll	Slot 584	agrandrb
+firarc01	Orc Archer	Slot 592	agrandrb
+firban01	Bandit	Slot 608	agrandbr
+firban02	Plath Rededge	Slot 608	agrandbr
+firban03	Bandit	Slot 600	agrandbr
+firban04	Orc	Slot 600	agrandbr
+firban05	Orc	Slot 600	agrandbr
+fireb1	Firebead Elvenhair	Slot 608	agrandrb
+firebe	Firebead Elvenhair	Slot 608	agrandbr
+firebead	Elvenhair Firebead	Slot 592	agrandbr
+firkra02	Firkraag	Slot 600	agrandrb
+firlch01	Fire Lich	Slot 584	agrandrb
+firmag01	Conster	Slot 600	agrandsr
+firmon01	Banshee	Slot 592	agrandrb
+firmon02	Skeleton Warrior	Slot 592	agrandbr
+firmon03	Director	Slot 592	agrandbr
+firmon04	Revenant	Slot 600	agrandrb
+firorc01	Chieftain DigDag	Slot 592	agrandrb
+firorc02	Derg the Orc	Slot 600	agrandbr
+firorc03	Flaylan the Orc	Slot 592	agrandbr
+firrak01	Ruhk Transmuter	Slot 584	agrandbr
+firrak02	Ruhk	Slot 584	agrandbr
+firtrl01	Troll Cook	Slot 600	agrandrb
+firwlf01	Grancor	Slot 600	agrandrb
+firwlf02	Falik	Slot 600	agrandbr
+firwra01	Greater Wraith	Slot 592	agrandrb
+flamc7	Flaming Fist Mercenary	Slot 608	agrandbr
+fleeinv1	Barl	Slot 592	agrandrb
+fleeinv2	Barl	Slot 592	agrandbr
+fleeinv3	Barl	Slot 592	agrandsr
+fleeques	Traveller	Slot 592	agrandrb
+flyfgt01	Shadow Thief	Slot 600	agrandbr
+flyfgt02	Shadow Thief Guard	Slot 592	agrandrb
+flyfgt03	Shadow Thief Archer	Slot 592	agrandbr
+flyfgt04	Shadow Thief Inquisitor	Slot 600	agrandrb
+franco	Franco	Slot 608	agrandrb
+frosinvi	Barl	Slot 592	agrandbr
+frost01	Frost Giant	Slot 592	agrandbr
+fsdragon	Dragon	Slot 600	agrandrb
+fsgibb	Gibberling	Slot 592	agrandbr
+fsgobl	Goblin	Slot 592	agrandrb
+fshorde1	Goblin	Slot 608	agrandrb
+fshorde2	Goblin	Slot 600	agrandbr
+fshorde3	Goblin	Slot 608	agrandbr
+fshorde4	Orc	Slot 608	agrandrb
+fshorde5	Orc Priest	Slot 608	agrandrb
+fshorde6	Orc Archer	Slot 608	agrandrb
+fsmage01	Mage	Slot 584	agrandrb
+fsmage02	Mage	Slot 584	agrandbr
+fsmage03	Mage	Slot 584	agrandbr
+fsmage04	Mage	Slot 584	agrandea
+fsmumm	Mummy	Slot 592	agrandbr
+fsmumm2	Mummy	Slot 592	agrandrb
+fsmumm3	Mummy	Slot 592	agrandrb
+fsridd	Imp	Slot 592	agrandbr
+fsskel	Skeleton	Slot 592	agrandbr
+fsspir1	Spirit Warrior	Slot 600	agrandbr
+fsspir2	Helmite Ghost	Slot 600	agrandrb
+fsspir3	Spirit Panel	Slot 592	agrandbr
+fsspira	Helmite Ghost	Slot 592	agrandrb
+fsspirb	Helmite Ghost	Slot 592	agrandbr
+fsspirc	Helmite Ghost	Slot 592	agrandbr
+fuagnon	Hurgan Stoneblade	Slot 600	agrandrb
+fulady	Lady Tandolan of Um	Slot 608	agrandrb
+fumin	Minister Adelain	Slot 608	agrandrb
+gaal01	Gaal	Slot 608	agrandrb
+gaal02	Gaal	Slot 600	agrandrb
+gaelan	Gaelan Bayle	Slot 608	agrandrb
+gaelan2	Gaelan Bayle	Slot 592	agrandrb
+gaius	Gaius	Slot 600	agrandrb
+galkin	Galken	Slot 592	agrandbr
+gall	Gallchobhair	Slot 592	agrandbr
+gantol	Gantolandan	Slot 592	agrandbr
+garkid01	Iltha	Slot 592	agrandbr
+garkid02	Taar	Slot 592	agrandbr
+garock	Garock	Slot 592	agrandrb
+garren	Garren Windspear	Slot 600	agrandrb
+gaylan	Gaylan Bael	Slot 592	agrandrb
+gazib	The Great Gazib	Slot 600	agrandbr
+gdruid	Druid	Slot 592	agrandrb
+gellan	Gellana Mirrorshade	Slot 608	agrandbr
+gelugon1	Gelugon	Slot 592	agrandbr
+gencali1	Genie	Slot 592	agrandsr
+gencali2	Genie	Slot 592	agrandbr
+gendao01	Dao	Slot 592	agrandbr
+gendji01	Djinni	Slot 592	agrandsr
+gendjn01	Noble Djinni	Slot 592	agrandrg
+genefn01	Noble Efreeti	Slot 592	agrandbr
+genefr01	Efreeti	Slot 592	agrandrb
+genie01	Genie	Slot 592	agrandbr
+genie02	Genie	Slot 592	agrandrb
+genie03	Genie	Slot 592	agrandbr
+genie04	Genie	Slot 592	agrandbr
+genie1	Genie	Slot 600	agrandrp
+genietrv	Genie	Slot 592	agrandcl
+genmag01	Mage	Slot 600	agrandrb
+genth01	Thief	Slot 608	agrandbr
+genth02	Thief	Slot 608	agrandrb
+genthf01	Thug	Slot 592	agrandrg
+gentmg01	Thief	Slot 592	agrandnc
+gereth	Gereth	Slot 600	agrandbr
+gerhardt	Uncle Gerhardt	Slot 600	agrandrb
+ghast01	Ghast	Slot 600	agrandrb
+ghastf01	Fell Ghast	Slot 600	agrandrb
+ghogr01	Greater Ghoul	Slot 592	agrandbr
+gholor01	Ghoul Lord	Slot 592	agrandea
+ghoul01	Ghoul	Slot 592	agrandbr
+giafir01	Fire Giant	Slot 592	agrandea
+giantf01	Fire Giant	Slot 592	agrandbr
+gibber	Gibberling	Slot 592	agrandbr
+gibber01	Gibberling	Slot 592	agrandrb
+gibber2	Diseased Gibberling	Slot 592	agrandnc
+gibmut01	Mutated Gibberling	Slot 592	agrandlx
+gith01	Warrior	Slot 608	agrandbr
+gith02	Knight	Slot 608	agrandbr
+gith03	Anti-Paladin	Slot 608	agrandbr
+gith06	Captain	Slot 608	agrandbr
+glad1	Gladiator	Slot 592	agrandbr
+glad2	Gladiator	Slot 592	agrandbr
+gladia01	Gatekeeper	Slot 600	agrandbr
+glbear	Troll	Slot 592	agrandbr
+gmage14	Mekrath	Slot 584	agrandrb
+gmayor	Theshal	Slot 592	agrandbr
+gnlcap01	Gnoll Captain	Slot 592	agrandrp
+gnleli01	Gnoll Elite	Slot 592	agrandbr
+gnlfli01	Flind	Slot 592	agrandbr
+gnlsla01	Gnoll Slasher	Slot 592	agrandrb
+gnlvet01	Gnoll Veteran	Slot 592	agrandbr
+gnlwar01	Gnoll	Slot 592	agrandrb
+gnoll01	Gnoll	Slot 592	agrandrb
+gnoll02	Gnoll	Slot 592	agrandbr
+gnoll03	Gnoll	Slot 592	agrandbr
+gnoll3	Gnoll	Slot 592	agrandrb
+gnollhp1	Gnoll	Slot 592	agrandbr
+golbon01	Skeleton Warrior	Slot 592	agrandea
+gonce	Meredath	Slot 592	agrandsh
+goralu01	Alu-Fiend	Slot 600	agrandsw
+gorapr	Apprentice	Slot 592	agrandrb
+gorarc	Archivist	Slot 592	agrandrb
+gorbat1	Ka'rashur	Slot 584	agrandcl
+gorbat2	Erinyes	Slot 592	agrandrb
+gorbat3	Cornugon	Slot 592	agrandrb
+gorbat4	Imp	Slot 592	agrandrb
+gorbat5	Bone Fiend	Slot 592	agrandnc
+gorcamb	Aesgareth	Slot 584	agrandrp
+gorcamb2	Tiefling	Slot 592	agrandbr
+gorcamb3	Tiefling	Slot 592	agrandbr
+gorcamb4	Tiefling	Slot 592	agrandrb
+gorcamb5	Tiefling	Slot 592	agrandbr
+gorcar	Carston	Slot 592	agrandrb
+gorch	Gorch	Slot 608	agrandrb
+gorchr	Chromatic Demon	Slot 592	agrandrb
+gordeck5	Assassin	Slot 584	agrandrb
+gordeck6	Assassin	Slot 584	agrandrb
+gordeck7	Assassin	Slot 584	agrandrb
+gordeck8	Assassin	Slot 584	agrandrb
+gordeck9	Assassin	Slot 584	agrandrp
+gordecka	Assassin	Slot 584	agrandbr
+gordeckf	Fighter	Slot 592	agrandrb
+gordem	Balor	Slot 600	agrandbr
+gordem2	Velithuu	Slot 592	agrandrb
+gordemc1	Balor	Slot 592	agrandcl
+gorf	Gorf the Squisher	Slot 592	agrandrb
+gorf03	Gorf the Squisher	Slot 592	agrandrb
+gorfirg	Fire Giant	Slot 592	agrandrb
+gorgit	Captain	Slot 608	agrandbr
+gorgitc1	Githyanki	Slot 592	agrandbr
+gorgitc2	Githyanki	Slot 592	agrandrb
+gorgitc3	Githyanki	Slot 592	agrandrb
+gorgitc4	Githyanki	Slot 592	agrandbr
+gorgith2	Githyanki	Slot 600	agrandbr
+gorgua01	Aurumach Rilmani	Slot 592	agrandbr
+gorgua02	Ferrumach Rilmani	Slot 592	agrandbr
+gorgua03	Guardian Spirit	Slot 592	agrandrb
+gorgua04	Guardian Spirit	Slot 592	agrandrb
+gorgua05	Guardian Spirit	Slot 592	agrandsh
+gorimp01	Imp	Slot 592	agrandrb
+gorion	Gorion	Slot 600	agrandsw
+gorion3	Gorion	Slot 592	agrandrb
+gorje	Gorje Hilldark	Slot 592	agrandbr
+gorkuo01	Kuo-toan Warrior	Slot 600	agrandbr
+gorkuo02	Kuo-toan Archer	Slot 600	agrandbr
+gorkuo03	Kuo-toan Priest	Slot 608	agrandrb
+gorkuo04	Kuo-toan Captain	Slot 584	agrandrb
+gorkuo05	Kuo-toan Whip	Slot 584	agrandrb
+gorlic01	Azamantes	Slot 592	agrandbr
+gormim01	Killer Mimic	Slot 592	agrandbr
+gormim02	Killer Mimic	Slot 592	agrandbr
+gormim03	Killer Mimic	Slot 592	agrandlx
+gormim04	Killer Mimic	Slot 592	agrandrb
+gorminc1	Mind Flayer	Slot 592	agrandrb
+gorminc2	Mind Flayer	Slot 592	agrandbr
+gorminc3	Mind Flayer	Slot 592	agrandbr
+gorminc4	Mind Flayer	Slot 592	agrandrb
+gormind	Ulitharid	Slot 592	agrandbr
+gororc01	Orc	Slot 592	agrandrb
+gororc02	Orc Archer	Slot 592	agrandrb
+gororc03	Orc Mage	Slot 592	agrandrb
+gorpri1	Priest	Slot 592	agrandsr
+gorsal	Saladrex	Slot 584	agrandbr
+gorsku01	Flaming Skull	Slot 592	agrandrb
+gorsta01	Statue	Slot 600	agrandrb
+gorsta02	Statue	Slot 600	agrandrb
+gorsta03	Statue	Slot 600	agrandbr
+gorsta04	Statue	Slot 600	agrandrb
+gorsta05	Statue	Slot 600	agrandsw
+gorsta06	Statue	Slot 600	agrandbr
+gorsta07	Statue	Slot 600	agrandbr
+gorsta09	Statue	Slot 600	agrandrb
+gorsta10	Statue	Slot 600	agrandrb
+gorsta11	Statue	Slot 600	agrandsw
+gorsta12	Statue	Slot 600	agrandbr
+gorstalk	Guardian of Air	Slot 592	agrandrb
+gorsuc01	Succubus	Slot 608	agrandbr
+gortan1	Tahazzar	Slot 584	agrandbr
+gortan2	Succubus	Slot 600	agrandrb
+gortan3	Yochlol	Slot 592	agrandbr
+gortan4	Glabrezu	Slot 592	agrandbr
+gortan5	Quasit	Slot 592	agrandrb
+gortan6	Maurezhi	Slot 592	agrandrb
+gorwom01	Nalmissra	Slot 592	agrandbr
+gorwom02	The Huntress	Slot 592	agrandrb
+gorwom03	Y'tossi	Slot 592	agrandbr
+gorwom04	Ameralis Zauviir	Slot 592	agrandrb
+gorwom05	Hive Mother	Slot 592	agrandsh
+gorwom06	Xei Win Toh	Slot 592	agrandrb
+gorwowe	Wolfwere	Slot 584	agrandrb
+govwau01	Priest of Waukeen	Slot 592	agrandbr
+gpfam1	Pitch	Slot 592	agrandbr
+gpfight1	Boz	Slot 600	agrandbr
+gphil02	Philosopher	Slot 592	agrandbr
+gphil03	Huntley	Slot 592	agrandbr
+gpmage1	N'ashtar	Slot 600	agrandbr
+gppri1	Chandrilla	Slot 600	agrandbr
+gpsimb	Simbja	Slot 600	agrandbr
+gpthief1	Damien	Slot 608	agrandbr
+grae	Grae	Slot 592	agrandbr
+grazinvi	Barl	Slot 592	agrandrb
+grazzt01	Graz'zt	Slot 592	agrandrb
+grazzt02	Graz'zt	Slot 592	agrandrb
+grenabi1	Green Abishai	Slot 592	agrandrb
+greyhand	Greyhand	Slot 600	agrandrg
+gromg01	Il-Khan Soldier	Slot 600	agrandrb
+gromg02	Il-Khan Soldier	Slot 584	agrandrb
+gromg03	Il-Khan Soldier	Slot 584	agrandbr
+gromg04	Il-Khan Soldier	Slot 600	agrandcl
+gromg05	Il-Khan Battle Mage	Slot 592	agrandbr
+gromg06	Il-Khan Soldier	Slot 600	agrandbr
+gromg07	Il-Khan Soldier	Slot 600	agrandsr
+gromg08	Karun the Black	Slot 592	agrandbr
+gromg09	Eler Had	Slot 592	agrandbr
+gromg10	Berena Elkan	Slot 592	agrandbr
+gromg11	Il-Khan Soldier	Slot 584	agrandcl
+gromg12	Il-Khan Soldier	Slot 584	agrandrb
+gromg13	Il-Khan Battle Mage	Slot 584	agrandbr
+gromg14	Il-Khan Soldier	Slot 584	agrandrb
+grommin	Halbazzer Drin	Slot 592	agrandbr
+gromnir	Gromnir Il-Khan	Slot 592	agrandbr
+gron	Theshal	Slot 592	agrandrb
+grreven	Revenant	Slot 592	agrandbr
+grskel1	Skeleton Warrior	Slot 584	agrandrb
+grskel2	Skeleton Warrior	Slot 592	agrandbr
+grtomb01	Skeleton Warrior	Slot 592	agrandrb
+grunt1	Mercenary	Slot 592	agrandbr
+grunt2	Mercenary	Slot 592	agrandrb
+grunt3	Mercenary	Slot 592	agrandbr
+grvlch01	Lich	Slot 600	agrandrb
+gtcit1	Ghoul	Slot 592	agrandrb
+gtcit2	Ghoul	Slot 592	agrandbr
+gtcit3	Zombie	Slot 592	agrandrb
+gtcit4	Zombie	Slot 592	agrandbr
+gtcit5	Zombie	Slot 592	agrandrb
+guard1	Bouncer	Slot 600	agrandrb
+guard2	Copper Coronet Guard	Slot 608	agrandbr
+habib	Habib	Slot 592	agrandlx
+habib2	Habib	Slot 592	agrandrb
+habrega	Chief Inspector Brega	Slot 608	agrandrb
+hacton	Acton Balthis	Slot 608	agrandbr
+hactong	Amnian Bodyguard	Slot 608	agrandbr
+haegan	Captain Haegan	Slot 608	agrandbr
+haguar01	Arresting Officer	Slot 600	agrandbr
+haguar02	Arresting Soldier	Slot 600	agrandrb
+hajanos	Janos	Slot 592	agrandrb
+halbaz	Halbazzer Drin	Slot 600	agrandbr
+halfmiri	Dead Halfling Messenger	Slot 592	agrandrb
+hamek	Mekrath	Slot 592	agrandbr
+hanwen	Hanwen	Slot 584	agrandbr
+haquat	Quataris	Slot 608	agrandbr
+harpass1	Lucette	Slot 592	agrandbr
+harpass2	Lucette	Slot 592	agrandbr
+harpatt1	Harper	Slot 592	agrandbr
+harpatt2	Harper	Slot 592	agrandbr
+harpatt3	Harper	Slot 592	agrandrb
+harpmess	Harper Scout	Slot 592	agrandbr
+hdragred	Dragon	Slot 584	agrandbr
+hdragsil	Dragon	Slot 592	agrandnc
+heartg1	Knight of the Order	Slot 600	agrandrb
+heartg2	Knight of the Order	Slot 600	agrandbr
+heartg3	Sir Zarath	Slot 608	agrandbr
+heartg4	Sir Mardus	Slot 608	agrandbr
+heartg5	Sir Donalus	Slot 608	agrandbr
+hellbeh1	Elder Orb	Slot 592	agrandrb
+hellbeh2	Elder Orb	Slot 592	agrandrb
+hellfear	Fear	Slot 600	agrandrb
+hellgen	Enslaved Genie	Slot 608	agrandbr
+hellgree	Greed	Slot 600	agrandrb
+hellprid	Pride	Slot 592	agrandea
+hellsare	Wraith Sarevok	Slot 600	agrandbr
+hellself	Selfishness	Slot 600	agrandbr
+hellslay	Slayer	Slot 600	agrandrb
+helmbyr	Acolyte Byron	Slot 608	agrandbr
+helmkni1	Shield Knight	Slot 592	agrandrb
+helmpr	Sir Lothtyran	Slot 592	agrandsh
+hendak	Hendak	Slot 600	agrandrb
+hgber01	Berenn	Slot 600	agrandbr
+hgmag01	Fire Giant Mage	Slot 600	agrandbr
+hgmag02	Fire Giant Mage	Slot 600	agrandrb
+hgmis01	Vampiric Wraith	Slot 592	agrandrb
+hgmis02	Swamp Horror	Slot 592	agrandrb
+hgnya01	Nyalee	Slot 592	agrandrb
+hgskl01	Skeleton Cleric	Slot 600	agrandlx
+hgskl02	Skeleton Assassin	Slot 584	agrandrg
+hgskl03	Skeleton Mage	Slot 592	agrandbr
+hgskl04	Skeleton Warrior	Slot 592	agrandbr
+hgsku01	Flaming Skull	Slot 592	agrandrb
+hgslv01	Slave Woman	Slot 592	agrandrb
+hgtrl01	Fire Troll	Slot 600	agrandrb
+hgtrl02	Fire Troll	Slot 600	agrandbr
+hgwar01	Fire Giant	Slot 592	agrandbr
+hgwar02	Elite Fire Giant	Slot 592	agrandrb
+hgwra01	Gorion	Slot 592	agrandbr
+hgwra02	Devil Shade	Slot 592	agrandea
+hgwra03	Devil Shade	Slot 592	agrandrb
+hidden	Hidden	Slot 592	agrandbr
+hillfro1	Frost Giant	Slot 592	agrandbr
+hillfro2	Frost Giant	Slot 592	agrandcl
+hillfro3	Frost Giant	Slot 592	agrandbr
+hlarch	Archer	Slot 592	agrandbr
+hlassa	Assassin	Slot 592	agrandrp
+hlcleric	Cleric	Slot 592	agrandrb
+hldemi	Kangaxx the Demilich	Slot 600	agrandsw
+hlfight	Fighter	Slot 592	agrandbr
+hlhive	Hive Mother	Slot 592	agrandrb
+hlkang	Kangaxx the Lich	Slot 608	agrandrb
+hlketta	Ketta	Slot 600	agrandbr
+hlketta2	Ketta	Slot 592	agrandbr
+hlkoshi	Koshi	Slot 608	agrandbr
+hllayen	Layene	Slot 584	agrandsw
+hllich	Elemental Lich	Slot 600	agrandbr
+hlmafer	Maferan	Slot 600	agrandbr
+hlmage	Mage	Slot 592	agrandrb
+hlolaf	Olaf Rassmusen	Slot 600	agrandbr
+hlorb	Elder Orb	Slot 592	agrandsw
+hlrevan	Revanek	Slot 592	agrandbr
+hlshade	Shade Lich	Slot 600	agrandbr
+hlshang	Shangalar	Slot 600	agrandbr
+hlshyr	Shyressa	Slot 592	agrandrb
+hlsion	Sion	Slot 600	agrandrb
+hlskull	Golden Skull	Slot 592	agrandbr
+hlstal	Stalman	Slot 600	agrandbr
+hlvaxal	Vaxall	Slot 592	agrandrb
+hmelvin	Squire Melvin	Slot 600	agrandrg
+hobarc01	Hobgoblin Archer	Slot 592	agrandbr
+hobarc02	Hobgoblin Archer	Slot 592	agrandbr
+hobarc03	Hobgoblin Archer	Slot 592	agrandbr
+hobcap01	Hobgoblin Captain	Slot 592	agrandbr
+hobeli01	Hobgoblin Elite	Slot 592	agrandbr
+hobgo2	Hobgoblin	Slot 592	agrandbr
+hobgo3	Hobgoblin	Slot 592	agrandrb
+hobgo4	Hobgoblin	Slot 592	agrandbr
+hobgo6	Hobgoblin	Slot 592	agrandrb
+hobgob01	Gerg	Slot 592	agrandea
+hobgob03	Hobgoblin	Slot 592	agrandbr
+hobgob04	Hobgoblin	Slot 592	agrandbr
+hobgob05	Hobgoblin	Slot 592	agrandrb
+hobgod	Hobgoblin	Slot 592	agrandcl
+hobsha01	Hobgoblin Shaman	Slot 592	agrandrb
+hobwar01	Hobgoblin Warrior	Slot 592	agrandlx
+hobwiz01	Hobgoblin Wizard	Slot 592	agrandbr
+hobwiz02	Hobgoblin Wizard	Slot 592	agrandbr
+hprelate	Prelate Wessalen	Slot 600	agrandbr
+hspectr1	Spectral Harpist	Slot 608	agrandbr
+hspectr2	Spectral Harpist	Slot 600	agrandbr
+hspectr3	Spectral Harpist	Slot 600	agrandbr
+hurgisf	Hurgis Baltezan	Slot 608	agrandrb
+hurgisr	Hurgis Baltezan	Slot 608	agrandnc
+husam	Husam	Slot 600	agrandrb
+icetrolx	Ice Troll	Slot 592	agrandbr
+icetrolz	Ice Troll	Slot 592	agrandcl
+icgob01	Goblin	Slot 592	agrandbr
+icgob02	Goblin	Slot 592	agrandsh
+icgob03	Goblin	Slot 592	agrandbr
+icgob04	Goblin Captain	Slot 592	agrandrb
+icliz01	Lizard Man	Slot 592	agrandrb
+icliz02	Gorkale	Slot 592	agrandsr
+icmarili	Marilith	Slot 584	agrandrp
+icmin01	Minotaur	Slot 592	agrandbr
+icyuan01	Yuan-Ti	Slot 592	agrandrb
+icyuan02	Greater Yuan-ti	Slot 592	agrandrb
+icyuan03	Yuan-Ti Mage	Slot 592	agrandlx
+icyuan04	Yuan-ti Elite	Slot 592	agrandbr
+icyuan05	Yuan-ti Prince	Slot 592	agrandbr
+idemon01	Cambion	Slot 592	agrandbr
+idemon02	Cambion	Slot 592	agrandbr
+idjinni	Malaaq	Slot 600	agrandrb
+idryad01	Ulene	Slot 608	agrandrb
+idryad02	Cania	Slot 592	agrandbr
+idryad03	Elyme	Slot 592	agrandbr
+igibber	Gibberling	Slot 592	agrandbr
+illasera	Illasera	Slot 584	agrandrb
+imp01	Imp	Slot 592	agrandrb
+impqua01	Quasit	Slot 600	agrandbr
+inspect	Lieutenant Aegisfield	Slot 608	agrandsr
+iogremag	Ogre Mage	Slot 592	agrandrb
+iotyugh	Otyugh	Slot 592	agrandrb
+irlana	Lady Irlana	Slot 608	agrandrb
+isaea	Isaea Roenall	Slot 608	agrandrb
+ishaddud	Assassin	Slot 592	agrandrb
+ishadft1	Assassin	Slot 592	agrandbr
+ishadmt1	Assassin	Slot 600	agrandbr
+ishadth1	Assassin	Slot 592	agrandbr
+ishclo01	Assassin	Slot 600	agrandrb
+ithkim	Ithkim	Slot 592	agrandrb
+ivamp01	Vampire	Slot 592	agrandrb
+j#bharle	Bharle	Slot 600	agrandbr
+j#ceara	Ceara	Slot 600	agrandbr
+j#clinn	Clinn	Slot 600	agrandrb
+j#cossun	Cossun	Slot 600	agrandbr
+j#falpal	Fallen Paladin	Slot 600	agrandrb
+j#kasset	Kassetha	Slot 600	agrandbr
+j#lilla	Lilla	Slot 600	agrandbr
+j#mert14	Merritt	Slot 600	agrandnc
+j#mert15	Merritt	Slot 600	agrandrb
+j#morrid	Morridhan	Slot 600	agrandsh
+j#piotr	Piotr	Slot 600	agrandrb
+j#pirat1	Old Man	Slot 600	agrandrb
+j#pirat2	Pirate	Slot 592	agrandbr
+j#pirat3	Pirate	Slot 592	agrandbr
+j#pirat4	Pirate	Slot 600	agrandbr
+j#pirat5	Pirate	Slot 592	agrandrb
+j#pirat6	Pirate	Slot 592	agrandbr
+j#pura	Pura Parteth	Slot 600	agrandrp
+j#rumil	Rumil	Slot 600	agrandrb
+j#vlamin	Vlaming	Slot 600	agrandrb
+jade1	Lennah	Slot 608	agrandbr
+jade2	Thenry	Slot 608	agrandrb
+jade3	Jeremon	Slot 608	agrandrp
+jade4	Chrost	Slot 608	agrandbr
+jael01	Hindra Jae'llat	Slot 600	agrandrb
+jael02	Rilloa Jae'llat	Slot 592	agrandnc
+jael03	Ist'tar Jae'llat	Slot 592	agrandbr
+jael04	Jae'llat Guard	Slot 592	agrandbr
+jaerto1	Jarden	Slot 600	agrandrb
+jaerto2	Turg	Slot 600	agrandrp
+jaerto3	Tamile	Slot 600	agrandbr
+jaerto4	Wurn	Slot 608	agrandrg
+jaertof	Ertof Dand	Slot 600	agrandbr
+jaga1	Bessen	Slot 608	agrandbr
+jaga3	Nadinal	Slot 608	agrandbr
+jaga4	Iko	Slot 608	agrandrb
+jahaboam	Jahaboam	Slot 592	agrandbr
+jahei1	Harper	Slot 584	agrandrb
+jahei2	Harper	Slot 584	agrandbr
+jahei3	Harper	Slot 584	agrandlx
+jahei4	Harper	Slot 584	agrandbr
+jalant	Jalantha Mistmyr	Slot 608	agrandrb
+jamage1	Gracien	Slot 600	agrandbr
+jamage2	Malacazar	Slot 600	agrandrb
+jameroni	Meronia	Slot 592	agrandrb
+jangit01	Githyanki	Slot 600	agrandrb
+jangit02	Githyanki	Slot 592	agrandbr
+janos	Janos	Slot 592	agrandnc
+jarev1	Harper	Slot 608	agrandbr
+jarev2	Harper	Slot 608	agrandcl
+jarev3	Harper	Slot 608	agrandbr
+jarev4	Harper	Slot 608	agrandcl
+jarevia	Reviane	Slot 608	agrandrb
+jarlich	Deirex	Slot 600	agrandrb
+jatermin	Terminsel	Slot 608	agrandbr
+jayes	Jayes	Slot 600	agrandbr
+jaylos	Jaylos	Slot 600	agrandbr
+jclone01	Calahan	Slot 592	agrandbr
+jellygr2	Green Slime	Slot 592	agrandrb
+jolus	Sir Jolus	Slot 600	agrandbr
+jondem01	Glabrezu	Slot 600	agrandrb
+jondem02	Balor	Slot 600	agrandrb
+jondem03	Glabrezu	Slot 600	agrandrb
+jondem04	Balor	Slot 600	agrandrg
+jondem05	Glabrezu	Slot 600	agrandbr
+jonell	Jonell	Slot 592	agrandnc
+jugdar01	Daar	Slot 600	agrandcl
+jugjer01	Jermien	Slot 608	agrandrb
+jugmim01	Killer Mimic	Slot 592	agrandrg
+jumjum	Lashar'ra	Slot 592	agrandrb
+k#anna	Anna	Slot 592	agrandrb
+k#anna1	Anna	Slot 592	agrandbr
+k#gurien	Gurien	Slot 592	agrandrb
+k#loves	Rupert	Slot 592	agrandbr
+kaisha	Kaishas Gan	Slot 592	agrandbr
+kalah	Kalah	Slot 600	agrandea
+kalah2	Kalah	Slot 592	agrandbr
+kaless	Kalessia	Slot 608	agrandbr
+kalindra	Kalindra	Slot 584	agrandbr
+kalvassa	Kalvassa	Slot 592	agrandrb
+kalwrk01	Circus Performer	Slot 592	agrandbr
+kamir	Kamir	Slot 600	agrandrb
+kaol	Kaol	Slot 600	agrandsh
+karan01	Karan	Slot 592	agrandrb
+karan02	Karan	Slot 592	agrandbr
+kayl1	Sir Ryan Trawl	Slot 608	agrandrb
+kayl2	Sir Ryan Trawl	Slot 608	agrandrb
+kaypal01	Anarg	Slot 608	agrandea
+kaypal02	Reynald de Chatillon	Slot 608	agrandbr
+kaypal03	Fallen Paladin	Slot 600	agrandrb
+kaysmg01	Rindus	Slot 592	agrandrb
+kaysmg02	Smuggler	Slot 592	agrandrb
+kaysmg03	Smuggler	Slot 592	agrandbr
+kaysmg04	Smuggler	Slot 592	agrandrb
+kelzomb	Zombie	Slot 592	agrandbr
+kendak	Sir Laren	Slot 592	agrandbr
+keris2	Keris	Slot 592	agrandbr
+kgenie1	Genie	Slot 600	agrandrb
+kgenie2	Genie	Slot 592	agrandbr
+khelb01	Khelben	Slot 584	agrandrb
+khelb02	Khelben	Slot 584	agrandbr
+khellor	Khellor Ahmson	Slot 592	agrandnc
+kiel2	Kiel the Legion Killer	Slot 584	agrandsh
+killmonk	Monk	Slot 592	agrandrb
+kindai	Kindail	Slot 600	agrandrb
+king	King	Slot 592	agrandrb
+kivogre	Ogre	Slot 592	agrandbr
+knight2	Ghost Knight	Slot 592	agrandrb
+knight3	Ghost Knight	Slot 592	agrandbr
+knight4	Ghost Knight	Slot 592	agrandrb
+knight5	Ghost Knight	Slot 592	agrandbr
+knight6	Ghost Knight	Slot 592	agrandbr
+knord	Knord	Slot 592	agrandrb
+kobald01	Kobold	Slot 592	agrandrb
+kobamp01	Kobold Amplifier	Slot 592	agrandrb
+kobarc01	Kobold	Slot 592	agrandea
+kobcap01	Kobold Captain	Slot 592	agrandrb
+kobcap02	Kobold Captain	Slot 592	agrandbr
+kobcom01	Kobold Commando	Slot 592	agrandbr
+kobcom02	Kobold Commando	Slot 600	agrandrb
+kobkam01	Kamikaze Kobold	Slot 584	agrandrb
+kobldgd	Kobold Guard	Slot 592	agrandrb
+kobmem01	Kobold Recorder	Slot 592	agrandrb
+kobola_a	Kobold	Slot 592	agrandrb
+kobola_b	Kobold	Slot 592	agrandlx
+kobola_c	Kobold	Slot 592	agrandbr
+kobola_d	Kobold	Slot 592	agrandrb
+kobold	Kobold	Slot 592	agrandrb
+kobold_a	Kobold	Slot 592	agrandbr
+kobold_b	Kobold	Slot 592	agrandnc
+kobold_c	Kobold	Slot 592	agrandrg
+kobold02	Kobold	Slot 592	agrandbr
+kobold11	Kobold	Slot 592	agrandbr
+kobold3	Kobold	Slot 592	agrandbr
+kobolda	Kobold	Slot 592	agrandrb
+kobscr01	Kobold Scribe	Slot 592	agrandbr
+kobsha01	Kobold Shaman	Slot 592	agrandrb
+kobsha02	Kobold Shaman	Slot 592	agrandrg
+kobsla01	Kobold Slave	Slot 592	agrandbr
+kobsou01	Kobold Amplifier	Slot 592	agrandbr
+kobswi01	Kobold Swift	Slot 600	agrandbr
+kobtar01	Kobold Amplifier	Slot 592	agrandbr
+kobwar01	Kobold	Slot 592	agrandrb
+kobwit01	Kobold Witch Doctor	Slot 608	agrandrb
+kobwit02	Kobold Witch Doctor	Slot 608	agrandbr
+korcrazy	Crazyface	Slot 600	agrandbr
+korgoo01	Goon	Slot 600	agrandrb
+korgoo02	Goon	Slot 600	agrandrb
+korpim	Pimlico	Slot 608	agrandbr
+korpimg1	Pimlico Guard	Slot 608	agrandrb
+korscroo	Scrooloose	Slot 600	agrandbr
+korshag	Shagbag	Slot 600	agrandbr
+kpchap01	Bolumir	Slot 592	agrandrb
+kpdead01	Servant	Slot 600	agrandrb
+kpgate01	Guard	Slot 592	agrandrb
+kpgate02	Guard	Slot 592	agrandbr
+kpglai01	Glaicus	Slot 608	agrandbr
+kpgrd01	Lastin	Slot 600	agrandrb
+kplend01	Moneylender	Slot 600	agrandbr
+kplend02	Moneylender	Slot 600	agrandrb
+kprang01	Jessup	Slot 600	agrandbr
+kprang02	Malvolio	Slot 600	agrandbr
+kproen01	Lord Roenall	Slot 600	agrandrb
+kproen02	Roenall Guard	Slot 600	agrandbr
+kproen03	Roenall Guard	Slot 600	agrandsw
+kproen04	Roenall Soldier	Slot 600	agrandrb
+kproen05	Roenall Soldier	Slot 600	agrandbr
+kpsham01	Yuan-Ti Mage	Slot 600	agrandnc
+kpsold03	de'Arnise Guard	Slot 608	agrandbr
+kpsold04	de'Arnise Guard	Slot 608	agrandrb
+kpsold05	de'Arnise Guard	Slot 608	agrandrb
+kpsold07	de'Arnise Guard	Slot 608	agrandrb
+kpsold08	de'Arnise Guard	Slot 608	agrandrb
+kpsold09	de'Arnise Guard	Slot 592	agrandbr
+kpsold10	de'Arnise Guard	Slot 592	agrandrb
+kptrol01	Troll	Slot 600	agrandbr
+kptrol02	Troll	Slot 592	agrandbr
+kptrol03	Troll	Slot 600	agrandrb
+kptrol04	Troll	Slot 600	agrandbr
+kptrol05	Troll	Slot 600	agrandbr
+kptrol06	Ice Troll	Slot 592	agrandrb
+kptrol13	Troll	Slot 600	agrandrb
+kptrol23	Troll	Slot 592	agrandbr
+kpumb01	Umber Hulk	Slot 592	agrandsh
+kpyuan01	Greater Yuan-ti	Slot 592	agrandrb
+krbodbat	Bodhi	Slot 592	agrandbr
+krbodvam	Bodhi	Slot 592	agrandrb
+kuoarc20	Kuo-toan Archer	Slot 584	agrandrb
+kuocap01	Kuo-toan Captain	Slot 584	agrandbr
+kuocle20	Kuo-toan Captain	Slot 584	agrandrb
+kuolie01	Kuo-toan Lieutenant	Slot 600	agrandsw
+kuomag01	Kuo-toan Wizard	Slot 608	agrandrb
+kuomon01	Kuo-toan Monitor	Slot 600	agrandbr
+kuopri01	Kuo-toan Priest	Slot 608	agrandbr
+kuotoa01	Kuo-toan Warrior	Slot 600	agrandbr
+kuowar01	Kuo-toan Warrior	Slot 600	agrandbr
+kuowar20	Kuo-toan Warrior	Slot 584	agrandbr
+kuowhi01	Kuo-toan Whip	Slot 600	agrandbr
+kylie	Kylie Jansen	Slot 608	agrandbr
+kylie1	Kylie Jansen	Slot 608	agrandrb
+lacedo01	Lacedon	Slot 592	agrandbr
+lacedo02	Greater Lacedon	Slot 600	agrandbr
+landri	Landrin	Slot 608	agrandrb
+lassal	Lassal	Slot 592	agrandbr
+lassal02	Lassal	Slot 592	agrandrb
+latkni01	Morning Knight	Slot 600	agrandrb
+latkni02	Morning Knight	Slot 600	agrandbr
+latlara	Acolyte Lara	Slot 608	agrandbr
+laune	Meredath	Slot 592	agrandrg
+lavok01	Lavok	Slot 608	agrandrb
+lavok02	Lavok	Slot 600	agrandbr
+legdor	Legdoril	Slot 600	agrandbr
+lehtin	Lehtinan	Slot 592	agrandrb
+lellyn	Lellyn	Slot 592	agrandbr
+lelthorn	Lelthorn	Slot 592	agrandbr
+lester	Uncle Lester	Slot 592	agrandsw
+lichel01	Elemental Lich	Slot 584	agrandsr
+life01	Tortured One	Slot 592	agrandrb
+life02	Tortured One	Slot 592	agrandrb
+life03	Tortured One	Slot 592	agrandbr
+life04	Tortured One	Slot 592	agrandrb
+lin	Lin	Slot 592	agrandrb
+llarsh	Llarsh	Slot 592	agrandrp
+llynis	Llynis	Slot 592	agrandbr
+loutm01	Mercenary of Riatavin	Slot 600	agrandrb
+loutm02	Mercenary of Riatavin	Slot 608	agrandbr
+loutm03	Mercenary of Riatavin	Slot 608	agrandbr
+love	Warder	Slot 592	agrandrb
+loveone1	Fayanna	Slot 592	agrandbr
+loveone3	Valas	Slot 592	agrandrb
+loveone4	Moira	Slot 592	agrandrb
+loveone5	Rowyn	Slot 592	agrandsw
+ltalos	Drunken Cleric of Talos	Slot 592	agrandbr
+lv16rob1	Bregan D'aerth Assassin	Slot 592	agrandbr
+lv16rob2	Bregan D'aerth Assassin	Slot 592	agrandlx
+lv16rob3	Bregan D'aerth Assassin	Slot 592	agrandbr
+lv16rob4	Bregan D'aerth Assassin	Slot 592	agrandrb
+m#corin	Captain Corin	Slot 608	agrandbr
+m#edtg	Ed	Slot 592	agrandbr
+m#lorr10	Lorraine	Slot 600	agrandbr
+m#lorr13	Lorraine	Slot 600	agrandrb
+m#lorr17	Lorraine	Slot 600	agrandbr
+m#lorson	Ghost of Lorraine's Son	Slot 592	agrandbr
+m#maxtg	Max	Slot 592	agrandbr
+m#nicktg	Nick	Slot 592	agrandrp
+m#prisg1	Prison Guard	Slot 592	agrandbr
+m#prisg2	Prison Guard	Slot 592	agrandbr
+m#yclbm1	Ymmyrt's Lieutenant	Slot 592	agrandea
+m#ycmcm1	Ymmyrt's Captain	Slot 600	agrandbr
+m#ydemon	Demon	Slot 600	agrandrb
+m#ygsbm1	Ymmyrt's Guard	Slot 592	agrandea
+m#ygsbm2	Ymmyrt's Guard	Slot 592	agrandrb
+m#ygsbm3	Ymmyrt's Guard	Slot 592	agrandsh
+m#ygsbm4	Ymmyrt's Guard	Slot 592	agrandrb
+m#ygspm1	Ymmyrt's Guard	Slot 592	agrandrb
+m#ygspm2	Ymmyrt's Guard	Slot 592	agrandrb
+m#ygspm3	Ymmyrt's Guard	Slot 592	agrandbr
+m#ygspm4	Ymmyrt's Guard	Slot 592	agrandrp
+m#ygspm5	Ymmyrt's Guard	Slot 592	agrandrb
+m#ygswm1	Ymmyrt's Guard	Slot 600	agrandrb
+m#yguna1	Ymmyrt's Guard	Slot 592	agrandrb
+m#yimp	Gabriel	Slot 600	agrandrb
+m#ymm12	Ymmyrt	Slot 600	agrandrb
+m#ymm16	Ymmyrt	Slot 600	agrandrb
+m#ymm19	Ymmyrt	Slot 600	agrandrb
+m05demon	Balor	Slot 592	agrandbr
+m05elf1	Elven Warrior	Slot 592	agrandbr
+m05elf2	Elven Warrior	Slot 592	agrandrb
+madarc	Mad Arcand	Slot 608	agrandbr
+madeel	Madeel	Slot 592	agrandrb
+madurc01	Duergar Cleric	Slot 608	agrandbr
+madurc02	Duergar Cleric	Slot 608	agrandbr
+madurf02	Duergar Fighter	Slot 592	agrandbr
+madurt01	Duergar Thief	Slot 600	agrandbr
+maeguy02	Thief	Slot 592	agrandrb
+maenc01	Ogre Mage	Slot 592	agrandrb
+maenc02	Ogre	Slot 592	agrandbr
+maenc03	Ogrillon	Slot 592	agrandbr
+maenc04	Brotus Bloodthirsty	Slot 600	agrandrb
+magcle20	Mage	Slot 592	agrandrg
+mage10a	Zyntris	Slot 592	agrandrb
+mage10b	Zyntris	Slot 592	agrandbr
+mage10c	Zyntris	Slot 592	agrandrb
+mage10d	Zyntris	Slot 592	agrandrb
+mage11	Zyntris	Slot 592	agrandbr
+mage12a	Zyntris	Slot 592	agrandrb
+mage12b	Zyntris	Slot 592	agrandbr
+mage12c	Zyntris	Slot 592	agrandsh
+mage12d	Zyntris	Slot 592	agrandsw
+mage14a	Zyntris	Slot 584	agrandsr
+mage14b	Zyntris	Slot 584	agrandbr
+mage14c	Zyntris	Slot 584	agrandbr
+mage14m	Zyntris	Slot 584	agrandbr
+mage16a	Zyntris	Slot 584	agrandbr
+mage16b	Zyntris	Slot 584	agrandbr
+mage16c	Cowled Wizard	Slot 600	agrandlx
+mage16m	Zyntris	Slot 584	agrandbr
+mage18a	Cowled Wizard	Slot 600	agrandbr
+mage18b	Zyntris	Slot 584	agrandrb
+mage18c	Zyntris	Slot 584	agrandbr
+mage18d	Zyntris	Slot 584	agrandrb
+mage18e	Zyntris	Slot 584	agrandrb
+mage18y	Zyntris	Slot 584	agrandbr
+mage18z	Zallanora	Slot 600	agrandrb
+mage20	Mage	Slot 584	agrandrb
+mage20b	Mage	Slot 584	agrandbr
+mage20c	Mage	Slot 584	agrandrb
+mage6a	Zyntris	Slot 592	agrandrb
+mage6b	Zyntris	Slot 592	agrandrb
+mage6c	Zyntris	Slot 592	agrandbr
+mage8a	Zyntris	Slot 592	agrandrb
+mage8b	Zyntris	Slot 592	agrandbr
+mage8c	Zyntris	Slot 592	agrandrb
+mage8e	Relonar	Slot 592	agrandbr
+magetest	Mage	Slot 584	agrandbr
+maprinvi	Barl	Slot 592	agrandbr
+marlowe	Marlowe	Slot 592	agrandbr
+masal02	Sailor Wally G Hrey	Slot 600	agrandrb
+mathoren	Thorengrim Hammerfist	Slot 592	agrandrb
+mddust	Dust Mephit	Slot 592	agrandcl
+mdrak	Maharajah	Slot 592	agrandbr
+mekimp01	Imp	Slot 608	agrandrb
+mekrat	Mekrath	Slot 608	agrandbr
+mel01	Melissan	Slot 592	agrandnc
+meliss01	Melissan	Slot 592	agrandrb
+melsum01	Glabrezu	Slot 592	agrandrb
+melsum02	Bone Fiend	Slot 592	agrandbr
+melsum03	Death Tyrant	Slot 592	agrandrb
+melsum04	Balor	Slot 592	agrandbr
+melsum05	Marilith	Slot 592	agrandbr
+melsum06	Alhoon	Slot 592	agrandrb
+mendas	Mendas	Slot 608	agrandrg
+mendas2	Mendas	Slot 608	agrandrb
+mepair01	Air Mephit	Slot 592	agrandrb
+mepdus01	Dust Mephit	Slot 592	agrandrb
+mepear01	Earth Mephit	Slot 600	agrandbr
+mepfir01	Fire Mephit	Slot 592	agrandbr
+mephsp1	Mephit Portal	Slot 592	agrandrp
+mephsp2	Mephit Portal	Slot 592	agrandrb
+mephsp3	Mephit Portal	Slot 592	agrandnc
+mephsp4	Mephit Portal	Slot 592	agrandrg
+mepice01	Ice Mephit	Slot 592	agrandlx
+mepice02	Ice Mephit	Slot 600	agrandbr
+meplig01	Lightning Mephit	Slot 592	agrandrb
+mepmag01	Magma Mephit	Slot 592	agrandrb
+mepmag02	Magma Mephit	Slot 600	agrandrb
+mepmin01	Mineral Mephit	Slot 592	agrandrb
+mepmis01	Mist Mephit	Slot 592	agrandrb
+mepooz01	Ooze Mephit	Slot 592	agrandrb
+meprad01	Radiant Mephit	Slot 592	agrandrb
+meprad02	Radiant Mephit	Slot 600	agrandbr
+mepsal01	Salt Mephit	Slot 592	agrandrb
+mepsmo01	Smoke Mephit	Slot 592	agrandbr
+mepsmo02	Smoke Mephit	Slot 600	agrandrp
+mepste01	Steam Mephit	Slot 592	agrandbr
+merinia	Meronia	Slot 600	agrandbr
+meronia	Meronia	Slot 608	agrandbr
+mgappr01	Larz	Slot 592	agrandsr
+mgappr02	Morul	Slot 592	agrandbr
+mgappr03	Nara	Slot 592	agrandrb
+mgass01	Sergeant Natula	Slot 608	agrandrb
+mgass02	Tyrian	Slot 600	agrandnc
+mgass03	Vilhelm	Slot 600	agrandbr
+mgbill01	William "Bill" Williamson	Slot 600	agrandrb
+mgketg01	Man-at-Arms	Slot 600	agrandrb
+mgketg02	Archer	Slot 600	agrandbr
+mgkhol01	Khollynnus Paac	Slot 600	agrandbr
+mgteos01	Teos	Slot 600	agrandbr
+mimic01	Killer Mimic	Slot 592	agrandnc
+mindal01	Alhoon	Slot 592	agrandbr
+mindfl01	Mind Flayer	Slot 592	agrandrb
+mindul01	Ulitharid	Slot 592	agrandcl
+mindva01	Vampiric Illithid	Slot 592	agrandbr
+mindvam	Vampiric Illithid	Slot 592	agrandbr
+mintskel	Minto	Slot 592	agrandbr
+minttrog	Troglodyte	Slot 592	agrandbr
+mook	Mook	Slot 592	agrandbr
+mook02	Mook	Slot 592	agrandbr
+mookft01	Shadow Thief Thug	Slot 592	agrandrb
+mookft02	Shadow Thief	Slot 592	agrandrb
+mourner3	Arthur	Slot 600	agrandrp
+mourner8	Mourner	Slot 592	agrandrb
+mtbe7	Davis	Slot 600	agrandbr
+mugger1	Shady Character	Slot 592	agrandbr
+mugger2	Shady Character	Slot 592	agrandbr
+mugger3	Shady Character	Slot 608	agrandrb
+mugger4	Ogre	Slot 592	agrandrb
+mumgre01	Greater Mummy	Slot 592	agrandrb
+mummy	Mummy	Slot 592	agrandrb
+mummy01	Mummy	Slot 592	agrandrb
+mummyx1	Mummy	Slot 592	agrandrb
+mvguard1	Assassin	Slot 600	agrandbr
+mvpries	Priest of Cyric	Slot 600	agrandbr
+nalbarg	Barg	Slot 592	agrandbr
+naldirt	Officer Dirth	Slot 592	agrandbr
+naliames	Messenger	Slot 592	agrandrb
+nalla	Stormherald Nallabir	Slot 600	agrandrb
+nameless	Nameless One	Slot 592	agrandrb
+natalk9	Natalka	Slot 600	agrandbr
+neb	Neb	Slot 600	agrandbr
+neeber	Neeber	Slot 600	agrandbr
+nevaziah	Nevaziah	Slot 592	agrandnc
+nevm1	Wight	Slot 592	agrandbr
+nevm2	Skeleton Warrior	Slot 592	agrandrb
+nevm3	Ghast	Slot 600	agrandbr
+nevm4	Vampyre	Slot 592	agrandrb
+nevm5	Zombie	Slot 592	agrandrb
+nighthag	Night Hag	Slot 584	agrandsr
+nightwlk	Night Walker	Slot 584	agrandrb
+noble1	Nobleman	Slot 600	agrandrb
+noble2	Nobleman	Slot 600	agrandbr
+noblem1	Nobleman	Slot 600	agrandrb
+noblem2	Nobleman	Slot 608	agrandrb
+ntamelka	Amelka	Slot 592	agrandbr
+ntarchan	Archandra	Slot 584	agrandrb
+ntaschma	Brother Aschmaan	Slot 592	agrandrb
+ntashiru	Ashirukuru	Slot 592	agrandrb
+ntassaia	Assaia	Slot 584	agrandbr
+ntbalen	Balen	Slot 600	agrandrb
+ntblhcu1	Black Hand Cultist	Slot 584	agrandrb
+ntblhcul	Black Hand Cultist	Slot 584	agrandbr
+ntbpwatc	Catacomb Warder	Slot 592	agrandbr
+ntbrent1	Brentaw	Slot 592	agrandrb
+ntbrenta	Brentaw	Slot 592	agrandrb
+ntbrigan	Brigand	Slot 600	agrandrb
+ntcholga	Cholga	Slot 592	agrandcl
+ntdeath1	Demonknight	Slot 592	agrandrb
+ntdeathk	Demonknight	Slot 592	agrandbr
+ntdemon	Doomsayer	Slot 592	agrandrb
+ntdraagi	Brother Draagis	Slot 592	agrandrb
+ntdxter	Sister A Little	Slot 592	agrandbr
+nteldod	Eldod	Slot 592	agrandnc
+nteldod1	Eldod	Slot 600	agrandbr
+ntessila	Essila	Slot 584	agrandrb
+ntforeog	Ogre Mage	Slot 592	agrandbr
+ntgghot1	General Ghotal	Slot 592	agrandbr
+ntgghota	General Ghotal	Slot 592	agrandrb
+ntghelde	Gheldehar	Slot 592	agrandrb
+ntguarp1	Guard	Slot 592	agrandrb
+ntguarp2	Guard	Slot 592	agrandrb
+ntguarp3	Guard	Slot 592	agrandbr
+ntguarp4	Guard	Slot 592	agrandbr
+ntguarpb	Guard	Slot 592	agrandbr
+nthaebal	Haeball	Slot 600	agrandbr
+nthasdar	Brother Hasdar	Slot 592	agrandbr
+nthasten	Hasten	Slot 584	agrandbr
+nthobgod	Hobgod	Slot 592	agrandbr
+ntindfi1	Lesser Tanar'ri	Slot 592	agrandbr
+ntindfi2	Lesser Tanar'ri	Slot 592	agrandbr
+ntindfig	Lesser Tanar'ri	Slot 592	agrandrb
+ntkamira	Kamira	Slot 592	agrandsh
+ntkrotan	Krotan	Slot 592	agrandbr
+ntlegian	Legion	Slot 592	agrandbr
+ntllinde	Llindelin	Slot 592	agrandbr
+ntlucret	Lucretia	Slot 584	agrandbr
+ntmariel	Mariel	Slot 592	agrandbr
+ntmilea	Milea	Slot 584	agrandnc
+ntmonkde	Monk	Slot 584	agrandrb
+ntmordor	Mardoroan	Slot 584	agrandbr
+ntogreda	Daddy	Slot 592	agrandsw
+ntogremu	Mommy	Slot 600	agrandrb
+ntolivia	Olivia	Slot 584	agrandrb
+ntorpeho	Orpeho	Slot 592	agrandbr
+ntpaulia	Paulia	Slot 584	agrandrb
+ntrededg	Rededge	Slot 592	agrandrb
+ntreedri	Reedrig	Slot 592	agrandbr
+ntroach	Lesser Tanar'ri	Slot 584	agrandrb
+ntsarq	Sar'garin Ve'xelt	Slot 584	agrandbr
+ntsatos	Satos	Slot 592	agrandrb
+ntsatos1	Satos	Slot 592	agrandbr
+ntsilua	Sil	Slot 592	agrandrb
+ntsirin2	Sirine	Slot 592	agrandrb
+ntsirin4	Sirine	Slot 592	agrandbr
+ntsirine	Krestian's friend	Slot 592	agrandcl
+ntsvlast	Svlast	Slot 592	agrandbr
+nttamael	Tamael	Slot 584	agrandbr
+nttytus	Tytus	Slot 592	agrandrb
+ntwelt	Welt	Slot 592	agrandbr
+ntwyvern	Fire Wyvern	Slot 592	agrandbr
+ntyness	Yness	Slot 592	agrandrb
+ntzombie	Zombie	Slot 592	agrandrb
+ntzombju	Zombie	Slot 592	agrandrb
+nwyvbab	Baby Wyvern	Slot 592	agrandbr
+o#aegnor	Aegnor	Slot 592	agrandrb
+o#arudin	Arudin	Slot 600	agrandrb
+o#azag	Azag	Slot 600	agrandrb
+o#bea	Beatrice	Slot 600	agrandrg
+o#blinky	Blinky	Slot 592	agrandbr
+o#botan	Botan	Slot 600	agrandrb
+o#castor	Castor	Slot 600	agrandrb
+o#clone	Guardian Clone	Slot 592	agrandrb
+o#crale	Sir Alexis	Slot 592	agrandrb
+o#crama	Amara	Slot 592	agrandlx
+o#crchri	Chris	Slot 592	agrandrb
+o#crdat	Inspector Daton	Slot 592	agrandbr
+o#crenf1	Cowled Enforcer	Slot 592	agrandbr
+o#crenf2	Cowled Enforcer	Slot 592	agrandnc
+o#crfein	Fein	Slot 592	agrandbr
+o#crgan	Gannis	Slot 600	agrandrb
+o#crgoon	Assassin	Slot 592	agrandbr
+o#crgu31	Amnian Guard	Slot 592	agrandbr
+o#crgu32	Amnian Guard	Slot 592	agrandrb
+o#crgu71	Mercenary	Slot 592	agrandrb
+o#crgu72	Mercenary	Slot 592	agrandbr
+o#crgu73	Mercenary	Slot 584	agrandrb
+o#crgua1	Lord Melyin's Bodyguard	Slot 592	agrandbr
+o#crgua2	Lord Melyin's Bodyguard	Slot 592	agrandsh
+o#crkern	Kern	Slot 592	agrandbr
+o#crlah1	Feenick's Bodyguard	Slot 592	agrandbr
+o#crlah2	Feenick's Bodyguard	Slot 592	agrandrb
+o#crlah3	Feenick's Bodyguard	Slot 592	agrandrb
+o#crlah4	Feenick's Bodyguard	Slot 584	agrandrb
+o#crmel	Lord Melyin	Slot 592	agrandbr
+o#crnev	Nevier Costa	Slot 592	agrandrb
+o#crqyr	Qyr	Slot 600	agrandrb
+o#crstee	Oulav Steros	Slot 600	agrandbr
+o#crstg1	Thug	Slot 592	agrandbr
+o#crstg2	Thug	Slot 592	agrandbr
+o#crtea	Tea	Slot 592	agrandrb
+o#drowf	Hunrae	Slot 600	agrandbr
+o#drowm	Xynolin	Slot 592	agrandea
+o#dur	Dur	Slot 600	agrandrb
+o#durn	Durnkrag	Slot 600	agrandrb
+o#eligor	Eligor	Slot 600	agrandrb
+o#ezara	Ezara	Slot 592	agrandrb
+o#ganel	Ganelon	Slot 608	agrandbr
+o#gewen	Captain Gewen	Slot 592	agrandbr
+o#grudin	Grudin	Slot 592	agrandrb
+o#hiel	Hiel	Slot 592	agrandrb
+o#khagg	Khaggoth	Slot 600	agrandbr
+o#lepus	Lepus	Slot 592	agrandbr
+o#lynn	Lynn	Slot 592	agrandrb
+o#mac	Mac	Slot 592	agrandrp
+o#merc	Mercenary	Slot 600	agrandbr
+o#merc1	Mercenary	Slot 600	agrandrb
+o#merc2	Mercenary	Slot 600	agrandrb
+o#mercd	Drow	Slot 592	agrandrb
+o#nailyn	Nailyn	Slot 592	agrandbr
+o#naiz	Naiz	Slot 592	agrandrb
+o#quagis	Quagis	Slot 592	agrandrb
+o#rand	Captain Randall	Slot 592	agrandbr
+o#remus	Remus	Slot 600	agrandrb
+o#rhin	Rhin	Slot 592	agrandrb
+o#ricar	Ricar	Slot 592	agrandbr
+o#rotan	Rotan	Slot 592	agrandbr
+o#ruavel	Ruavel	Slot 592	agrandsr
+o#selia	Selia	Slot 592	agrandrb
+o#siene	Siene	Slot 592	agrandrb
+o#smug	Fren	Slot 608	agrandsh
+o#spir1	Elven Warrior	Slot 592	agrandbr
+o#spir2	Elven Warrior	Slot 592	agrandrb
+o#spir3	Elven Mage	Slot 592	agrandbr
+o#srax	Sraxsuth	Slot 584	agrandrp
+o#teagan	Teagan	Slot 592	agrandbr
+o#thug	Smuggler	Slot 592	agrandbr
+o#vel	Vel	Slot 608	agrandbr
+o#verell	Verella	Slot 592	agrandbr
+obe	Obe	Slot 592	agrandrb
+obsdem01	Lea'liyl	Slot 600	agrandrb
+obsdem02	Mane	Slot 608	agrandbr
+obsdem03	Elder Orb	Slot 600	agrandsr
+obsdem04	Maurezhi	Slot 592	agrandrb
+obsdem05	Nabassu	Slot 592	agrandrb
+obsfir01	Noble Efreeti	Slot 592	agrandbr
+obsfir02	Fire Mephit	Slot 592	agrandrb
+obsfir03	Magma Mephit	Slot 592	agrandbr
+obsfir04	Smoke Mephit	Slot 592	agrandrb
+obshal01	Entu	Slot 600	agrandrb
+obshal02	Togan	Slot 592	agrandbr
+obshal03	Necre	Slot 608	agrandrb
+obshal04	Halfling Warrior	Slot 592	agrandbr
+obshal05	Kayardi	Slot 600	agrandrb
+obshal06	Taibela	Slot 608	agrandbr
+obshal07	Mogadish	Slot 600	agrandbr
+obsice01	Snow Troll	Slot 592	agrandbr
+obsice02	Ice Mephit	Slot 592	agrandrb
+obsice11	Snow Troll	Slot 592	agrandlx
+obssah01	Sahuagin Baron	Slot 592	agrandbr
+obssah02	Sahuagin Priestess	Slot 592	agrandrb
+obssah03	Sahuagin Baronial Guard	Slot 592	agrandrb
+obssah04	Sahuagin	Slot 592	agrandrb
+obssah05	Sahuagin	Slot 592	agrandbr
+obssol01	Reyna	Slot 608	agrandrb
+obssol02	Onvo	Slot 600	agrandbr
+obssol03	Ancan	Slot 600	agrandbr
+ogre01	Ogre	Slot 592	agrandbr
+ogredd1	Ogre	Slot 592	agrandbr
+ogregr_a	Ogrillon	Slot 592	agrandrb
+ogregr1	Ogrillon	Slot 592	agrandrb
+ogregr2	Ogrillon	Slot 592	agrandbr
+ogregr3	Ogrillon	Slot 592	agrandrb
+ogregr4	Ogrillon	Slot 592	agrandlx
+ogreha_a	Half Ogre	Slot 592	agrandrb
+ogreha_c	Half Ogre	Slot 592	agrandbr
+ogreha_d	Half Ogre	Slot 592	agrandcl
+ogreha_e	Half Ogre	Slot 592	agrandrb
+ogreha1	Half Ogre	Slot 592	agrandrb
+ogreha2	Half Ogre	Slot 592	agrandrb
+ogreha3	Half Ogre	Slot 592	agrandbr
+ogreha4	Half Ogre	Slot 592	agrandbr
+ogreha5	Half Ogre	Slot 592	agrandrb
+ogrema01	Ogre Mage	Slot 592	agrandrb
+ogrhal01	Half Ogre	Slot 592	agrandbr
+ogrill01	Ogrillon	Slot 592	agrandrb
+ogrmag01	Ogre Mage	Slot 592	agrandrb
+oisig	High Watcher Oisig	Slot 600	agrandbr
+orc01	Orc	Slot 592	agrandbr
+orc02	Orc Archer	Slot 592	agrandrb
+orc03	Orc Priest	Slot 592	agrandsw
+orc04	Orc Mage	Slot 592	agrandbr
+orc05	Orog	Slot 592	agrandrb
+orc06	Orog	Slot 592	agrandbr
+orckiv01	Orc Priest	Slot 592	agrandrb
+orgoinvi	Barl	Slot 592	agrandbr
+orgoth01	Orgoth	Slot 600	agrandbr
+orgoth02	Orgoth	Slot 600	agrandbr
+otyugh	Otyugh	Slot 592	agrandbr
+otyugh01	Otyugh	Slot 592	agrandbr
+overgold	Overgold Haeclar Dominit	Slot 592	agrandbr
+p#imanel	Imanel Silversword	Slot 592	agrandbr
+pace	Pace	Slot 608	agrandrb
+pala	Pala Fentan	Slot 592	agrandbr
+pala02	Pala Fentan	Slot 592	agrandbr
+palern	Palern Flynn	Slot 592	agrandbr
+palkni01	Ogre Mage	Slot 600	agrandbr
+palkni02	Ogre	Slot 600	agrandrb
+palkni03	Gnoll Elite	Slot 600	agrandbr
+palkni04	Ogre	Slot 600	agrandrb
+palkni05	Baby Wyvern	Slot 600	agrandrb
+pardru	Sorsha	Slot 608	agrandbr
+parfig16	Jalin Tix	Slot 592	agrandbr
+parmonk	Mahar	Slot 600	agrandbr
+parthf	Alnarow	Slot 608	agrandrp
+pashtrav	Pasha Khazun	Slot 592	agrandbr
+pawn	Pawn	Slot 584	agrandbr
+pbhunt02	Bounty Hunter	Slot 608	agrandbr
+pbhunt03	Bounty Hunter	Slot 608	agrandbr
+pbhunt04	Bounty Hunter	Slot 608	agrandbr
+pbhunt05	Bounty Hunter	Slot 608	agrandrb
+pcapt02	Prison Captain	Slot 592	agrandsw
+pcapt03	Prison Captain	Slot 592	agrandbr
+pcapt04	Prison Captain	Slot 592	agrandbr
+pcapt05	Prison Captain	Slot 592	agrandrb
+pcapt06	Prison Captain	Slot 592	agrandrb
+pdwarf01	Dwarf Thrall	Slot 592	agrandrb
+pehllus	Pehllus Tanislove	Slot 600	agrandrb
+pelanna	Pelanna	Slot 608	agrandbr
+peleria	Peleria	Slot 592	agrandbr
+pettin	Ettin	Slot 592	agrandbr
+phlydi2	Phlydia	Slot 600	agrandbr
+phlydia	Phlydia	Slot 592	agrandea
+pirbob01	Capt'n Bob Holmes	Slot 592	agrandbr
+pirdoc01	Dockhand	Slot 600	agrandbr
+pirebd01	Nethlander Pirate	Slot 592	agrandrb
+pirebd02	Nethlander Pirate	Slot 592	agrandbr
+pirebd03	Nethlander Pirate	Slot 592	agrandnc
+pirebd04	Nethlander Pirate	Slot 592	agrandrb
+pirebd05	Nethlander Pirate	Slot 592	agrandbr
+pirebd06	Nethlander Pirate	Slot 592	agrandbr
+pirebd07	Nethlander Pirate	Slot 592	agrandbr
+pirebd08	Nethlander Pirate	Slot 592	agrandrb
+pirebd09	Nethlander Pirate	Slot 592	agrandrb
+pirebd10	Nethlander Pirate	Slot 592	agrandrb
+pirebd11	Nethlander Pirate	Slot 592	agrandrb
+pirebd12	Nethlander Pirate	Slot 592	agrandbr
+pirebd13	Nethlander Pirate	Slot 592	agrandrb
+pirebd14	Nethlander Pirate	Slot 592	agrandrb
+pirebd15	Nethlander Pirate	Slot 592	agrandrb
+pirebd16	Raurivyl Ornshield	Slot 592	agrandbr
+pirebd17	Bahija Fair	Slot 592	agrandcl
+pirexe01	Executioner	Slot 592	agrandbr
+pirfsh01	Fisherman	Slot 592	agrandbr
+pirfsh02	Fishwife	Slot 592	agrandbr
+pirgrd01	Guard	Slot 592	agrandnc
+pirmur01	Galvena	Slot 592	agrandbr
+pirmur02	Assassin	Slot 592	agrandrg
+pirmur03	Front	Slot 608	agrandrb
+pirmur04	Guard	Slot 608	agrandsw
+pirmur05	Guard Capt	Slot 600	agrandrb
+pirmur06	Guard Capt	Slot 592	agrandlx
+pirmur07	Vadek	Slot 600	agrandrb
+pirmur08	Guard	Slot 608	agrandbr
+pirmur09	Golin	Slot 592	agrandrp
+pirmur11	Guard	Slot 608	agrandbr
+pirmur12	Guard	Slot 592	agrandrb
+pirmur13	Guard Capt	Slot 600	agrandrb
+pirn	Pirn	Slot 584	agrandrb
+pirpir01	Pirate	Slot 592	agrandrb
+pirpir02	Andar the Pirate	Slot 600	agrandbr
+pirpir03	Olben the Pirate	Slot 600	agrandrb
+pirpir04	Drunken Sailor	Slot 592	agrandbr
+pirpir05	Chremy	Slot 592	agrandbr
+pirpir07	Pirate Bill	Slot 592	agrandbr
+pirpir08	Pirate Dan	Slot 592	agrandbr
+pirpir09	Pirate Jimmy	Slot 592	agrandsw
+pirpir10	Pirate Scotty	Slot 592	agrandrb
+pirpir11	Pirate Paul	Slot 592	agrandbr
+pirpir12	Pirate Newf	Slot 592	agrandbr
+pirprv01	Privateer	Slot 592	agrandbr
+pirsal02	Sailor	Slot 592	agrandrb
+pirsea01	Pirate Captain	Slot 592	agrandbr
+pirsea02	Pirate	Slot 584	agrandbr
+pirsea03	Pirate	Slot 592	agrandrb
+pkagal	Agal	Slot 592	agrandbr
+pkagalb	Agal	Slot 592	agrandrp
+pkchat1	Ranas	Slot 592	agrandbr
+pkchat2	Sorgeir	Slot 592	agrandrg
+pkchat3	Hladvar	Slot 592	agrandbr
+pkdead1	Finion	Slot 592	agrandrb
+pkdead1a	Finion	Slot 592	agrandrb
+pkfatty1	Branthor	Slot 584	agrandbr
+pkfatty2	Dindil	Slot 592	agrandbr
+pkfatxy2	Dindil	Slot 592	agrandbr
+pkgard1	Horkvar	Slot 592	agrandbr
+pkgard2	Guard	Slot 592	agrandrb
+pkghost3	Scarlet Sending	Slot 592	agrandnc
+pkghost4	Shadow Spectre	Slot 592	agrandrb
+pkhohom1	Kroldhir	Slot 592	agrandrb
+pkhohom2	Fjord	Slot 592	agrandbr
+pkhohom3	Bjodlaug	Slot 592	agrandrb
+pklich1	Beghael	Slot 600	agrandbr
+pkloth1	Erolas	Slot 592	agrandbr
+pkloth2	Erolas	Slot 592	agrandrb
+pkmarcus	Marcus	Slot 592	agrandbr
+pkmess	Rane	Slot 592	agrandrb
+pkmess2	Rane	Slot 592	agrandbr
+pkorfa	Orfa	Slot 592	agrandbr
+pkstore1	Deneron	Slot 592	agrandbr
+pkstore2	Carval	Slot 592	agrandbr
+pksum1	Lich	Slot 592	agrandrb
+pksum2	Lich	Slot 592	agrandsw
+pksum3	Lich	Slot 592	agrandbr
+planet01	Planetar	Slot 592	agrandlx
+planevil	Fallen Planetar	Slot 592	agrandbr
+plangood	Planetar	Slot 592	agrandrb
+planwish	Fallen Planetar	Slot 592	agrandsr
+plass01	Assassin	Slot 592	agrandrb
+plass02	Assassin	Slot 592	agrandbr
+plass03	Assassin	Slot 592	agrandbr
+plass04	Assassin	Slot 592	agrandbr
+plfarm01	Lette	Slot 592	agrandrb
+plfarm02	Lanka	Slot 600	agrandrb
+plfarm03	Petr	Slot 592	agrandbr
+plfarm04	Brunson	Slot 600	agrandbr
+plfarm05	Pardo	Slot 592	agrandsw
+plfarm06	Moreno	Slot 600	agrandrb
+plgran01	Illon	Slot 592	agrandrb
+plmetg01	Metrich Footman	Slot 592	agrandrb
+plmetg02	Metrich Yeoman	Slot 592	agrandbr
+plmetr01	Baron Metrich	Slot 592	agrandbr
+plmetw01	Sorcerous Amin	Slot 600	agrandsh
+plshfg01	Ettin	Slot 592	agrandbr
+plshfg02	Ettin	Slot 592	agrandrb
+plshhg01	Hobgoblin Slayer	Slot 592	agrandrb
+plshhg02	Hobgoblin Wizard	Slot 592	agrandbr
+plshom01	Ogre Mage	Slot 592	agrandbr
+plybass	Lesser Basilisk	Slot 592	agrandrb
+plyflind	Flind	Slot 592	agrandlx
+plyogre	Ogre	Slot 592	agrandbr
+plysala	Fire Salamander	Slot 592	agrandrb
+plytroll	Troll	Slot 592	agrandbr
+plywyvrn	Baby Wyvern	Slot 592	agrandbr
+pmaster	Master of Thralls	Slot 592	agrandbr
+pocre001	Sending	Slot 592	agrandbr
+podese01	Ritual of Desecration	Slot 592	agrandrb
+podese02	Ritual of Desecration	Slot 592	agrandrb
+podese03	Ritual of Desecration	Slot 592	agrandrp
+poe	Poe	Slot 600	agrandbr
+poisod	Poisoned Man	Slot 592	agrandbr
+polite01	Light	Slot 592	agrandbr
+ponite01	Night	Slot 592	agrandrb
+ponite02	Night	Slot 592	agrandbr
+porain01	Thunderstorm	Slot 592	agrandrb
+porain02	Thunderstorm	Slot 592	agrandrb
+poraise1	Venonocanes Staff	Slot 592	agrandrb
+porest4	Venonocanes Staff	Slot 592	agrandbr
+posnow01	Snow Storm	Slot 592	agrandrb
+posnow02	Snow Storm	Slot 592	agrandbr
+ppaltk1	Kobold Shaman	Slot 600	agrandbr
+ppaltk2	Kobold Shaman	Slot 600	agrandrb
+ppaph2	Aphril	Slot 600	agrandrp
+ppaphril	Aphril	Slot 600	agrandrp
+pparan2	Aran Linvail	Slot 608	agrandrb
+ppbhaal	Bhaal	Slot 608	agrandbr
+ppbodhi4	Bodhi	Slot 592	agrandrb
+ppcowled	Perth the Adept	Slot 608	agrandbr
+ppdel	Del	Slot 592	agrandrb
+ppdemon	Demon	Slot 600	agrandrb
+ppdesh	Desharik	Slot 592	agrandrb
+ppdesh2	Desharik	Slot 592	agrandrb
+ppdjinn	Genie	Slot 592	agrandbr
+ppdjinn2	Noble Djinni	Slot 592	agrandbr
+ppdoor	Pirate Door Guard	Slot 592	agrandbr
+ppdra2	Dradeel	Slot 608	agrandrb
+ppduel1	Andante	Slot 600	agrandrb
+ppduel2	Dirbish the Black	Slot 600	agrandrb
+ppduelc	Duel Coordinator	Slot 600	agrandbr
+ppgith	Githyanki Captain	Slot 608	agrandrb
+ppgithgi	Githyanki	Slot 608	agrandrb
+ppgithma	Githyanki	Slot 608	agrandrb
+ppgithwa	Githyanki	Slot 600	agrandbr
+ppguard	Pirate	Slot 600	agrandrb
+ppguard1	Kobold	Slot 592	agrandbr
+ppguard2	Kobold	Slot 592	agrandrb
+ppguard3	Kobold	Slot 592	agrandrb
+ppguard4	Kobold Witch Doctor	Slot 592	agrandrb
+ppguarda	Pirate	Slot 592	agrandrb
+ppireni1	Coordinator	Slot 592	agrandbr
+ppjoye	Dace Sontan	Slot 600	agrandbr
+ppjoye2	Dace Apparition	Slot 584	agrandrb
+pplackey	Pirate	Slot 592	agrandbr
+ppldr01	Pirate Leader	Slot 600	agrandrb
+pplove	Algor	Slot 600	agrandrb
+ppmag01	Pirate Mage	Slot 600	agrandbr
+ppmind01	Ulitharid	Slot 592	agrandlx
+ppmur	Murderer	Slot 592	agrandbr
+ppnab01	Nabassu	Slot 592	agrandbr
+ppnab02	Nabassu	Slot 592	agrandbr
+ppnab03	Nabassu	Slot 592	agrandbr
+ppnalj	Naljier Skal	Slot 600	agrandbr
+ppnalj2	Naljier Skal	Slot 600	agrandrb
+ppparis	Parisa	Slot 592	agrandrb
+pppirate	Pirate	Slot 600	agrandrb
+ppright	Dunbar	Slot 600	agrandbr
+ppsaem	Saemon Havarian	Slot 600	agrandbr
+ppsaem2	Saemon Havarian	Slot 600	agrandbr
+ppsaem3	Saemon Havarian	Slot 600	agrandbr
+ppsail01	Pirate	Slot 592	agrandrb
+ppsail02	Pirate	Slot 608	agrandbr
+ppsail03	Pirate	Slot 600	agrandrb
+ppsailor	Sailor	Slot 592	agrandrb
+ppsanik	Sanik	Slot 600	agrandrb
+ppsha	Saemon Havarian	Slot 600	agrandrb
+ppshad01	Shadow Thief	Slot 600	agrandbr
+ppsime	Sime	Slot 592	agrandrb
+ppsuna	Suna Seni	Slot 592	agrandrb
+ppthf01	Pirate	Slot 592	agrandrb
+ppthf02	Pirate	Slot 592	agrandbr
+pptroll1	Spirit Troll	Slot 592	agrandbr
+pptroll2	Spirit Troll	Slot 592	agrandsw
+ppumb01	Priestess of Umberlee	Slot 592	agrandsr
+ppumb02	Umber Hulk	Slot 592	agrandbr
+ppvalen	Valen	Slot 592	agrandrb
+ppwanev	Wanev	Slot 608	agrandrb
+ppwanev2	Wanev	Slot 608	agrandlx
+ppworker	Lonk the Sane	Slot 592	agrandbr
+prelate	Prelate Wessalen	Slot 592	agrandbr
+pride	Warder	Slot 592	agrandrb
+pries10a	Zorl	Slot 592	agrandrb
+pries10b	Zorl	Slot 592	agrandbr
+pries10c	Zorl	Slot 592	agrandbr
+pries12a	Zorl	Slot 592	agrandrb
+pries12b	Zeela	Slot 592	agrandrb
+pries12c	Zorl	Slot 592	agrandrb
+pries18a	Zorl	Slot 592	agrandrb
+pries18b	Zorl	Slot 592	agrandrb
+pries18c	Zorl	Slot 592	agrandrb
+pries6a	Zorl	Slot 592	agrandrb
+pries6b	Zorl	Slot 592	agrandrb
+pries6c	Zorl	Slot 592	agrandrb
+pries8a	Zorl	Slot 592	agrandrp
+pries8b	Zorl	Slot 592	agrandsr
+pries8c	Zorl	Slot 592	agrandrb
+prisong1	Prison Guard	Slot 592	agrandrb
+prisong2	Prison Guard	Slot 592	agrandbr
+prisonk1	Prison Keeper	Slot 592	agrandbr
+prophelm	Shield Knight	Slot 608	agrandsw
+prophet1	Prophet	Slot 608	agrandrb
+prophet2	Prophet	Slot 608	agrandrb
+prophet3	Prophet	Slot 608	agrandbr
+prophet4	Prophet	Slot 608	agrandbr
+proplat	Morning Knight	Slot 600	agrandrb
+proptal	Storm Knight	Slot 608	agrandrb
+psicere	Cerebrilith	Slot 584	agrandbr
+psidark1	Mighty Dark Knight Lord	Slot 592	agrandbr
+psidark2	Elite Dark Knight	Slot 592	agrandbr
+psidark3	Elite Dark Knight	Slot 592	agrandrb
+psion1	Psion	Slot 584	agrandea
+psion2	Psion	Slot 592	agrandrb
+psion3	Andragore	Slot 600	agrandrb
+psion4	Andragore	Slot 592	agrandbr
+psiwar1	Psion Warrior	Slot 584	agrandrb
+psiwar2	Psion Warrior	Slot 592	agrandbr
+psiwar3	Psion Warrior	Slot 584	agrandbr
+ptagget	Tagget	Slot 592	agrandrb
+pthral01	Thrall Leader	Slot 592	agrandbr
+pthral02	Thrall	Slot 592	agrandbr
+pthral03	Thrall Fighter	Slot 600	agrandrb
+pthral04	Thrall	Slot 592	agrandbr
+pthral05	Female Thrall	Slot 600	agrandrb
+pthral07	Warden's Thrall	Slot 600	agrandrb
+pthral08	Thrall	Slot 608	agrandbr
+pthral09	Thrall	Slot 608	agrandrb
+pthral10	Thrall	Slot 600	agrandbr
+pthral11	Thrall	Slot 600	agrandbr
+pwarden	Warden	Slot 600	agrandrb
+pwauk1	Counter Carravis	Slot 592	agrandrp
+pwauk2	Haletlatess Jillian	Slot 608	agrandrb
+pwyvv01	Wyvern	Slot 608	agrandrb
+qcaptain	Carlon Lendras	Slot 592	agrandbr
+qcirc03	Circus Performer	Slot 592	agrandrb
+qloot1	Hurgan	Slot 592	agrandbr
+qloot2	Makan	Slot 600	agrandbr
+qloot3	Chobenhair	Slot 592	agrandbr
+qloot4	Laras	Slot 592	agrandbr
+quadkid1	Reno	Slot 592	agrandbr
+quadkid2	Marco	Slot 592	agrandbr
+quadkid3	Keris	Slot 592	agrandrb
+quadtol1	Giant Troll	Slot 600	agrandrb
+quatar	Quataris	Slot 600	agrandbr
+queen	Queen	Slot 584	agrandbr
+quint	Quint Roenall	Slot 592	agrandrb
+r800001	Reingard	Slot 592	agrandbr
+r800002	Norin	Slot 592	agrandrb
+r800003	Ronar	Slot 592	agrandsw
+r800004	Rugnar	Slot 592	agrandbr
+r800005	Hammel	Slot 592	agrandrb
+raelis	Raelis Shai	Slot 600	agrandbr
+rakmah01	Maharajah	Slot 600	agrandbr
+rakraj01	Rajah	Slot 600	agrandrb
+rakruh01	Ruhk	Slot 600	agrandbr
+raksha01	Rakshasa	Slot 600	agrandbr
+ralej	Rayic Gethras	Slot 592	agrandrb
+rance	Statue	Slot 600	agrandrb
+ravager	The Ravager	Slot 592	agrandlx
+razak01	Rezak the Arms Master	Slot 592	agrandbr
+re_anne	Anne	Slot 592	agrandea
+re_carl	Carlos	Slot 592	agrandrb
+re_carl1	Thug	Slot 592	agrandbr
+re_carl2	Thug	Slot 592	agrandea
+re_chand	Chandra	Slot 592	agrandrb
+re_dryad	Dryad	Slot 592	agrandrb
+re_isab	Isabelle	Slot 608	agrandrb
+re_lais	Lais	Slot 592	agrandbr
+re_mekrn	Dryad	Slot 592	agrandrb
+re_mit	Mit	Slot 592	agrandrb
+re_noob	Noober	Slot 600	agrandrb
+re_reb	Rebecca	Slot 592	agrandlx
+re_send	Sendai	Slot 592	agrandrp
+re_sheri	Sheri D'Avignon	Slot 592	agrandnc
+reband01	Bandit	Slot 592	agrandrb
+reband02	Bandit	Slot 592	agrandrp
+reband03	Bandit	Slot 592	agrandbr
+reband04	Bandit	Slot 592	agrandrb
+reband05	Bandit	Slot 592	agrandrb
+rebecca	Rebecca	Slot 592	agrandbr
+reckon	Duergar	Slot 600	agrandbr
+recler01	Slaver	Slot 592	agrandbr
+recler02	Cleric	Slot 592	agrandsw
+redabi01	Red Abishai	Slot 592	agrandbr
+redilav	Dilav	Slot 592	agrandbr
+redrad01	Dradeel	Slot 592	agrandrb
+reeldar	Eldarin	Slot 592	agrandrb
+refigh01	Slaver	Slot 592	agrandsr
+remage01	Slaver Wizard	Slot 584	agrandsh
+remage02	Slaver Wizard	Slot 592	agrandrb
+renal	Renal Bloodscalp	Slot 600	agrandrb
+rengaa	Rengaard	Slot 600	agrandrb
+repthf1	Shadow Thief	Slot 608	agrandrb
+repthf2	Shadow Thief	Slot 592	agrandrp
+repthf3	Shadow Thief	Slot 592	agrandbr
+rerak01	Traveler	Slot 600	agrandrb
+rerak02	Traveler	Slot 600	agrandbr
+rerak03	Traveler	Slot 600	agrandbr
+rerak04	Traveler	Slot 600	agrandrb
+rerak05	Traveler	Slot 600	agrandrb
+rerak06	Traveler	Slot 600	agrandrb
+resuna	Suna Seni	Slot 592	agrandbr
+retalak	Talak	Slot 592	agrandbr
+rethie01	Slaver	Slot 592	agrandrb
+rethie02	Slaver	Slot 592	agrandrb
+rethie03	Slaver	Slot 592	agrandrb
+rethug01	Thug	Slot 592	agrandrb
+rethug02	Mage	Slot 592	agrandbr
+rethug03	Thug	Slot 592	agrandrb
+rethug04	Thug	Slot 592	agrandrb
+reti	Reti	Slot 592	agrandbr
+reven01	Revenant	Slot 584	agrandbr
+riat01	Tolgerias	Slot 600	agrandrb
+riat02	Tolgerias	Slot 600	agrandrb
+riat03	Tolgerias	Slot 600	agrandrb
+riat04	Tolgerias	Slot 600	agrandbr
+riat05	Tolgerias	Slot 600	agrandbr
+riatamne	Myrin	Slot 592	agrandbr
+riatgate	Gatesman	Slot 592	agrandbr
+riatjail	Jailer	Slot 592	agrandbr
+riatmov1	Guardian Mage	Slot 592	agrandbr
+riatmov2	Guardian Mage	Slot 592	agrandbr
+riatmov3	Guardian Mage	Slot 592	agrandrb
+riatmov4	Guardian Ogre	Slot 592	agrandbr
+riatmov5	Guardian Ogre	Slot 592	agrandbr
+ribald	Ribald	Slot 608	agrandbr
+riftcr01	Greater Ghoul	Slot 592	agrandrb
+riftcr02	Skeleton Warrior	Slot 592	agrandrb
+riftcr03	Greater Mummy	Slot 592	agrandlx
+riftcr04	Empathic Manifestation	Slot 600	agrandbr
+riftg03	Avatar	Slot 600	agrandbr
+riftm01	Diseased One	Slot 608	agrandrb
+riftm02	Diseased One	Slot 608	agrandbr
+riftw01	Diseased One	Slot 608	agrandbr
+rigen03	Tombelthen Soldiers	Slot 608	agrandrb
+rinnie	Rinnie	Slot 600	agrandbr
+rngbeh01	Death Tyrant	Slot 592	agrandbr
+rngwlf01	Anath	Slot 608	agrandrg
+rngwlf02	Anath	Slot 584	agrandbr
+rngwlf03	Anath	Slot 608	agrandbr
+rngwlf04	Anath	Slot 584	agrandbr
+rngwlf05	Anath	Slot 600	agrandrb
+robend01	Host Tower Archmage	Slot 592	agrandbr
+robend02	Host Tower Archmage	Slot 592	agrandea
+roborb01	Waterdeep Assassination Wizard	Slot 592	agrandrp
+rock	Rock	Slot 584	agrandbr
+roger	Roger the Fence	Slot 608	agrandrb
+rogtro01	Sea Troll	Slot 592	agrandbr
+rogtro02	Sea Troll	Slot 592	agrandrb
+rondan	Rondan	Slot 584	agrandrb
+rook	Rook	Slot 592	agrandbr
+rorca01	Orc Archer	Slot 584	agrandbr
+rorcl01	Orog Leader	Slot 608	agrandbr
+rorcs01	Orog	Slot 584	agrandrb
+rr#vam01	Vampire	Slot 592	agrandbr
+rskel01	Skeleton	Slot 600	agrandbr
+rskel02	Skeleton Warrior	Slot 592	agrandrb
+rskel03	Skeleton	Slot 592	agrandrb
+rspirit1	Mairyn	Slot 592	agrandrb
+ruffian	Amalas	Slot 600	agrandrb
+rufpal1	Ruffian	Slot 600	agrandbr
+rufpal2	Ruffian	Slot 600	agrandbr
+rumar01	Umar	Slot 600	agrandrb
+rumar02	Nabassu	Slot 600	agrandrb
+rumar03	Imp	Slot 592	agrandbr
+ryan	Sir Paritin	Slot 592	agrandrb
+rylock	Rylock	Slot 608	agrandrb
+rzomb01	Zombie	Slot 600	agrandrb
+sacorc01	Gorrek	Slot 592	agrandbr
+sacorc02	Orc Archer	Slot 592	agrandbr
+sacorc03	Orc Priest	Slot 592	agrandbr
+sacorc04	Orc Mage	Slot 592	agrandrb
+sacorc05	Orc	Slot 592	agrandbr
+sacorc06	Orc Archer	Slot 592	agrandrb
+sacorc07	Orc Priest	Slot 592	agrandbr
+sacorc08	Orc Mage	Slot 592	agrandbr
+sacorc10	Orc	Slot 592	agrandnc
+sacorc9	Orc Archer	Slot 592	agrandbr
+saerk	Saerk Farrahd	Slot 608	agrandrb
+sahamb01	Rebel	Slot 592	agrandbr
+sahamb02	Rebel	Slot 592	agrandbr
+sahamb03	Rebel	Slot 592	agrandbr
+sahamb04	Sahuagin	Slot 592	agrandrb
+sahamb05	Sahuagin	Slot 592	agrandbr
+sahamb06	Sahuagin	Slot 592	agrandbr
+sahbar01	Sahuagin Baronial Guard	Slot 592	agrandbr
+sahbar02	Sahuagin Baron	Slot 592	agrandrb
+sahbar03	Baron Thelokassyil	Slot 592	agrandbr
+sahbeh01	Spectator	Slot 600	agrandea
+sahbeh02	Sziltar's Apparition	Slot 592	agrandbr
+sahbeh03	Sziltar's Apparition	Slot 592	agrandrb
+sahbeh04	Sziltar's Apparition	Slot 592	agrandbr
+sahcapt0	Captain Alyittyl	Slot 600	agrandrb
+sahcapt1	Captain Alyittyl	Slot 600	agrandbr
+sahchf01	Sahuagin Chieftain	Slot 592	agrandrb
+sahcpt01	Captain Alyittyl	Slot 600	agrandrb
+sahcpt02	Captain Feerlattiys	Slot 592	agrandrb
+sahextra	Sahuagin Royal Guard	Slot 592	agrandbr
+sahgrd01	Sahuagin Royal Guard	Slot 592	agrandrb
+sahgrd02	Sahuagin Royal Guard	Slot 592	agrandbr
+sahgrd03	Sahuagin Royal Guard	Slot 592	agrandrb
+sahimp01	Imp	Slot 592	agrandrg
+sahimp02	Imp	Slot 592	agrandrb
+sahimp04	Khelben	Slot 584	agrandbr
+sahimp05	Alustriel	Slot 600	agrandbr
+sahimp06	Piergeiron	Slot 600	agrandbr
+sahkin01	Sahuagin King	Slot 592	agrandbr
+sahkng01	King Ixilthetocal	Slot 592	agrandsh
+sahkng02	King Ixilthetocal	Slot 592	agrandbr
+sahoty01	Ettin	Slot 592	agrandrb
+sahpr1	Royal High Priestess Senityili	Slot 608	agrandrb
+sahpr3	High Priestess Tlyysixxous	Slot 592	agrandrb
+sahpr4	Senior Priestess Sallinithyl	Slot 592	agrandbr
+sahpr5	Priestess of Sekolah	Slot 592	agrandrb
+sahpri01	Sahuagin Prince	Slot 592	agrandbr
+sahpri02	Royal High Priestess	Slot 600	agrandbr
+sahramb1	Rebel	Slot 592	agrandrb
+sahramb2	Rebel	Slot 600	agrandbr
+sahramb3	Priestess	Slot 600	agrandbr
+sahramb4	Rebel	Slot 600	agrandrb
+sahramb5	Rebel	Slot 592	agrandbr
+sahrar01	Rebel	Slot 592	agrandbr
+sahreb02	Prince Villynaty	Slot 600	agrandrb
+sahrgr01	Rebel	Slot 592	agrandbr
+sahrgr02	Rebel	Slot 592	agrandbr
+sahrgr03	Rebel	Slot 600	agrandbr
+sahrnt01	Rebel	Slot 592	agrandbr
+sahryl01	Sahuagin Royal Guard	Slot 592	agrandbr
+sahsss01	Rebel	Slot 592	agrandbr
+sahsss02	Rebel	Slot 592	agrandbr
+sahsss03	Rebel	Slot 608	agrandrb
+sahuag01	Sahuagin	Slot 592	agrandbr
+sahzom01	Sea Zombie Lord	Slot 592	agrandbr
+salam01	Pasha Salam	Slot 592	agrandbr
+salam02	Pasha Salam	Slot 592	agrandrb
+salam03	Pasha Salam	Slot 592	agrandrb
+salam04	Pasha Salam	Slot 592	agrandrg
+salam05	Pasha Salam	Slot 592	agrandbr
+salam06	Pasha Salam	Slot 592	agrandbr
+salvanas	Salvanas	Slot 608	agrandsw
+sarbha01	Alexander Ralisar	Slot 592	agrandrb
+sarbha02	Oris Nimblefinger	Slot 592	agrandrb
+sarbha03	Asmay Jahag	Slot 592	agrandrb
+sarbul01	Human	Slot 600	agrandbr
+sarbul02	Human	Slot 600	agrandrb
+sarbul03	Human	Slot 600	agrandrb
+sarbul04	Il-Khan Soldier	Slot 600	agrandrb
+sarbul05	Il-Khan Soldier	Slot 600	agrandbr
+sarbul06	Il-Khan Soldier	Slot 600	agrandlx
+sarbul07	Il-Khan Soldier	Slot 600	agrandrb
+sarcpt01	Captain Samand	Slot 608	agrandbr
+sarcult	Human Cultist	Slot 608	agrandrb
+sarcult2	Human Cultist	Slot 608	agrandbr
+sarculto	Orc Cultist	Slot 608	agrandbr
+sardw01	Dwarf	Slot 600	agrandrb
+sardw02	Dwarf	Slot 600	agrandbr
+sardw03	Dwarf	Slot 600	agrandrb
+sardw04	Dwarf	Slot 600	agrandea
+sardw05	Dwarf	Slot 592	agrandbr
+sarelf05	Elf	Slot 600	agrandrb
+sarelf06	Elf	Slot 592	agrandrb
+sarev1	Armored Figure	Slot 592	agrandbr
+sarfaki2	Fire Giant	Slot 592	agrandbr
+sarfakie	Fire Giant	Slot 592	agrandsh
+sargrd01	Militia Guard	Slot 600	agrandbr
+sargrd02	Militia Guard	Slot 600	agrandbr
+sargrd03	Militia Guard	Slot 592	agrandrb
+sargrd04	Fighter	Slot 600	agrandrb
+sargrd05	Thief	Slot 600	agrandbr
+sargrd06	Mage	Slot 600	agrandbr
+sargrd07	Fighter	Slot 600	agrandbr
+sargrd08	Fighter	Slot 600	agrandrb
+sargrd09	Thief	Slot 600	agrandrp
+sargrd10	Fighter	Slot 584	agrandbr
+sargrd11	Fighter	Slot 584	agrandrb
+sargrd12	Militia Guard	Slot 600	agrandrb
+sargrd13	Militia Guard	Slot 600	agrandbr
+sargrd14	Militia Guard	Slot 600	agrandrb
+sargrd15	Militia Guard	Slot 600	agrandbr
+sargrd16	Militia Guard	Slot 600	agrandbr
+sarhal	Halfling Cultist	Slot 608	agrandrb
+saripg01	Militia Guard	Slot 592	agrandrb
+saripg02	Militia Guard	Slot 592	agrandrb
+saripg03	Militia Guard	Slot 592	agrandbr
+saripg04	Militia Guard	Slot 592	agrandrb
+sarkis01	Kiser Jhaeri	Slot 600	agrandbr
+sarkis02	Fighter	Slot 608	agrandrb
+sarkis03	Fighter	Slot 584	agrandrb
+sarkis04	Kiser Jhaeri	Slot 600	agrandbr
+sarmag01	Errard	Slot 600	agrandbr
+sarmat01	Mateo	Slot 600	agrandbr
+sarmil01	Militia Soldier	Slot 600	agrandrb
+sarmil02	Militia Captain	Slot 592	agrandbr
+sarmist	Cold Mistress	Slot 600	agrandrb
+sarorc01	Elite Orc	Slot 592	agrandbr
+saroro01	Elite Orog	Slot 592	agrandbr
+sarrein1	Orc	Slot 600	agrandbr
+sarrein2	Human	Slot 600	agrandbr
+sarson01	Ardic Santele	Slot 592	agrandsh
+sarthf01	Hectan	Slot 592	agrandrb
+sartro01	Orc	Slot 608	agrandbr
+sartro02	Human	Slot 608	agrandbr
+sartro03	Orog	Slot 608	agrandbr
+sarvam01	Phlydian	Slot 608	agrandrb
+sarvam02	Vampire	Slot 592	agrandrb
+sarvam03	Vampire	Slot 592	agrandbr
+sarvie01	Viekang	Slot 584	agrandbr
+sassar	Sassar	Slot 592	agrandrb
+scdur	Unger Hilldark	Slot 592	agrandsw
+scjerlia	Jerlia the Ore Merchant	Slot 592	agrandbr
+scsain	Dawnbringer Sain	Slot 592	agrandrb
+sctelwyn	Guardian Telwyn	Slot 608	agrandbr
+scyarryl	Talon Yarryl	Slot 592	agrandrb
+senani01	Moose	Slot 608	agrandbr
+senani02	Deer	Slot 608	agrandbr
+senani03	Squirrel	Slot 608	agrandrb
+senani04	Rabbit	Slot 608	agrandrb
+senani05	Pheasant	Slot 600	agrandsw
+senbeh01	Spectator	Slot 592	agrandrb
+sendai	Sendai	Slot 592	agrandbr
+sendai2	Sendai	Slot 584	agrandrb
+sendai3	Sendai	Slot 592	agrandbr
+sendai4	Sendai	Slot 592	agrandbr
+sendai5	Sendai	Slot 592	agrandbr
+sendai6	Sendai	Slot 592	agrandbr
+sendai7	Sendai	Slot 600	agrandrb
+sendai8	Sendai	Slot 592	agrandbr
+sendro01	Drow	Slot 584	agrandbr
+sendro02	Drow	Slot 592	agrandbr
+sendro03	Drow	Slot 600	agrandrb
+sendro04	Drow	Slot 584	agrandrb
+sendro05	Drow	Slot 584	agrandbr
+senfod01	Drow	Slot 584	agrandbr
+senfod02	Drow	Slot 592	agrandbr
+sengua01	Woodcutter	Slot 608	agrandbr
+sengua02	Guard Captain	Slot 592	agrandrb
+sengua03	Captain Egeissag	Slot 600	agrandbr
+sengua04	Slavemaster	Slot 608	agrandrb
+sengua05	Drow	Slot 592	agrandbr
+senill01	Mithykyl	Slot 592	agrandsr
+senill02	Mithykyl	Slot 592	agrandbr
+senken01	Thelynn'ss	Slot 584	agrandrb
+senlich	Odamaron	Slot 584	agrandrb
+senmonk	Master Bennon	Slot 592	agrandbr
+senorc01	Derro Berserker	Slot 592	agrandrb
+senorc02	Derro	Slot 592	agrandbr
+senorc03	Derro Berserker	Slot 592	agrandrb
+senorc04	Derro	Slot 592	agrandrb
+senpri01	Diaytha	Slot 608	agrandrb
+sensmsp2	Orog	Slot 592	agrandbr
+sethle	Sethle	Slot 608	agrandbr
+sevdru01	Alatelo De Bonito	Slot 600	agrandrp
+sevpat01	Mencar Pebblecrusher	Slot 608	agrandrb
+sevpat03	Pooky	Slot 608	agrandsr
+sevpat04	Smaeluv Orcslicer	Slot 600	agrandbr
+sevpat05	Brennan Risling	Slot 608	agrandrb
+sewarc01	Orc Archer	Slot 600	agrandbr
+sewarc02	Orc Archer	Slot 600	agrandbr
+sewdue01	Duergar Sapper	Slot 600	agrandbr
+sewdue02	Duergar Sapper	Slot 600	agrandrb
+seworo01	Elite Orog	Slot 600	agrandbr
+sewrak01	Rakshasa	Slot 608	agrandrb
+sewyag01	Duergar Sapper	Slot 592	agrandrp
+sewyag02	Orc Archer	Slot 592	agrandrb
+sewyag03	Elite Orog	Slot 592	agrandsr
+sewyag04	Yaga-Shura Mage	Slot 600	agrandrb
+sguard1	Guard	Slot 608	agrandbr
+sguard2	Guard	Slot 608	agrandrb
+sguard3	Guard	Slot 608	agrandbr
+sguard4	Guard	Slot 592	agrandbr
+shabod01	Wallag's Body	Slot 592	agrandbr
+shadth01	Shadow Thief	Slot 600	agrandbr
+shadth02	Rogue	Slot 600	agrandrb
+shaerlee	Shaerlee	Slot 592	agrandrb
+shagho01	Badon's Ghost	Slot 592	agrandrb
+shagho02	Dettseh's Ghost	Slot 592	agrandnc
+shank	Shank	Slot 592	agrandbr
+shape	Frennedan	Slot 592	agrandbr
+sharfit1	Half Quallian Warrior	Slot 592	agrandea
+sharfit2	Tribal Warrior	Slot 592	agrandrb
+sharfit3	Half Quallian Warrior	Slot 592	agrandbr
+sharfit4	Tribal Shaman	Slot 592	agrandbr
+sharthug	Tyrian	Slot 592	agrandrb
+shbones	Skeleton Warrior	Slot 592	agrandrb
+shmind	Mind Flayer	Slot 592	agrandrb
+shth01	Hanz	Slot 600	agrandrb
+shth011	Hanz	Slot 600	agrandrb
+shth02	Goshan	Slot 600	agrandbr
+shth03	Kretor	Slot 608	agrandbr
+shth04	Morsa	Slot 600	agrandrb
+shth05	Joster	Slot 600	agrandbr
+shth06	Varia	Slot 600	agrandrb
+shthass2	Shadow Thief	Slot 592	agrandrb
+shthass3	Thief	Slot 592	agrandsw
+shthdr01	Brannel	Slot 600	agrandrb
+shthlt01	Jariel	Slot 600	agrandbr
+shthlt02	Lathan	Slot 592	agrandnc
+shthstor	Rattell	Slot 608	agrandrb
+shtroll	Troll	Slot 592	agrandbr
+shugar01	Sister Garlena	Slot 600	agrandea
+shugfg01	Vigil Knight	Slot 592	agrandnc
+shugho01	Ghostly Apparition	Slot 600	agrandrb
+shugmg01	Vigil Knight	Slot 592	agrandbr
+shugod01	Odren	Slot 600	agrandbr
+shugod02	Odren	Slot 592	agrandrb
+shugpr01	Vigil Knight	Slot 592	agrandrb
+shupol01	Brother Pol	Slot 592	agrandnc
+shwolf	Greater Wolfwere	Slot 592	agrandbr
+sirine01	Sirine	Slot 608	agrandrg
+skelar01	Skeleton Archer	Slot 592	agrandbr
+skelar02	Skeleton Archer	Slot 592	agrandrb
+skelet	Skeleton	Slot 592	agrandrb
+skelet_a	Skeleton	Slot 592	agrandrb
+skelet01	Skeleton	Slot 592	agrandbr
+skelet02	Skeleton	Slot 592	agrandbr
+skelets	Skeleton	Slot 592	agrandrb
+skelhp1	Skeleton	Slot 592	agrandrb
+skellord	Skeleton Lord	Slot 592	agrandsh
+skelwa	Skeleton Warrior	Slot 592	agrandbr
+skelwa01	Skeleton Warrior	Slot 592	agrandrb
+skelwa02	Skeleton Warrior	Slot 584	agrandbr
+skelwa03	Skeleton Warrior	Slot 584	agrandea
+skelwax2	Skeleton Warrior	Slot 592	agrandrb
+skelwax3	Skeleton Warrior	Slot 592	agrandrb
+slamng01	Amnian Soldier	Slot 592	agrandrb
+slandor	Andorian	Slot 592	agrandcl
+slapri	Priest of Cyric	Slot 600	agrandrb
+slarch1	Slaver Guard	Slot 592	agrandbr
+slaver1	Slaver Guard	Slot 600	agrandbr
+slaver2	Slaver Guard	Slot 592	agrandrb
+slaver3	Slaver Guard	Slot 592	agrandbr
+slaver4	Slaver Guard	Slot 592	agrandrb
+slayer	Slayer	Slot 592	agrandrb
+slayer2	Slayer	Slot 592	agrandrb
+slayer3	Slayer	Slot 592	agrandsr
+slaysh01	Slayer Shadow	Slot 592	agrandrb
+slcent	Amnian Centurion	Slot 600	agrandbr
+slguard1	Slaver Guard	Slot 592	agrandrb
+slguard2	Slaver Guard	Slot 592	agrandbr
+slilmat	Priest of Ilmater	Slot 608	agrandbr
+slmage1	Slaver Wizard	Slot 600	agrandrb
+slshop01	Black Market Thief	Slot 608	agrandbr
+snaksw1	Yuan-Ti Mage	Slot 592	agrandbr
+snaksw10	Greater Yuan-Ti	Slot 584	agrandbr
+snaksw11	Yuan-Ti Mage	Slot 592	agrandbr
+snaksw12	Yuan-Ti Mage	Slot 592	agrandbr
+snaksw2	Greater Yuan-Ti	Slot 592	agrandrb
+snaksw3	Greater Yuan-Ti	Slot 584	agrandbr
+snaksw5	Greater Yuan-Ti	Slot 592	agrandrb
+snaksw6	Greater Yuan-Ti	Slot 592	agrandbr
+snaksw7	Greater Yuan-Ti	Slot 592	agrandrb
+snaksw8	Greater Yuan-Ti	Slot 592	agrandrb
+snaksw9	Greater Yuan-Ti	Slot 584	agrandea
+solar	Solar	Slot 592	agrandbr
+solar01	Solar	Slot 592	agrandlx
+sorced	Sonner	Slot 592	agrandrb
+sorovin	Sorovin	Slot 592	agrandbr
+sphurg	Hurg	Slot 592	agrandrb
+spjeag	Jeagger	Slot 592	agrandbr
+spmugg	Mugger	Slot 592	agrandbr
+spmugg2	Ruffian Captain	Slot 592	agrandrb
+spmugg3	Thug	Slot 600	agrandbr
+sppain	Pai'Na	Slot 600	agrandbr
+starcher	Shadow Thief Archer	Slot 592	agrandbr
+stass1	Shadow Thief Assassin	Slot 592	agrandbr
+stdeath	Arkanis Gath	Slot 592	agrandlx
+stein	Stein	Slot 608	agrandbr
+stguard1	Shadow Thief Sentry	Slot 592	agrandrb
+stguard2	Shadow Thief	Slot 592	agrandrb
+stguard3	Shadow Thief	Slot 592	agrandrb
+stmage	Shadow Thief	Slot 600	agrandrb
+stolethf	Shadow Thief	Slot 592	agrandbr
+stoneser	Rock Servant	Slot 592	agrandrb
+suadsaan	Adsaan	Slot 600	agrandbr
+sudemde1	Balor	Slot 584	agrandbr
+sudemde2	Balor	Slot 584	agrandbr
+sudemon	Balor	Slot 592	agrandbr
+sudemon2	Balor	Slot 592	agrandrb
+sudemw1	Balor	Slot 584	agrandrb
+suelf11	Wounded Elf	Slot 592	agrandbr
+suelf12	Captain Aduo'on	Slot 592	agrandbr
+suelf13	Elven Warrior	Slot 600	agrandbr
+suelf6	Elven Warrior	Slot 608	agrandrb
+suelf7	Elven Warrior	Slot 608	agrandrb
+suelf8	Elven Warrior	Slot 608	agrandsw
+suelf9	Wounded Elf	Slot 592	agrandbr
+suelfw1	Elven Warrior	Slot 600	agrandbr
+suelfw10	Elven Battle Mage	Slot 600	agrandbr
+suelfw11	Elven Battle Mage	Slot 600	agrandrb
+suelfw12	Elven Battle Mage	Slot 600	agrandrb
+suelfw13	Elven Archer	Slot 600	agrandrb
+suelfw14	Elven Archer	Slot 600	agrandrb
+suelfw15	Elven Archer	Slot 600	agrandrb
+suelfw2	Elven Warrior	Slot 600	agrandsw
+suelfw3	Elven Warrior	Slot 600	agrandsw
+suelfw4	Elven Warrior	Slot 600	agrandrb
+suelfw5	Elven Warrior	Slot 600	agrandrb
+suelfw6	Elven Warrior	Slot 600	agrandbr
+suelfw7	Elven Warrior	Slot 600	agrandbr
+suelfw8	Elven Warrior	Slot 600	agrandrb
+suelfw9	Elven Battle Mage	Slot 600	agrandbr
+suelhan	Elhan	Slot 592	agrandbr
+suelle	Ellesime	Slot 592	agrandrb
+suelle2	Ellesime	Slot 592	agrandbr
+suelleap	Ellesime	Slot 592	agrandrb
+suelleg1	Elven Warrior	Slot 592	agrandrb
+suendel1	Elven Warrior	Slot 592	agrandlx
+suendel2	Elven Warrior	Slot 592	agrandrb
+suendel3	Elf Male	Slot 592	agrandnc
+suendel4	Elf Female	Slot 592	agrandrb
+suendel5	Elf	Slot 592	agrandrb
+suendel6	Elf	Slot 592	agrandbr
+suendel7	Elven Warrior	Slot 592	agrandrb
+suendel8	Elven Warrior	Slot 592	agrandbr
+sumoon	Elven Warrior	Slot 592	agrandrb
+suna	Suna Seni	Slot 592	agrandbr
+super1	Calahan	Slot 592	agrandrb
+suraam	Raamilat	Slot 600	agrandbr
+surakmah	Maharajah	Slot 600	agrandbr
+surakraj	Rajah	Slot 600	agrandbr
+surakruh	Ruhk	Slot 600	agrandbr
+suraksha	Rakshasa	Slot 600	agrandbr
+surakw1	Rakshasa	Slot 592	agrandrb
+surakw2	Rakshasa	Slot 592	agrandbr
+surakw3	Rakshasa	Slot 592	agrandbr
+surakw4	Rakshasa	Slot 592	agrandbr
+surly	Surly	Slot 600	agrandbr
+susuneer	Suneer	Slot 600	agrandrb
+sutroll	Troll	Slot 600	agrandbr
+sutroll2	Troll	Slot 592	agrandrb
+suundead	Skeleton Warrior	Slot 592	agrandbr
+suziyaad	Ziyaad	Slot 592	agrandbr
+swsfoll1	Kobold Commando	Slot 600	agrandrb
+swsfoll2	Kobold	Slot 600	agrandbr
+swsfoll3	Kobold	Slot 600	agrandrb
+swsfoll4	Kobold	Slot 600	agrandrb
+swsfoll5	Kobold	Slot 600	agrandrb
+swsfoll6	Kobold Commando	Slot 600	agrandbr
+swshaman	Kobold Shaman	Slot 600	agrandsr
+talkni01	Storm Knight	Slot 592	agrandrb
+talkni02	Storm Knight	Slot 592	agrandbr
+talmiss	Mistress Ada	Slot 592	agrandlx
+talmiss2	Mistress Ada	Slot 608	agrandrb
+talmur	Talmur	Slot 592	agrandbr
+talvilon	Acolyte Vilon	Slot 608	agrandcl
+tanadv01	Strachan Fireblade	Slot 592	agrandrb
+tanadv02	Adventurer	Slot 592	agrandrb
+tanadv03	Adventurer	Slot 592	agrandrb
+tanadv04	Adventurer	Slot 592	agrandrb
+tanadv05	Adventurer	Slot 600	agrandrb
+tanadv06	Dunbar the Fifth	Slot 600	agrandbr
+tanally1	Fael	Slot 592	agrandbr
+tanari01	Tanar'ri	Slot 592	agrandbr
+tanarixa	Tanar'ri	Slot 592	agrandsw
+tanarixb	Tanar'ri	Slot 592	agrandrb
+tanner	Rejiek Hidesman	Slot 608	agrandrb
+tanskw1	Skeleton Warrior	Slot 592	agrandsh
+tanthf01	Rune Assassin	Slot 592	agrandlx
+tantug01	Thug	Slot 592	agrandbr
+tantug02	Thug	Slot 592	agrandbr
+tantug03	Thug	Slot 592	agrandbr
+tanwiz02	Mage	Slot 584	agrandbr
+tanwiz03	Mage	Slot 584	agrandbr
+tanwiz04	Mage	Slot 584	agrandbr
+tanwiz1	Vellin Dahn	Slot 600	agrandrb
+tarnor	Tarnor the Hatchetman	Slot 600	agrandrb
+tartar01	Tartarus	Slot 592	agrandrb
+tartarus	Tartarus	Slot 592	agrandbr
+tasloi01	Tasloi	Slot 592	agrandbr
+tasloi02	Tasloi	Slot 592	agrandbr
+tasloi03	Tasloi	Slot 592	agrandrb
+tazok	Tazok	Slot 600	agrandbr
+tdr10a	Kyland Lind	Slot 608	agrandrb
+tdr10b	Shadow Druid	Slot 600	agrandrb
+tdr6a	Shadow Druid	Slot 600	agrandbr
+tdr8a	Shadow Druid	Slot 600	agrandbr
+tdr8b	Shadow Druid	Slot 600	agrandrb
+telagent	Teldorn Agent	Slot 592	agrandbr
+telalu1	Alu-Fiend	Slot 592	agrandrb
+telarch1	Teldorn Archer	Slot 600	agrandrb
+telarch2	Teldorn Archer	Slot 600	agrandbr
+telbal1	Balor	Slot 592	agrandrb
+telcam1	Cambion	Slot 592	agrandrp
+telcler1	Banite Priest	Slot 584	agrandrb
+telcor1	Cornugon	Slot 592	agrandrb
+telfght1	Teldorn Fighter	Slot 592	agrandrb
+telfght2	Teldorn Fighter	Slot 592	agrandea
+telfght3	Teldorn Fighter	Slot 600	agrandbr
+telfght4	Teldorn Fighter	Slot 600	agrandlx
+telimp1	Imp	Slot 592	agrandbr
+telmess1	Teldorn Messenger	Slot 592	agrandbr
+telmess2	Teldorn Messenger	Slot 592	agrandrb
+telpit1	Pit Fiend	Slot 592	agrandrb
+telpit2	Pit Fiend	Slot 592	agrandbr
+telqua1	Quasit	Slot 592	agrandrb
+telqua2	Quasit	Slot 592	agrandrb
+telslav	Slave Wraith	Slot 600	agrandbr
+teltan1	Glabrezu	Slot 592	agrandrb
+teltan2	Glabrezu	Slot 592	agrandrb
+teltief1	Tiefling	Slot 592	agrandcl
+teltief2	Tiefling	Slot 592	agrandrb
+teltief3	Tiefling	Slot 592	agrandrb
+telwrai	Demon Wraith	Slot 592	agrandrb
+temsup	Overgold Renwellyn	Slot 592	agrandbr
+tenya	Tenya	Slot 608	agrandrb
+terl	Terl	Slot 608	agrandbr
+termer01	Mercenary	Slot 608	agrandrp
+termer03	Mercenary	Slot 608	agrandsw
+termer04	Mercenary	Slot 608	agrandbr
+termer05	Mercenary	Slot 608	agrandbr
+terrece	Terrece	Slot 608	agrandbr
+tethtori	Tethtoril	Slot 592	agrandbr
+theshal	Theshal	Slot 600	agrandrb
+thief1	Sidge	Slot 592	agrandlx
+thief2	Shadow Thief	Slot 592	agrandsr
+thief3	Shadow Thief	Slot 592	agrandbr
+thief4	Shadow Thief	Slot 592	agrandbr
+thief5	Gorvin	Slot 592	agrandrb
+thief6	Zyntris	Slot 608	agrandbr
+thief7	Anishai	Slot 608	agrandrb
+thief8	Shadow Thief	Slot 608	agrandrb
+thork1	Thorknar	Slot 592	agrandrb
+thork2	Thorknar	Slot 592	agrandrb
+thork3	Thorknar	Slot 592	agrandrb
+thork4	Thorknar	Slot 592	agrandrb
+thorkd1	Ranas	Slot 592	agrandbr
+thorkd2	Ranas	Slot 592	agrandbr
+thorkd3	Ranas	Slot 592	agrandrb
+thorkd4	Ranas	Slot 592	agrandbr
+thraxi	Thraxis Gall	Slot 584	agrandrb
+tiana	Tiana	Slot 600	agrandbr
+tirthold	Tirthold	Slot 592	agrandbr
+tobban01	Sharik Nefal	Slot 600	agrandbr
+tobban02	Orc Archer	Slot 600	agrandbr
+tobban03	Orc	Slot 600	agrandbr
+tobban04	Orog	Slot 600	agrandsw
+tobpar01	Eler Had	Slot 608	agrandbr
+tobpar02	Berena Elkan	Slot 600	agrandlx
+tobpar03	Long Po	Slot 600	agrandbr
+tobpar04	Karun the Black	Slot 608	agrandbr
+tobpar05	Delga Deepdelver	Slot 600	agrandrp
+tobpar06	Helena Fairhand	Slot 600	agrandrb
+tolger	Tolgerias	Slot 600	agrandrb
+tolmag01	Mage	Slot 592	agrandrb
+tolmag02	Mage	Slot 600	agrandbr
+topeslav	Duralerant	Slot 592	agrandbr
+torgal	TorGal	Slot 608	agrandbr
+torgal2	TorGal	Slot 592	agrandbr
+torgal3	TorGal	Slot 584	agrandrb
+travgrd1	Calimport Guard	Slot 592	agrandbr
+travgrd2	Calimport Guard	Slot 592	agrandrb
+travgrd3	Calimport Guard	Slot 592	agrandrb
+travgrd4	Calimport Guard	Slot 592	agrandrb
+travgrd5	Calimport Guard	Slot 592	agrandbr
+travin	Travin	Slot 592	agrandbr
+travmag2	Calimport Apprentice	Slot 592	agrandrb
+travmage	Calimport Archmage	Slot 584	agrandbr
+trcar03	Caravan Driver	Slot 592	agrandrb
+trcut05	Lady Lilith Lurraxol	Slot 600	agrandbr
+trcut06	Lord Skarmaen Alibakkar	Slot 600	agrandrb
+trcut07	High Merchant Logan Coprith	Slot 592	agrandrb
+trevil01	Lord Khellon Menold	Slot 600	agrandrb
+trevil02	Guardian of the Source	Slot 608	agrandrb
+trevil03	Master Verthan	Slot 608	agrandrb
+trfued01	Lady Lilith Lurraxol	Slot 608	agrandbr
+trfued02	Lurraxol Guard	Slot 608	agrandrb
+trfued03	Lurraxol Guard	Slot 608	agrandsr
+trfued04	Lurraxol Guard	Slot 608	agrandbr
+trfued06	Alibakkar Guard	Slot 600	agrandrb
+trfued07	Alibakkar Guard	Slot 608	agrandlx
+trfued08	Alibakkar Guard	Slot 608	agrandrb
+trfued10	Alibakkar Guard	Slot 608	agrandrb
+trfued11	Militia Wizard	Slot 608	agrandbr
+trgeni01	Khan Zahraa	Slot 600	agrandrb
+trgeni02	Taquee	Slot 600	agrandrb
+trgeni03	Faafirah	Slot 600	agrandnc
+trgyp04	Jidek	Slot 592	agrandbr
+trlgrd01	Lord Logan's Guard	Slot 592	agrandrb
+trolde01	Desert Troll	Slot 592	agrandbr
+trolde02	Desert Troll	Slot 592	agrandnc
+trolfr01	Freshwater Troll	Slot 592	agrandnc
+trolfr02	Freshwater Troll	Slot 592	agrandbr
+trolgi01	Giant Troll	Slot 600	agrandrb
+trolgi02	Giant Troll	Slot 600	agrandlx
+trolic01	Ice Troll	Slot 592	agrandbr
+trolic02	Ice Troll	Slot 592	agrandbr
+trolic03	Blizzard Troll	Slot 592	agrandrb
+trolic04	Blizzard Troll	Slot 592	agrandrb
+trolicdd	Rotted Ice Troll	Slot 600	agrandbr
+troll01	Troll	Slot 592	agrandbr
+troll02	Troll	Slot 592	agrandbr
+troll03	Troll	Slot 600	agrandnc
+trollens	Giant Troll	Slot 608	agrandrb
+trollsm2	Troll	Slot 600	agrandbr
+trolsi01	Spirit Troll	Slot 592	agrandbr
+trolsi02	Spirit Troll	Slot 592	agrandrb
+trolsn01	Snow Troll	Slot 592	agrandnc
+trolsn02	Snow Troll	Slot 592	agrandrb
+trolsp01	Spectral Troll	Slot 592	agrandbr
+trolsp02	Spectral Troll	Slot 592	agrandbr
+troluo01	Troll	Slot 600	agrandbr
+trple01	Wilfred the Red	Slot 592	agrandrb
+trrak04	Ruhk	Slot 584	agrandbr
+trskin01	Raissa	Slot 592	agrandrb
+trskin02	Tiris	Slot 600	agrandbr
+trskin03	Rejiek Hidesman	Slot 592	agrandrb
+trskin06	Darsidian Moor	Slot 592	agrandbr
+trskin3b	Rejiek Hidesman	Slot 592	agrandrb
+trskin6b	Darsidian Moor	Slot 592	agrandbr
+trskind1	Rejiek Hidesman	Slot 592	agrandbr
+trskind2	Darsidian Moor	Slot 592	agrandrb
+trtavp05	Alenina	Slot 592	agrandbr
+trthf01	Itona	Slot 592	agrandsr
+trthf02	Kich	Slot 592	agrandbr
+trthf03	Shadow Thief	Slot 592	agrandbr
+ttbelt	Belt	Slot 600	agrandrb
+ttgibb	Gibberling	Slot 592	agrandbr
+ttkob	Kobold	Slot 592	agrandsw
+ttser1	Jospil	Slot 592	agrandrb
+ttser2	Brevin	Slot 592	agrandbr
+ttskel	Skeleton	Slot 592	agrandlx
+turn	Cleric	Slot 592	agrandbr
+u!kgen	Genie	Slot 592	agrandrb
+u!kjaf	Jafir	Slot 600	agrandcl
+ubcorian	Corianna	Slot 592	agrandrb
+ubogma01	Ogre Mage	Slot 592	agrandbr
+ubogma02	Ogre Mage	Slot 592	agrandcl
+udbalor	Balor	Slot 584	agrandlx
+udbeho01	Beholder	Slot 592	agrandbr
+udbeho02	Beholder	Slot 592	agrandbr
+udchal	Chalinthra	Slot 592	agrandrb
+udcom03	Drow Patron	Slot 600	agrandrb
+uddear02	Uder Mordin	Slot 592	agrandbr
+uddear03	Finderlig	Slot 592	agrandrb
+uddeath	Demon Knight	Slot 592	agrandbr
+uddeath2	Demon Knight	Slot 592	agrandrb
+uddemon	Lesser Demon Lord	Slot 584	agrandrb
+uddoor01	Drow	Slot 600	agrandbr
+uddoor02	Drow	Slot 608	agrandrb
+uddoor03	Drow	Slot 600	agrandbr
+uddoor05	Drow Wizard	Slot 608	agrandrb
+uddoor06	Drow Priestess	Slot 608	agrandbr
+uddoor07	Skeleton	Slot 608	agrandbr
+uddoor09	Drow	Slot 592	agrandrb
+uddrow01	Matron's Guard	Slot 600	agrandrb
+uddrow02	Executioner	Slot 600	agrandrb
+uddrow03	Ritual Guard	Slot 608	agrandbr
+uddrow04	Szordrin	Slot 600	agrandnc
+uddrow05	Drow Cook	Slot 600	agrandlx
+uddrow06	Ilmryn	Slot 600	agrandrb
+uddrow07	Merinid	Slot 600	agrandbr
+uddrow08	Baragh	Slot 600	agrandbr
+uddrow09	Tathlyn	Slot 600	agrandrb
+uddrow10	Nym Khalazza	Slot 600	agrandbr
+uddrow11	Drow	Slot 600	agrandbr
+uddrow12	Drow	Slot 600	agrandbr
+uddrow13	Drow	Slot 600	agrandsr
+uddrow15	Drow	Slot 600	agrandbr
+uddrow16	Sondal	Slot 600	agrandrb
+uddrow17	Drow	Slot 584	agrandbr
+uddrow18	Drow	Slot 584	agrandrb
+uddrow19	Drow	Slot 600	agrandbr
+uddrow20	Egg Guard	Slot 592	agrandrb
+uddrow21	Egg Guard	Slot 592	agrandlx
+uddrow22	Drow Bartender	Slot 592	agrandbr
+uddrow23	Drow	Slot 592	agrandbr
+uddrow24	Drow	Slot 592	agrandrb
+uddrow25	Drow	Slot 592	agrandbr
+uddrow26	Drow	Slot 592	agrandrb
+uddrow27	Drow	Slot 584	agrandbr
+uddrow28	Drow	Slot 592	agrandrb
+uddrow29	Drow	Slot 584	agrandrb
+uddrow30	Drow	Slot 592	agrandbr
+uddrow31	Drow	Slot 592	agrandrb
+uddrow32	Drow Warrior	Slot 600	agrandbr
+uddrow33	Drow Warrior	Slot 600	agrandbr
+uddrow35	Priestess of Lolth	Slot 600	agrandbr
+uddrow36	Handmaiden of Lolth	Slot 600	agrandbr
+uddrow37	Drow	Slot 600	agrandrb
+uddrow50	Drow Wizard	Slot 600	agrandbr
+uddwarf	Insane Dwarf Warrior	Slot 584	agrandbr
+udelder	Elder Orb	Slot 592	agrandrb
+udgirl	Priestess of Lolth	Slot 592	agrandbr
+udill01	Mind Flayer	Slot 592	agrandbr
+udill02	Umber Hulk	Slot 592	agrandbr
+udimp	Imp	Slot 592	agrandrp
+udimrae	Imrae	Slot 600	agrandrb
+udkuo01	Kuo-toan Leader	Slot 600	agrandbr
+udkuo02	Master Whip	Slot 608	agrandrb
+udlesa	Lasaonar	Slot 600	agrandbr
+udman	Drow	Slot 592	agrandbr
+udmind01	Mind Flayer	Slot 584	agrandrp
+udmind02	Mind Flayer	Slot 600	agrandnc
+udmind03	Mind Flayer	Slot 584	agrandrb
+udmind04	Mind Flayer	Slot 584	agrandea
+udmind10	Mind Flayer	Slot 600	agrandrb
+udnaba	Nabassu	Slot 592	agrandrb
+udogre	Ogre	Slot 592	agrandbr
+udphae02	Phaere	Slot 592	agrandrb
+udprince	Kuo-toan Prince	Slot 600	agrandbr
+udrunner	Drow	Slot 592	agrandrb
+udsaha	Sahuagin Prince	Slot 592	agrandbr
+udsilver	Adalon	Slot 592	agrandbr
+udsimyaz	Simyaz	Slot 608	agrandbr
+udsvdead	Svirfneblin	Slot 592	agrandrb
+udsvir02	Svirfneblin	Slot 600	agrandrb
+udsvir03	Goldander Blackenrock	Slot 600	agrandrb
+udsvir04	Innkeeper 	Slot 600	agrandbr
+udsvir05	Therndle Daglefodd	Slot 600	agrandrb
+udsvir06	Svirfneblin	Slot 600	agrandbr
+udtrap01	Madman Aganalo	Slot 592	agrandrb
+udtrap02	Raevilin Strathi	Slot 592	agrandbr
+udtrap03	Riti	Slot 600	agrandrb
+udtrap04	Alchra Diagott	Slot 600	agrandrb
+udtrap05	Gont of Riatavin	Slot 592	agrandrb
+udtrap06	Bedlen Daglefodd	Slot 600	agrandbr
+udumb02	Umber Hulk	Slot 592	agrandbr
+udumber	Umber Hulk	Slot 592	agrandrb
+udvamp	Vampiric Illithid	Slot 592	agrandrb
+uhcreat2	Diseased Gibberling	Slot 600	agrandbr
+uhgibb01	Diseased Gibberling	Slot 592	agrandbr
+uhkid01	Dirbert	Slot 600	agrandbr
+uhkid02	Valsben	Slot 592	agrandbr
+uhkid03	Neler	Slot 592	agrandbr
+uhman02	Nelleck	Slot 600	agrandbr
+uhmer01	Elence Fielding	Slot 600	agrandbr
+uhogre03	Minotaur	Slot 608	agrandbr
+uhogre04	Gnoll	Slot 600	agrandbr
+uhogre05	Orc	Slot 600	agrandrb
+uhrang01	Merella	Slot 592	agrandrb
+ulraun	Ulraunt	Slot 600	agrandrb
+umbcali1	Umber Hulk	Slot 592	agrandbr
+umbcali2	Umber Hulk	Slot 592	agrandrb
+umbcali3	Umber Hulk	Slot 592	agrandrb
+umbcali4	Umber Hulk	Slot 592	agrandbr
+umbcali5	Umber Hulk	Slot 592	agrandbr
+umbhul01	Umber Hulk	Slot 592	agrandbr
+umbhul02	Umber Hulk Elder	Slot 592	agrandrg
+unsee	The Unseeing Eye	Slot 592	agrandbr
+va#astsd	Astral Shard	Slot 592	agrandrb
+va#balor	Baloar	Slot 600	agrandbr
+va#ghost	Spirit	Slot 592	agrandrb
+va#guli2	Gulin	Slot 592	agrandrp
+va#gulin	Gulin	Slot 592	agrandbr
+va#kergo	Captain Kergo	Slot 592	agrandrb
+va#lich	Servant	Slot 592	agrandbr
+va#lizrd	Lizard Man Shaman	Slot 592	agrandbr
+va#maril	Astral Shard Guardian	Slot 592	agrandrb
+va#minot	Minotaur	Slot 592	agrandrb
+va#orc	Orc Archer	Slot 592	agrandbr
+va#orog	Orog	Slot 592	agrandbr
+va#panda	Pandaira	Slot 592	agrandrb
+va#tian	Tian	Slot 600	agrandbr
+va#tian2	Tian	Slot 592	agrandlx
+va#wiste	Wistemach	Slot 592	agrandbr
+vaelag	Vaelag	Slot 600	agrandbr
+vaelasa	Vaelasa	Slot 600	agrandnc
+vaelg01	Vaelag's Guard	Slot 592	agrandrb
+vail	Statue	Slot 592	agrandbr
+vakfgt01	Thug	Slot 600	agrandbr
+vakg01	Mage	Slot 592	agrandbr
+vakg02	Archer	Slot 592	agrandbr
+vakg03	Thief	Slot 600	agrandbr
+vakg04	Goon	Slot 592	agrandrb
+vakmag01	Mage	Slot 600	agrandbr
+vakola	Vakola	Slot 600	agrandrb
+vakthf01	Thug	Slot 600	agrandsw
+valinor	Valinor	Slot 592	agrandrb
+valinor1	Valinor	Slot 592	agrandsr
+valmag01	Mage	Slot 592	agrandea
+valmag02	Mage	Slot 592	agrandrb
+valmag03	Mage	Slot 592	agrandrb
+valran01	Derrick	Slot 592	agrandrb
+valran02	Ranger	Slot 600	agrandbr
+valran03	Ranger	Slot 592	agrandrb
+vamanc01	Vampire	Slot 592	agrandrb
+vamemi01	Vampire	Slot 592	agrandbr
+vamflf01	Fledgling Vampire	Slot 592	agrandrb
+vamflm01	Fledgling Vampire	Slot 592	agrandcl
+vammat01	Vampire	Slot 592	agrandrb
+vamold01	Vampire	Slot 592	agrandbr
+vampamb	Vampire	Slot 592	agrandrb
+vampat01	Vampire	Slot 592	agrandrb
+vampbat	Vampire Bat	Slot 592	agrandrb
+vampif01	Vampire	Slot 592	agrandrb
+vampim01	Vampire	Slot 592	agrandrb
+vampire1	Ulvaryl	Slot 592	agrandea
+vampm01	Vampire	Slot 592	agrandrb
+vampyf01	Vampyre	Slot 592	agrandrb
+vampym01	Vampyre	Slot 592	agrandbr
+vamq1	Vampyre	Slot 592	agrandrb
+vamver01	Vampire	Slot 592	agrandbr
+vara	Vara Fentan	Slot 592	agrandrb
+vicg1	Fanatic	Slot 608	agrandsr
+vicg2	Fanatic	Slot 600	agrandbr
+vicg3	Fanatic	Slot 600	agrandrb
+vicpri01	Handmaiden of Lolth	Slot 592	agrandrb
+victown3	Nobleman	Slot 600	agrandbr
+viekang	Viekang	Slot 592	agrandbr
+vulfgt01	Laen Torg	Slot 592	agrandea
+vulfgt02	Vulova Wizard	Slot 600	agrandrb
+vulova	Senior Armagaran Vulova	Slot 600	agrandrb
+vvamn1	Amnian Soldier	Slot 592	agrandbr
+vvamn2	Amnian Soldier	Slot 608	agrandrb
+vvamn3	Amnian Soldier	Slot 600	agrandbr
+vvarkan	Arkanis Gath	Slot 608	agrandrb
+vvbodhi	Bodhi	Slot 600	agrandrb
+vvcat	Shadow Thief	Slot 600	agrandrb
+vvdead1	Shadow Thief	Slot 600	agrandbr
+vvdead2	Shadow Thief	Slot 600	agrandbr
+vvdead3	Shadow Thief	Slot 600	agrandrg
+vvfemal1	Vampire	Slot 600	agrandrb
+vvfemal2	Vampire	Slot 600	agrandrb
+vvfemal3	Vampire	Slot 600	agrandbr
+vvhareis	Hareishan	Slot 600	agrandbr
+vvmadman	Shadow Thief	Slot 600	agrandbr
+vvmale1	Vampire	Slot 600	agrandbr
+vvmale2	Vampire	Slot 600	agrandbr
+vvmale3	Vampire	Slot 600	agrandrb
+vvmale4	Vampire	Slot 600	agrandbr
+vvmale5	Vampire	Slot 600	agrandrb
+vvmale6	Vampire	Slot 600	agrandbr
+vvmale7	Vampire	Slot 600	agrandrb
+vvpriest	Priest of Talos	Slot 600	agrandrb
+vvryokoi	Ryokoi	Slot 600	agrandbr
+vvsalia	Salia	Slot 600	agrandbr
+vvsansuk	Sansuki	Slot 608	agrandrb
+vvshad1	Shadow Thief	Slot 600	agrandsw
+vvshad10	Shadow Thief	Slot 600	agrandrb
+vvshad11	Shadow Thief	Slot 600	agrandbr
+vvshad12	Shadow Thief	Slot 600	agrandrb
+vvshad2	Shadow Thief	Slot 600	agrandrb
+vvshad3	Shadow Thief	Slot 600	agrandrb
+vvshad4	Shadow Thief	Slot 600	agrandrb
+vvshad5	Shadow Thief	Slot 600	agrandrb
+vvshad6	Shadow Thief	Slot 600	agrandbr
+vvshad7	Shadow Thief	Slot 600	agrandbr
+vvshad8	Shadow Thief	Slot 600	agrandrb
+vvshad9	Shadow Thief	Slot 600	agrandrb
+vvtanov	Tanova	Slot 600	agrandbr
+walla	Wallace	Slot 608	agrandrb
+wardabi1	Silver Abishai	Slot 592	agrandbr
+wardabi2	Silver Abishai	Slot 592	agrandrb
+wardmaga	Virdei Forgebrand	Slot 584	agrandrb
+wardmagb	Eris Elenaak	Slot 584	agrandrp
+wardmagc	Virdei Forgebrand	Slot 584	agrandrb
+wardtief	Erinyes	Slot 592	agrandrb
+wardwiz1	Grand Mage	Slot 592	agrandbr
+wardwiz2	Grand Mage	Slot 592	agrandrb
+wardwiz3	Grand Mage	Slot 592	agrandrb
+wardwiz4	Grand Mage	Slot 592	agrandsw
+wardwiz5	Grand Mage	Slot 592	agrandrb
+wardwizs	Strumpet	Slot 592	agrandbr
+warsage	Elven War Sage	Slot 592	agrandbr
+waukni01	Waukeenar Knight	Slot 592	agrandsw
+wcust04	Customer	Slot 600	agrandrb
+wellyn	Wellyn	Slot 600	agrandbr
+weregr01	Greater Werewolf	Slot 584	agrandrp
+weregrdr	Greater Werewolf	Slot 584	agrandrb
+werewo01	Werewolf	Slot 584	agrandrb
+werewodr	Werewolf	Slot 584	agrandrb
+werewogr	Greater Werewolf	Slot 584	agrandrb
+werewyv1	Ekim Cyre	Slot 600	agrandrb
+werewyv2	Ekim Cyre	Slot 600	agrandrb
+william	Sir Branet Al-Thon	Slot 592	agrandbr
+wilmat	Priestess of Ilmater	Slot 592	agrandsw
+winthr3	Winthrop	Slot 584	agrandbr
+wish01	Djinni	Slot 592	agrandbr
+wish02	Djinni	Slot 592	agrandbr
+wolfgr01	Greater Wolfwere	Slot 584	agrandsr
+wolfwe01	Wolfwere	Slot 584	agrandsh
+wolfwe02	Wolfwere	Slot 584	agrandrb
+worker01	Laborer	Slot 592	agrandbr
+worker02	Laborer	Slot 592	agrandrb
+wraith01	Wraith	Slot 592	agrandbr
+wrashi01	Shimmering Wraith	Slot 592	agrandrb
+wtthork5	Thorknar	Slot 592	agrandsw
+wtthork6	Thorknar	Slot 592	agrandbr
+wwarro1	De'Lyl Guardsman	Slot 592	agrandbr
+wwarro2	De'Lyl Guardsman	Slot 592	agrandbr
+wwbilly	Billy	Slot 592	agrandbr
+wwcowl1	Cowled Enforcer	Slot 592	agrandrb
+wwcowl2	Cowled Enforcer	Slot 592	agrandrg
+wwdelag	Delag	Slot 592	agrandbr
+wweff	Eforf	Slot 592	agrandrb
+wwelle	Eleanya	Slot 592	agrandcl
+wwfght1	De'Lyl Guardsman	Slot 592	agrandrb
+wwfght2	De'Lyl Guardsman	Slot 592	agrandbr
+wwsten	Sten	Slot 592	agrandbr
+wwswoo	Smethy	Slot 592	agrandrb
+wwvivi	Vivick	Slot 592	agrandrb
+wyvbab01	Baby Wyvern	Slot 592	agrandbr
+wyvern01	Wyvern	Slot 592	agrandrb
+wyvfight	Wyvern Cultist	Slot 592	agrandcl
+wyvgre01	Greater Wyvern	Slot 592	agrandrb
+wyvmag14	Wyvern Cultist	Slot 584	agrandrb
+x#ajdoug	Douglas	Slot 608	agrandbr
+x#ajdrre	Red Dragon	Slot 592	agrandrb
+x#ajdrsi	Silver Dragon	Slot 592	agrandrb
+x#amelia	Amelia	Slot 600	agrandbr
+x#andart	Andarthe	Slot 592	agrandbr
+x#beado1	Beador	Slot 592	agrandbr
+x#beador	Beador	Slot 592	agrandrb
+x#belgin	Belgin	Slot 600	agrandrb
+x#black	Blackberry	Slot 600	agrandbr
+x#bodhi	Arel	Slot 592	agrandbr
+x#cautz	Cautz'qu'ati'kan	Slot 592	agrandrb
+x#chop	Chop The Lady Ogre	Slot 592	agrandbr
+x#corafi	Coran, The Peerless Archer	Slot 592	agrandrb
+x#corwyv	Wyvern	Slot 592	agrandbr
+x#cru11	Cru The Lady Ogre	Slot 592	agrandbr
+x#cutva1	Rogue	Slot 592	agrandbr
+x#cutva2	Rogue	Slot 592	agrandcl
+x#cutva3	Rogue	Slot 592	agrandbr
+x#cutva4	Rogue	Slot 592	agrandrb
+x#david	David Jansen	Slot 600	agrandrb
+x#dgnle1	Gnoll	Slot 592	agrandbr
+x#dgnle2	Gnoll	Slot 592	agrandrb
+x#dgnle3	Gnoll	Slot 592	agrandrp
+x#dgnle4	Gnoll	Slot 592	agrandrb
+x#dgnlg1	Gnoll	Slot 592	agrandrb
+x#dgnlg2	Gnoll	Slot 592	agrandrb
+x#dgnlg3	Gnoll	Slot 592	agrandbr
+x#dgnlg4	Gnoll	Slot 592	agrandbr
+x#diala	Diala	Slot 592	agrandrp
+x#drag2	Cautz'qu'ati'kan's hubby	Slot 592	agrandrb
+x#dyqimp	Ichthraa	Slot 592	agrandrb
+x#elhan	Elhan	Slot 592	agrandrb
+x#elles	Queen Ellesime	Slot 592	agrandrb
+x#gael	Gael	Slot 592	agrandbr
+x#garz01	Zombie	Slot 592	agrandbr
+x#garz02	Zombie	Slot 592	agrandbr
+x#garz03	Zombie	Slot 592	agrandrb
+x#garz04	Zombie	Slot 592	agrandbr
+x#joni	Stranger	Slot 592	agrandsr
+x#kaband	Caravan Bandit Leader	Slot 592	agrandrb
+x#karris	Karris	Slot 600	agrandsw
+x#lassa	Lassal	Slot 592	agrandbr
+x#mareth	Maretha	Slot 592	agrandbr
+x#mazuri	Mazuri	Slot 592	agrandrb
+x#mepht1	Smoke Mephit	Slot 592	agrandrb
+x#mepht2	Smoke Mephit	Slot 592	agrandsw
+x#mepht3	Smoke Mephit	Slot 592	agrandrb
+x#mepht4	Smoke Mephit	Slot 592	agrandrp
+x#mepht5	Smoke Mephit	Slot 592	agrandbr
+x#minuw	Minuwiel	Slot 592	agrandbr
+x#natan	Natan	Slot 608	agrandbr
+x#rashel	Rashel	Slot 592	agrandrb
+x#saha01	Sahuagin Chieftain	Slot 592	agrandbr
+x#saha02	Sahuagin	Slot 592	agrandrb
+x#shdr6	Druid	Slot 600	agrandbr
+x#shdr6a	Druid	Slot 600	agrandbr
+x#shdr6b	Druid	Slot 600	agrandrb
+x#shdr8a	Druid	Slot 600	agrandrb
+x#shdr8b	Druid	Slot 600	agrandbr
+x#siene	Siene	Slot 592	agrandbr
+x#skodd	Skodd	Slot 592	agrandsh
+x#storm	Storm	Slot 600	agrandbr
+x#tanari	Aravaata	Slot 592	agrandbr
+x#tanov	Tanova	Slot 592	agrandrb
+x#tqbh1	Alvo	Slot 600	agrandrb
+x#tqbh2	Leti	Slot 600	agrandrb
+x#tqbh3	Zed	Slot 600	agrandrb
+x#tqbh4	Mati	Slot 600	agrandbr
+x#ulvar	Ulvar	Slot 592	agrandrb
+x#winski	Winski Perorate	Slot 592	agrandrb
+x#xqmer1	Mercenary	Slot 592	agrandrp
+x#xqmer2	Mercenary	Slot 592	agrandrb
+x#xqmer3	Mercenary	Slot 592	agrandrb
+x#xqmer4	Mercenary	Slot 592	agrandrb
+x#xqmer5	Mercenary	Slot 592	agrandrb
+x#xqmer6	Mercenary	Slot 592	agrandbr
+x#xvart1	Xvart	Slot 592	agrandbr
+x#xvart2	Xvart	Slot 592	agrandrb
+x#xzfsp1	Forest Spirit	Slot 600	agrandsw
+x#xzgu01	Flaming Fist Officer	Slot 608	agrandsh
+x#xzgu02	Flaming Fist Enforcer	Slot 592	agrandrb
+x#zosya	Zosya	Slot 600	agrandbr
+xappren1	Prebek	Slot 600	agrandrb
+xappren2	Sanasha	Slot 608	agrandrb
+xcaptain	Carlon Lendras	Slot 592	agrandsh
+xcrew01	Crew Member	Slot 592	agrandbr
+xcrew02	Crew Member	Slot 592	agrandbr
+xcrew03	Crew Member	Slot 592	agrandrb
+xcrew04	Crew Member	Slot 592	agrandbr
+xghast1	Ghast	Slot 584	agrandrb
+xghast2	Ghast	Slot 584	agrandrb
+xvart	Xvart	Slot 592	agrandbr
+xvart_a	Xvart	Slot 592	agrandbr
+xvart_d	Xvart Protector	Slot 592	agrandbr
+xvart01	Xvart	Slot 592	agrandbr
+xvart02	Xvart	Slot 592	agrandrb
+xvart03	Xvart	Slot 592	agrandbr
+xvartpre	Xvart Shaman	Slot 584	agrandrg
+yachol	Yochlol	Slot 592	agrandbr
+yaga01	Yaga-Shura	Slot 592	agrandcl
+yaga02	Lieutenant Mage	Slot 584	agrandrb
+yaga03	Lieutenant Fighter	Slot 584	agrandbr
+yaga04	Lieutenant Cleric	Slot 584	agrandbr
+yaga05	Lieutenant Thief	Slot 584	agrandrb
+yagaspir	Yaga-Shura	Slot 592	agrandbr
+yarin	Yarin	Slot 592	agrandbr
+yarmy01	Fighter	Slot 608	agrandrb
+yarmy02	Archer	Slot 600	agrandlx
+yarmy03	Mage	Slot 608	agrandlx
+yochlo01	Yochlol	Slot 592	agrandbr
+yscara03	Fire Giant	Slot 592	agrandrb
+yscler01	Cleric Of Talos	Slot 592	agrandlx
+ysfire01	Fire Giant	Slot 592	agrandbr
+ysfire02	Fire Giant	Slot 592	agrandnc
+ysg2	Fire Giant	Slot 600	agrandrb
+ysgp01	Toop the Brave	Slot 592	agrandrb
+ysgp02	Merlinious	Slot 592	agrandrb
+ysgp03	Tibbit	Slot 592	agrandrb
+ysgp04	Chinchilla	Slot 592	agrandbr
+ysgp05	Chinchilla	Slot 584	agrandrb
+ysgrunt	Yaga-Shura Soldier	Slot 592	agrandbr
+ysguar01	Fire Giant	Slot 592	agrandrb
+ysguar02	Yaga-Shura Soldier	Slot 592	agrandrb
+ysguar03	Yaga-Shura Mage	Slot 600	agrandsr
+ysguar04	Yaga-Shura Soldier	Slot 592	agrandsr
+ysguar05	Yaga-Shura Soldier	Slot 592	agrandrb
+ysguar06	Yaga-Shura Officer	Slot 592	agrandrb
+ysmage01	Yaga-Shura Mage	Slot 584	agrandrb
+ysmage02	Yaga-Shura Mage	Slot 600	agrandbr
+yssold01	Yaga-Shura Soldier	Slot 592	agrandbr
+yssold02	Yaga-Shura Soldier	Slot 592	agrandbr
+yssold03	Yaga-Shura Officer	Slot 592	agrandrb
+yssold04	Yaga-Shura Elite	Slot 592	agrandbr
+yssold10	Fire Giant	Slot 592	agrandrb
+yssold12	Yaga-Shura Soldier	Slot 592	agrandrb
+yssold13	Yaga-Shura Soldier	Slot 592	agrandbr
+yssold14	Yaga-Shura Mage	Slot 592	agrandrb
+yssold15	Yaga-Shura Officer	Slot 592	agrandbr
+yssold16	Cleric Of Talos	Slot 592	agrandbr
+yusef	Yusef	Slot 600	agrandbr
+yuxbossa	Marilith	Slot 592	agrandrb
+yuxinvi	Barl	Slot 592	agrandrb
+zcaptain	Carlon Lendras	Slot 592	agrandbr
+zilarc01	Black Reaver	Slot 592	agrandbr
+zilfgt01	Black Reaver	Slot 592	agrandea
+zilfgt02	Black Reaver	Slot 592	agrandbr
+zilmag01	Black Reaver	Slot 592	agrandnc
+zombie	Zombie	Slot 592	agrandrb
+zombie_a	Zombie	Slot 592	agrandbr
+zombie_b	Zombie	Slot 592	agrandsr
+zombie01	Zombie	Slot 592	agrandsh
+zombju01	Zombie	Slot 592	agrandrb
+zomblo01	Zombie Lord	Slot 600	agrandbr
+zombse01	Sea Zombie	Slot 592	agrandrb
+zombsexx	Zombie	Slot 592	agrandrb
+zprize3	Shadow Thief	Slot 592	agrandrb

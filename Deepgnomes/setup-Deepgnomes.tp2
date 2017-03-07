@@ -1,0 +1,1838 @@
+BACKUP ~Deepgnomes/backup~
+AUTHOR ~Bookwyrme (Aurora mod) - for this teaser Roxanne@shsforums.net~
+VERSION ~v0.1a~
+
+
+AUTO_TRA ~Deepgnomes/%s~
+LANGUAGE ~English~ ~english~ ~Deepgnomes/english/setup.tra~
+
+
+BEGIN ~Deepgnomes's of the Sword Coast for EET~
+
+    OUTER_SPRINT tsb ~b~
+    OUTER_SPRINT tsd ~d~
+    OUTER_SPRINT tsf ~f~
+    OUTER_SPRINT tsg ~g~
+    OUTER_SPRINT tsh ~h~
+    OUTER_SPRINT tsi ~i~
+    OUTER_SPRINT tsj ~j~
+    OUTER_SPRINT tsk ~k~
+    OUTER_SPRINT tsm ~m~
+    OUTER_SPRINT tsn ~n~
+    OUTER_SPRINT tso ~o~
+    OUTER_SPRINT tsp ~p~
+    OUTER_SPRINT tsr ~r~
+    OUTER_SPRINT tss ~s~
+    OUTER_SPRINT tst ~t~
+    OUTER_SPRINT tsz ~z~
+    OUTER_SPRINT tbg ~bg~
+    OUTER_SPRINT ts1 ~1~
+
+    OUTER_SPRINT plt ~bgt~
+    OUTER_SPRINT lswd ~bg2900~ //Larswood
+    OUTER_SPRINT lnpk ~bg4400~ //Lonely Peaks
+    OUTER_SPRINT dcp1 ~AR7208~ //NW BG Ducal Palace L1
+    OUTER_SPRINT cnc1 ~AR6515~ //Candlekeep Catacombs L1
+    OUTER_SPRINT clm4 ~AR8603~ //Cloakwood Mines L4
+    OUTER_SPRINT ssh2 ~AR7202~ //NW BG Silvershield Estate L2
+    OUTER_SPRINT clwc ~bg4501~ //Cloakwood Wyverns Cave
+    OUTER_SPRINT thm2 ~bg3321~ //Travenhurst Manor L2
+    OUTER_SPRINT hcl1 ~bg0116~ //NW BG Helm & Cloak L1
+    OUTER_SPRINT ssh1 ~bg0101~ //NW BG Silvershield Estate L1
+    OUTER_SPRINT nshk ~bg4300~ //Nashkel
+    OUTER_SPRINT nnsh ~BG4300~ //North Nashkel Road
+    OUTER_SET chp = 4 //BG chapter transition
+    OUTER_SPRINT dtl2 ~ARD003~ //Durlag's Tower L2
+    OUTER_SPRINT dtd1 ~ARD011~ //Durlag's Tower D1
+    OUTER_SPRINT dtd4 ~ARD014~ //Durlag's Tower D4
+
+ACTION_IF GAME_IS ~eet~ BEGIN
+COMPILE ~Deepgnomes/extend/agbarhop.baf~
+COMPILE ~Deepgnomes/extend/bgt~
+COMPILE EVALUATE_BUFFER ~Deepgnomes/extend/soa/agkaraea.baf~
+PRINT ~Installing Deepgnomes for EET~
+END ELSE BEGIN
+PRINT ~For EET ONLY!!~
+END
+
+COMPILE ~Deepgnomes/extend/bg2~
+        COMPILE ~Deepgnomes/extend/tutubg2~
+        ACTION_IF FILE_EXISTS_IN_GAME ~ar5503.are~ BEGIN //ToB
+          OUTER_SPRINT tbs ~tob~
+          COMPILE ~Deepgnomes/extend/agbarhop.baf~
+        END ELSE BEGIN
+          OUTER_SPRINT tbs ~soa~
+          COMPILE ~Deepgnomes/extend/soa/agbarhop.baf~
+        END
+     
+INCLUDE ~Deepgnomes/lib/fj_add_are_struct.tpa~
+
+OUTER_PATCH wlib BEGIN
+  WRITE_LONG 0x0 0x090a0d20
+  READ_ASCII 0x0 ws(4) 
+END
+
+APPEND ~action.ids~ ~160 ApplySpellRES(S:RES*,O:Target)~ UNLESS ~160 ApplySpellRES(S:RES\*,O:Target)~
+
+COPY ~Deepgnomes/taudio~ ~override~
+
+COPY ~Deepgnomes/eff~ ~override~ //Effects
+
+ACTION_FOR_EACH ~np~ IN ~in107~ ~in110~ ~in111~ ~in125~ ~in126~ ~in127~ ~in152~ ~in154~ ~in155~ BEGIN
+  COPY_EXISTING ~sp%np%.spl~ ~override~
+    PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+      WRITE_LONG 0xc ~-1~ //Identified name
+      WRITE_LONG 0x34 1 //Spell level
+      WRITE_ASCIIE 0x3a ~ag%np%b~ #8 //Spellbook icon
+      WRITE_LONG 0x54 ~-1~ //Identified description
+      PATCH_FOR_EACH tz IN 0x44 0x48 0x58 0x5c BEGIN
+        WRITE_LONG tz 0
+      END
+      READ_LONG 0x64 hf //Extended header offset
+      READ_SHORT 0x68 hc //Extended header count
+      FOR (i = 0; i < hc; i += 1) BEGIN //Cycle through headers
+        WRITE_ASCIIE (0x38 * i + hf + 4) ~ag%np%b~ #8 //Use icon 1
+      END
+    END
+  BUT_ONLY
+END
+
+STRING_SET 39644 @92 //Correct typos in boot10 description
+COPY ~Deepgnomes/itm/agax1h01.itm~ ~override~ //Svirfneblin Pickaxe
+  SAY NAME1 @156
+  SAY NAME2 @158
+  SAY UNIDENTIFIED_DESC @157
+  SAY DESC @159
+  PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+    PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+    WRITE_BYTE 0x26 13 //Strength
+    WRITE_BYTE 0x2c 6 //Dexterity
+  END
+COPY ~Deepgnomes/itm/agax1h02.itm~ ~override~ //Battle Axe +2, Armor Biter
+  SAY NAME2 @224
+  SAY DESC @225
+  PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+    PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+    WRITE_BYTE 0x26 13 //Strength
+    WRITE_BYTE 0x2c 6 //Dexterity
+  END
+COPY ~Deepgnomes/itm/agberr01.itm~ ~override~ //Gooseberries
+  SAY NAME1 @168
+  SAY NAME2 @170
+  SAY UNIDENTIFIED_DESC @169
+  SAY DESC @171
+  READ_LONG 0x64 bf //Abilities offset
+  READ_SHORT 0x68 bn //Abilities count
+  READ_LONG 0x6a cf //Effect offset
+  FOR (f1 = 0; f1 < bn; f1 += 1) BEGIN //Cycle through abilities
+    READ_SHORT (bf + 0x38 * f1 + 0x1e) fq //Feature count
+    READ_SHORT (bf + 0x38 * f1 + 0x20) fx //Feature index
+    FOR (g1 = 0; g1 < fq; g1 += 1) BEGIN //Cycle through features
+      READ_SHORT (cf + 0x30 * (fx + g1)) pc //Opcode
+      READ_LONG (cf + 0x30 * (fx + g1) + 4) p1 //Parameter 1
+      PATCH_IF ((pc = 139) AND (p1 = 0xffffffff)) BEGIN //If no text
+        SAY (cf + 0x30 * (fx + g1) + 4) @344 //Fatigued Decreased
+      END
+    END
+  END
+COPY ~Deepgnomes/itm/agblun01.itm~ ~override~ //Svirfneblin Club
+  SAY NAME2 @160
+  SAY DESC @161
+  PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+    PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+    WRITE_BYTE 0x26 8 //Strength
+    WRITE_BYTE 0x2c 6 //Dexterity
+  END
+COPY ~Deepgnomes/itm/agblun02.itm~ ~override~ //Blackjack
+  SAY NAME1 @202
+  SAY NAME2 @204
+  SAY UNIDENTIFIED_DESC @203
+  SAY DESC @205
+  PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+    PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+    WRITE_BYTE 0x26 8 //Strength
+    WRITE_BYTE 0x2c 6 //Dexterity
+  END
+COPY ~Deepgnomes/itm/agbone01.itm~ ~override~ //Pile of Bones
+  SAY NAME1 @266
+  SAY NAME2 @266
+  SAY UNIDENTIFIED_DESC @267
+  SAY DESC @267
+COPY ~Deepgnomes/itm/agboot01.itm~ ~override~ //Boots of Endurance
+  SAY NAME2 @17
+  SAY DESC @18
+COPY ~Deepgnomes/itm/agboot02.itm~ ~override~ //Boots of High Style
+  SAY NAME2 @19
+  SAY DESC @20
+COPY ~Deepgnomes/itm/agboot03.itm~ ~override~ //Boots of Trudging
+  SAY NAME2 @21
+  SAY DESC @22
+COPY ~Deepgnomes/itm/agboot04.itm~ ~override~ //Boots of Bravery
+  SAY NAME2 @23
+  SAY DESC @24
+COPY ~Deepgnomes/itm/agboot05.itm~ ~override~ //Boots of Battle
+  SAY NAME2 @25
+  SAY DESC @26
+COPY ~Deepgnomes/itm/agboot07.itm~ ~override~ //Boots of Boredom
+  SAY NAME2 @27
+  SAY DESC @28
+COPY ~Deepgnomes/itm/agboot08.itm~ ~override~ //These Boots Are Made for Walking
+  SAY NAME2 @29
+  SAY DESC @30
+COPY ~Deepgnomes/itm/agboot09.itm~ ~override~ //Love Lies Bleeding
+  SAY NAME1 @64
+  SAY NAME2 @31
+  SAY UNIDENTIFIED_DESC @65
+  SAY DESC @32
+COPY ~Deepgnomes/itm/agboot10.itm~ ~override~ //Dancing Shoes
+  SAY NAME1 @64
+  SAY NAME2 @33
+  SAY UNIDENTIFIED_DESC @65
+  SAY DESC @34
+COPY ~Deepgnomes/itm/agboot11.itm~ ~override~ //Long-Leggedy Beasties
+  SAY NAME2 @35
+  SAY DESC @36
+COPY ~Deepgnomes/itm/agboot12.itm~ ~override~ //Shoes of the Shameless
+  SAY NAME1 @64
+  SAY NAME2 @37
+  SAY UNIDENTIFIED_DESC @65
+  SAY DESC @38
+COPY ~Deepgnomes/itm/agboot13.itm~ ~override~ //Boots of the Blameless
+  SAY NAME2 @39
+  SAY DESC @40
+COPY ~Deepgnomes/itm/agboot14.itm~ ~override~ //A Mile in Someone Else's Shoes
+  SAY NAME1 @64
+  SAY NAME2 @41
+  SAY UNIDENTIFIED_DESC @65
+  SAY DESC @42
+COPY ~Deepgnomes/itm/agboot15.itm~ ~override~ //Stinky Feet
+  SAY NAME2 @43
+  SAY DESC @44
+COPY ~Deepgnomes/itm/agboot16.itm~ ~override~ //Visiting Boots
+  SAY NAME2 @45
+  SAY DESC @46
+COPY ~Deepgnomes/itm/agboot17.itm~ ~override~ //Boots to Jog the Memory
+  SAY NAME2 @47
+  SAY DESC @48
+COPY ~Deepgnomes/itm/agboot18.itm~ ~override~ //Boots of the Leopard
+  SAY NAME2 @49
+  SAY DESC @50
+COPY ~Deepgnomes/itm/agboot19.itm~ ~override~ //Stylish Boots of the Cheetah
+  SAY NAME2 @51
+  SAY DESC @52
+COPY ~Deepgnomes/itm/agboot20.itm~ ~override~ //Mad Marv's Moccasins
+  SAY NAME1 @64
+  SAY NAME2 @53
+  SAY UNIDENTIFIED_DESC @65
+  SAY DESC @54
+COPY ~Deepgnomes/itm/agboot21.itm~ ~override~ //Everyday Green Boots
+  SAY NAME2 @55
+  SAY DESC @56
+COPY ~Deepgnomes/itm/agboot22.itm~ ~override~ //Everyday Yellow Boots
+  SAY NAME2 @74
+  SAY DESC @75
+COPY ~Deepgnomes/itm/agboot23.itm~ ~override~ //Everyday Blue Boots
+  SAY NAME2 @76
+  SAY DESC @77
+COPY ~Deepgnomes/itm/agboot25.itm~ ~override~ //Green-Laced Boots
+  SAY NAME2 @68
+  SAY DESC @69
+COPY ~Deepgnomes/itm/agboot27.itm~ ~override~ //Boots of Berserking
+  SAY NAME2 @90
+  SAY DESC @91
+COPY ~Deepgnomes/itm/agboot28.itm~ ~override~ //Gnomish Boots
+  SAY NAME2 @150
+  SAY DESC @151
+COPY ~Deepgnomes/itm/agboot29.itm~ ~override~ //Goblin Boots
+  SAY NAME2 @250
+  SAY DESC @251
+COPY ~Deepgnomes/itm/agboot30.itm~ ~override~ //Drow Boots
+  SAY NAME2 @274
+  SAY DESC @275
+COPY ~Deepgnomes/itm/agboot31.itm~ ~override~ //Daemonfey Boots
+  SAY NAME2 @276
+  SAY DESC @277
+COPY ~Deepgnomes/itm/agboot32.itm~ ~override~ //Boots of War
+  SAY NAME2 @98
+  SAY DESC @99
+COPY ~Deepgnomes/itm/agboot33.itm~ ~override~ //Boots of Swift Love
+  SAY NAME2 @295
+  SAY DESC @296
+COPY ~Deepgnomes/itm/agboot34.itm~ ~override~ //Stinking Gnomish Boots
+  SAY NAME2 @297
+  SAY DESC @298
+COPY ~Deepgnomes/itm/agboot35.itm~ ~override~ //Thrice-Armored Boots
+  SAY NAME2 @299
+  SAY DESC @300
+COPY ~Deepgnomes/itm/agboot36.itm~ ~override~ //Drow Boots of the Night
+  SAY NAME2 @301
+  SAY DESC @302
+COPY ~Deepgnomes/itm/agboot37.itm~ ~override~ //Daemon Noble Boots
+  SAY NAME2 @303
+  SAY DESC @304
+COPY ~Deepgnomes/itm/agbox02.itm~ ~override~ //Mahogany Shoe Box
+  SAY NAME2 @234
+  SAY UNIDENTIFIED_DESC @79
+  SAY DESC @235
+COPY ~Deepgnomes/itm/agbrac01.itm~ ~override~ //Bracelet of Wisdom
+  SAY NAME1 @214
+  SAY NAME2 @216
+  SAY UNIDENTIFIED_DESC @215
+  SAY DESC @217
+COPY ~Deepgnomes/itm/agbrea01.itm~ ~override~ //Bread and Jam
+  SAY NAME1 @176
+  SAY NAME2 @176
+  SAY UNIDENTIFIED_DESC @177
+  SAY DESC @177
+  READ_LONG 0x64 bf //Abilities offset
+  READ_SHORT 0x68 bn //Abilities count
+  READ_LONG 0x6a cf //Effect offset
+  FOR (f1 = 0; f1 < bn; f1 += 1) BEGIN //Cycle through abilities
+    READ_SHORT (bf + 0x38 * f1 + 0x1e) fq //Feature count
+    READ_SHORT (bf + 0x38 * f1 + 0x20) fx //Feature index
+    FOR (g1 = 0; g1 < fq; g1 += 1) BEGIN //Cycle through features
+      READ_SHORT (cf + 0x30 * (fx + g1)) pc //Opcode
+      READ_LONG (cf + 0x30 * (fx + g1) + 4) p1 //Parameter 1
+      PATCH_IF ((pc = 139) AND (p1 = 0xffffffff)) BEGIN //If no text
+        SAY (cf + 0x30 * (fx + g1) + 4) @344 //Fatigued Decreased
+      END
+    END
+  END
+COPY ~Deepgnomes/itm/agbroo01.itm~ ~override~ //Brooch of Tempus
+  SAY NAME1 @220
+  SAY NAME2 @222
+  SAY UNIDENTIFIED_DESC @221
+  SAY DESC @223
+COPY ~Deepgnomes/itm/agclck02.itm~ ~override~ //Green Robe
+  SAY NAME1 @70
+  SAY NAME2 @72
+  SAY UNIDENTIFIED_DESC @71
+  SAY DESC @73
+COPY ~Deepgnomes/itm/agearr02.itm~ ~override~ //Chained-Teeth Earrings
+  SAY NAME1 @11
+  SAY NAME2 @262
+  SAY UNIDENTIFIED_DESC @63
+  SAY DESC @263
+COPY ~Deepgnomes/itm/aggem01.itm~ ~override~ //Ruby
+  SAY NAME2 @152
+  SAY DESC @153
+COPY ~Deepgnomes/itm/aggem02.itm~ ~override~ //Star Ruby
+  SAY NAME2 @154
+  SAY DESC @155
+COPY ~Deepgnomes/itm/aggem03.itm~ ~override~ //Tiger's Eye Gem
+  SAY NAME2 @278
+  SAY DESC @279
+COPY ~Deepgnomes/itm/aggem04.itm~ ~override~ //Snowflake Obsidian
+  SAY NAME2 @280
+  SAY DESC @281
+COPY ~Deepgnomes/itm/aggem05.itm~ ~override~ //Amethyst Gem
+  SAY NAME2 @282
+  SAY DESC @283
+COPY ~Deepgnomes/itm/aggem06.itm~ ~override~ //Topaz Gem
+  SAY NAME2 @284
+  SAY DESC @285
+COPY ~Deepgnomes/itm/aggem07.itm~ ~override~ //Amber Gem
+  SAY NAME2 @286
+  SAY DESC @287
+COPY ~Deepgnomes/itm/aggem08.itm~ ~override~ //Fire Opal
+  SAY NAME2 @288
+  SAY DESC @289
+COPY ~Deepgnomes/itm/aggem09.itm~ ~override~ //Bandfire Opal
+  SAY NAME2 @290
+  SAY DESC @291
+COPY ~Deepgnomes/itm/aghelm01.itm~ ~override~ //Helm of the North
+  SAY NAME2 @226
+  SAY DESC @227
+COPY ~Deepgnomes/itm/agjam01.itm~ ~override~ //Apple Butter
+  SAY NAME1 @178
+  SAY NAME2 @180
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @181
+COPY ~Deepgnomes/itm/agjam02.itm~ ~override~ //Blackberry Jam
+  SAY NAME1 @178
+  SAY NAME2 @182
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @183
+COPY ~Deepgnomes/itm/agjam03.itm~ ~override~ //Blueberry Jam
+  SAY NAME1 @178
+  SAY NAME2 @184
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @185
+COPY ~Deepgnomes/itm/agjam04.itm~ ~override~ //Goodberry Jam
+  SAY NAME1 @178
+  SAY NAME2 @186
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @187
+COPY ~Deepgnomes/itm/agjam05.itm~ ~override~ //Lingonberry Jam
+  SAY NAME1 @178
+  SAY NAME2 @188
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @189
+COPY ~Deepgnomes/itm/agjam06.itm~ ~override~ //Mulberry Jam
+  SAY NAME1 @178
+  SAY NAME2 @190
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @191
+COPY ~Deepgnomes/itm/agjam07.itm~ ~override~ //Raspberry Jam
+  SAY NAME1 @178
+  SAY NAME2 @192
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @193
+COPY ~Deepgnomes/itm/agjam08.itm~ ~override~ //Strawberry Jam
+  SAY NAME1 @178
+  SAY NAME2 @194
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @195
+COPY ~Deepgnomes/itm/agjam09.itm~ ~override~ //Wolfberry Jam
+  SAY NAME1 @178
+  SAY NAME2 @196
+  SAY UNIDENTIFIED_DESC @179
+  SAY DESC @197
+COPY ~Deepgnomes/itm/aglock01.itm~ ~override~ //Bronze Lockpick
+  SAY NAME1 @206
+  SAY NAME2 @208
+  SAY UNIDENTIFIED_DESC @207
+  SAY DESC @209
+COPY ~Deepgnomes/itm/aglock02.itm~ ~override~ //Iron Lockpick Set
+  SAY NAME1 @206
+  SAY NAME2 @264
+  SAY UNIDENTIFIED_DESC @207
+  SAY DESC @265
+COPY ~Deepgnomes/itm/agmask01.itm~ ~override~ //Mask of Evasion
+  SAY NAME1 @210
+  SAY NAME2 @212
+  SAY UNIDENTIFIED_DESC @211
+  SAY DESC @213
+COPY ~Deepgnomes/itm/agmyrloc.itm~ ~override~ //Myrlochar Bite (undroppable)
+  SAY NAME2 @339
+COPY ~Deepgnomes/itm/agnote01.itm~ ~override~ //Tattered Note
+  SAY NAME1 @268
+  SAY NAME2 @268
+  SAY UNIDENTIFIED_DESC @269
+  SAY DESC @269
+COPY ~Deepgnomes/itm/agpie01.itm~ ~override~ //Gooseberry Pie
+  SAY NAME1 @172
+  SAY NAME2 @174
+  SAY UNIDENTIFIED_DESC @173
+  SAY DESC @175
+COPY ~Deepgnomes/itm/agpotn03.itm~ ~override~ //Gogondy (Granite Strength)
+  SAY NAME2 @163
+  SAY UNIDENTIFIED_DESC @162
+  SAY DESC @164
+COPY ~Deepgnomes/itm/agpotn04.itm~ ~override~ //Gogondy (Garnet Strength)
+  SAY NAME2 @163
+  SAY UNIDENTIFIED_DESC @162
+  SAY DESC @165
+COPY ~Deepgnomes/itm/agpotn05.itm~ ~override~ //Strawberry Wine
+  SAY NAME2 @166
+  SAY UNIDENTIFIED_DESC @162
+  SAY DESC @167
+COPY ~Deepgnomes/itm/agpotn06.itm~ ~override~ //Great Elixir
+  SAY NAME2 @232
+  SAY DESC @233
+  READ_LONG 0x64 bf //Abilities offset
+  READ_SHORT 0x68 bn //Abilities count
+  READ_LONG 0x6a cf //Effect offset
+  FOR (f1 = 0; f1 < bn; f1 += 1) BEGIN //Cycle through abilities
+    READ_SHORT (bf + 0x38 * f1 + 0x1e) fq //Feature count
+    READ_SHORT (bf + 0x38 * f1 + 0x20) fx //Feature index
+    FOR (g1 = 0; g1 < fq; g1 += 1) BEGIN //Cycle through features
+      READ_SHORT (cf + 0x30 * (fx + g1)) pc //Opcode
+      READ_LONG (cf + 0x30 * (fx + g1) + 4) p1 //Parameter 1
+      PATCH_IF ((pc = 139) AND (p1 = 54337)) BEGIN //If "Diseased"
+        SAY (cf + 0x30 * (fx + g1) + 4) @351 //Mindfire
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 54766)) BEGIN //If "Lycanthrope"
+        SAY (cf + 0x30 * (fx + g1) + 4) @352 //Lycanthropy
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 10514)) BEGIN //If "Gained Special Ability"
+        SAY (cf + 0x30 * (fx + g1) + 4) @353 //Gained Shapeshifting Ability
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 14042)) BEGIN //If "Strength Modification"
+        SAY (cf + 0x30 * (fx + g1) + 4) @354 //Strength lowered
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 14021)) BEGIN //If "Intelligence Modification"
+        SAY (cf + 0x30 * (fx + g1) + 4) @355 //Intelligence lowered
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 14047)) BEGIN //If "Wisdom Modification"
+        SAY (cf + 0x30 * (fx + g1) + 4) @356 //Wisdom lowered
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 14024)) BEGIN //If "Dexterity Modification"
+        SAY (cf + 0x30 * (fx + g1) + 4) @357 //Dexterity lowered
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 14029)) BEGIN //If "Constitution Modification"
+        SAY (cf + 0x30 * (fx + g1) + 4) @358 //Constitution lowered
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 14034)) BEGIN //If "Charisma Modification"
+        SAY (cf + 0x30 * (fx + g1) + 4) @359 //Charisma lowered
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 61354)) BEGIN //If "Gained Spell"
+        SAY (cf + 0x30 * (fx + g1) + 4) @360 //Gained Innate Ability
+      END
+      PATCH_IF ((pc = 139) AND (p1 = 6938)) BEGIN //If "Greater Command"
+        SAY (cf + 0x30 * (fx + g1) + 4) @361 //Greatness Attained
+      END
+    END
+  END
+COPY ~Deepgnomes/itm/t-ring04.itm~ ~override~ //Ring of Immunity (undroppable)
+  SAY NAME2 @230
+  SAY DESC @231
+COPY ~Deepgnomes/itm/t-ring05.itm~ ~override~ //Svirfneblin Ring (undroppable)
+  SAY NAME2 @261
+COPY ~Deepgnomes/itm/agshld01.itm~ ~override~ //Knight's Shield +1
+  SAY NAME2 @270
+  SAY DESC @271
+COPY ~Deepgnomes/itm/agshld02.itm~ ~override~ //Mirrored Shield +1
+  SAY NAME2 @305
+  SAY DESC @306
+COPY ~Deepgnomes/itm/agstaf01.itm~ ~override~ //Staff of Swarming Insects +2
+  SAY NAME2 @228
+  SAY DESC @229
+  PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+    PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+    WRITE_BYTE 0x26 4 //Strength
+    WRITE_BYTE 0x2c 4 //Dexterity
+  END
+COPY ~Deepgnomes/itm/agsw1h03.itm~ ~override~ //Acid Rapier +2
+  SAY NAME1 @198
+  SAY NAME2 @81
+  SAY UNIDENTIFIED_DESC @199
+  SAY DESC @82
+  PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+    PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+    WRITE_BYTE 0x26 6 //Strength
+    WRITE_BYTE 0x2c 6 //Dexterity
+  END
+COPY ~Deepgnomes/itm/agsw1h04.itm~ ~override~ //Pirate's Cutlass +2
+  SAY NAME1 @200
+  SAY NAME2 @83
+  SAY UNIDENTIFIED_DESC @201
+  SAY DESC @84
+  PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+    PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+    WRITE_BYTE 0x26 9 //Strength
+    WRITE_BYTE 0x2c 9 //Dexterity
+  END
+COPY ~Deepgnomes/itm/agsw1h05.itm~ ~override~ //Bastard Sword +2, Iceblade
+  SAY NAME2 @218
+  SAY DESC @219
+  PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+    PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+    WRITE_BYTE 0x26 13 //Strength
+    WRITE_BYTE 0x2c 8 //Dexterity
+  END
+COPY ~Deepgnomes/itm/agtime01.itm~ ~override~ //Ancient Timepiece
+  SAY NAME1 @346
+  SAY NAME2 @348
+  SAY UNIDENTIFIED_DESC @347
+  SAY DESC @349
+COPY ~Deepgnomes/itm/agwolf01.itm~ ~override~ //Wolf Immunity Item (undroppable)
+  SAY NAME2 @272
+  SAY DESC @273
+
+ACTION_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+  COPY ~Deepgnomes/itm/agwing01.itm~ ~override~ //Wings
+    SAY NAME2 @435
+END
+
+COPY_EXISTING ~blun15.itm~ ~override/agblun15.itm~ //Morning Star +2 (undroppable)
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    READ_BYTE 0x18 fl //Flags
+    WRITE_BYTE 0x18 (fl BAND 0b11111011) //not movable
+    WRITE_BYTE 0x1c 0 //Item type
+    WRITE_BYTE 0x31 0 //Proficiency
+  END
+BUT_ONLY
+
+COPY_EXISTING ~misc02.itm~ ~override~ //Mirror
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    SAY UNIDENTIFIED_DESC @292
+    SAY DESC @293
+    WRITE_SHORT 0x1c 0xc //Item type (shield)
+    opcode = 197 //Bounce projectile
+    target = 1 //Self
+    timing = 2 //While equipped
+    parameter1 = 0 
+    parameter2 = 64 //Gaze
+    power = 0
+    resist_dispel = 2 //Not dispel & bypass
+    probability1 = 24
+    duration = 0
+    probability2 = 0
+    SPRINT resource ~~
+    dicenumber = 0 
+    dicesize = 0
+    savingthrow = 0
+    savebonus = 0
+    LAUNCH_PATCH_MACRO ADD_ITEM_EQEFFECT
+  END
+BUT_ONLY
+
+COPY_EXISTING ~misc03.itm~ ~override~ //Small Box
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    SAY UNIDENTIFIED_DESC @294
+    READ_BYTE 0x18 fl //Flags
+    WRITE_BYTE 0x18 (fl BOR 0b00000001) //Unsellable
+    WRITE_SHORT 0x1c 0x24 //Item type (bag)
+    WRITE_LONG 0x34 100 //Price
+  END
+BUT_ONLY
+
+ACTION_IF (NOT(FILE_EXISTS_IN_GAME ~g_uastr.itm~) AND NOT(FILE_EXISTS_IN_GAME ~g_uaexp.itm~)) BEGIN
+  //If Unique Artifacts not present then give non-unique boots non-unique descriptions
+  STRING_SET 7375 @87 //Boots of Speed [boot01]
+  STRING_SET 7378 @88 //Boots of Avoidance [boot04]
+  STRING_SET 7379 @89 //Boots of Grounding [boot05]
+  ACTION_IF FILE_EXISTS_IN_GAME ~boot12.itm~ BEGIN
+    STRING_SET 66458 @93 //Gargoyle Boots [boot12]
+  END
+END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~boot09.itm.itm~ BEGIN
+COPY_EXISTING ~boot09.itm~ ~override~ //Boot09 header fixes
+  PATCH_IF SOURCE_SIZE > 0x71 BEGIN
+    READ_LONG 0x64 ho //Header offset
+    WRITE_BYTE (ho + 0x1) 1 //ID required
+    WRITE_ASCIIT (ho + 0x4) ~iboot09~ //Use icon
+    READ_LONG  0x6a fb //Feature offset
+    READ_SHORT 0x70 fc //Feature count
+    INSERT_BYTES fb 0x30
+      WRITE_SHORT fb 142 //Opcode (Display special effect icon)
+      WRITE_BYTE (fb + 0x2) 1 //Target (Self)
+      WRITE_LONG (fb + 0x8) 83 //Icon (Spell Failure)
+      WRITE_LONG (fb + 0xe) 20 //Duration
+    WRITE_SHORT 0x70 (fc + 1)
+  END
+BUT_ONLY
+END
+
+COPY ~Deepgnomes/sto/agbox01.sto~ ~override/agbox02.sto~
+  SAY NAME2 @234 //Mahogany Shoe Box
+
+COPY ~Deepgnomes/sto/agkaraea.sto~ ~override~
+  SAY NAME2 @133 //Karaea's Jams and Boots
+
+ACTION_IF (~%plt%~ STRING_EQUAL ~bgt~ = 1) OR (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN
+  COPY ~Deepgnomes/sto/agkarbg1.sto~ ~override~
+    SAY NAME2 @133 //Karaea's Jams and Boots
+END
+
+COPY ~Deepgnomes/sto/misc03.sto~ ~override~
+  SAY NAME2 #6962 //Small Box
+
+COMPILE EVALUATE_BUFFER ~Deepgnomes/tcompile~
+
+STRING_SET 1154 @464 //Yuan-Ti Mage
+STRING_SET 1294 @464 //Yuan-Ti Mage
+STRING_SET 1323 @463 //Yuan-Ti
+STRING_SET 2243 @362 //Gnoll Captain
+STRING_SET 2258 @363 //Hobgoblin Captain
+STRING_SET 2268 @364 //Hobgoblin Wizard
+STRING_SET 19694 @362 //Gnoll Captain
+
+OUTER_PATCH blor BEGIN
+  GET_STRREF 8449 bl //Some mod misspells "Balor"
+END
+ACTION_IF (~%bl%~ STRING_EQUAL ~Baalor~ = 1) BEGIN
+  STRING_SET 8449 ~Balor~
+  STRING_SET 8450 ~Balor~
+END
+
+COPY ~Deepgnomes/cre/agaluf01.cre~ ~override~ //Alu-Fiend (summoned)
+     ~Deepgnomes/cre/agaluf02.cre~ ~override~ //Alu-Fiend (hostile)
+  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+    SAY NAME1 @436
+    SAY NAME2 @436
+    WRITE_SHORT 0x28 0x6011 //Animation (cleric_female_elf)
+    SAY BATTLE_CRY1 ~~ [T-MAD02A]
+    SAY BATTLE_CRY2 ~~ [T-MAD02B]
+    SAY ATTACK1 ~~ [T-MAD03C]
+    SAY DAMAGE ~~ [T-MAD08A]
+    SAY DYING ~~ [T-MAD09A]
+    SAY SELECT_COMMON1 ~~ [T-MAD01A]
+    SAY SELECT_COMMON2 ~~ [T-MAD01B]
+    REPLACE_CRE_ITEM ~agwing01~ #0 #0 #0 ~NONE~ ~HELMET~
+  END
+
+COPY ~Deepgnomes/cre/agcamb01.cre~ ~override~ //Cambion (summoned)
+     ~Deepgnomes/cre/agcamb02.cre~ ~override~ //Cambion (hostile)
+  PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
+    REPLACE_CRE_ITEM ~_ingdemn~ #0 #0 #0 ~NONE~ ~RRING~
+    REPLACE_CRE_ITEM ~_sw1h22~ #0 #0 #0 ~UNDROPPABLE~ ~WEAPON1~ EQUIP
+    REPLACE_CRE_ITEM ~_sw1h22~ #0 #0 #0 ~UNDROPPABLE~ ~SHIELD~
+  END
+  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+    WRITE_SHORT 0x28 0x2300 //Animation (death_knight)
+    SAY BATTLE_CRY1 ~~ [T-ISA01A]
+    SAY BATTLE_CRY2 ~~ [T-ISA01B]
+    SAY ATTACK1 ~~ [T-ISA05A]
+    SAY DAMAGE ~~ [T-ISA07]
+    SAY DYING ~~ [T-ISA09A]
+    SAY SELECT_COMMON1 ~~ [T-ISA02A]
+    SAY SELECT_COMMON2 ~~ [T-ISA02B]
+    REPLACE_CRE_ITEM ~%tsu%sw1h02~ #0 #0 #0 ~UNDROPPABLE~ ~WEAPON1~ EQUIP
+  END
+
+COPY ~Deepgnomes/cre/agearth1.cre~ ~override~ //Earth Elemental
+  PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
+    WRITE_ASCII 0x268 ~_tasight~ #8 //Default script
+  END
+  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+    WRITE_SHORT 0x28 0x7300 //Animation (elemental_earth)
+    SAY BATTLE_CRY1 ~~ [T-EAR01]
+    SAY ATTACK1 ~~ [T-EAR03]
+    SAY DAMAGE ~~ [T-EAR07]
+    SAY DYING ~~ [T-EAR09]
+    SAY SELECT_COMMON1 ~~ [T-EAR01]
+    SAY SELECT_COMMON2 ~~ [T-EAR02]
+  END
+
+COPY ~Deepgnomes/cre/aggob01.cre~ ~override~ //Goblin
+
+COPY ~Deepgnomes/cre/aggob02.cre~ ~override~ //Goblin Archer
+  SAY NAME1 @255
+  SAY NAME2 @255
+
+COPY ~Deepgnomes/cre/aggob03.cre~ ~override~ //Goblin Bodyguard
+  SAY NAME1 @256
+  SAY NAME2 @256
+
+COPY ~Deepgnomes/cre/aggob04.cre~ ~override~ //Goblin Elite Archer
+  SAY NAME1 @257
+  SAY NAME2 @257
+
+COPY ~Deepgnomes/cre/aggob05.cre~ ~override~ //Goblin Chief
+  SAY NAME1 @258
+  SAY NAME2 @258
+  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+    WRITE_SHORT 0x28 0xea20 //Animation (goblin_captain)
+  END
+
+COPY ~Deepgnomes/cre/aggob06.cre~ ~override~ //Goblin Shaman (booted)
+     ~Deepgnomes/cre/aggob07.cre~ ~override~ //Goblin Shaman (unbooted)
+  SAY NAME1 @259
+  SAY NAME2 @259
+  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+    WRITE_SHORT 0x28 0xea10 //Animation (goblin_shaman)
+  END
+
+  COPY ~Deepgnomes/cre/aggnom01.cre~ ~override~ //Gnome Slave (ar2900 Larswood)
+    SAY NAME1 @260
+    SAY NAME2 @260
+    SAY INITIAL_MEETING @242 //Yes. [T-SVA01B]
+    SAY MORALE @252 //Help! Help! [T-SVA03B]
+    SAY UNHAPPY_BREAKING_POINT @252 //Help! Help! [T-SVA03B]
+    SAY BATTLE_CRY1 @247 //My powers shall obliterate you! [T-SVA02C]
+    SAY BATTLE_CRY2 @248 //Die! [T_SVA02D]
+    SAY ATTACK1 ~~ [T-SVA04B]
+    SAY DAMAGE ~~ [T-SVA05B]
+    SAY DYING ~~ [T-SVA06B]
+    SAY HURT @253 //I am wounded! Heal me! [T-SVA07]
+    SAY SELECT_COMMON1 @241 //Good day! [T-SVA01A]
+    SAY SELECT_COMMON2 @242 //Yes. [T-SVA01B]
+    SAY SELECT_COMMON3 @243 //I really need to talk to you. [T-SVA01C]
+    SAY SELECT_COMMON4 @244 //Ho ha ha ha! [T-SVA01D]
+    SAY DIALOGUE_HOSTILE @254 //You're in GREAT peril if you bother me. Just you wait! [T-SVA08]
+    SAY CRITICAL_HIT @437 //That's the way it's done and done! [T-SVA09]
+    SAY CRITICAL_MISS @438 //No... [T-SVA10]
+    SAY SPELL_DISRUPTED @438 //No... [T-SVA10]
+    PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
+      REPLACE_CRE_ITEM ~_dart03~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+      PATCH_IF (~%plt%~ STRING_EQUAL ~ca~ = 1) BEGIN //CA
+      WRITE_ASCII 0x2cc ~aggnom03~ #8 //Dialogue
+    END
+    END
+
+
+COPY ~Deepgnomes/cre/aggog.cre~ ~override~ //Gogondy transporter (random)
+  SAY NAME1 @163
+  SAY NAME2 @163
+
+COPY ~Deepgnomes/cre/agkaraea.cre~ ~override~ //Karaea (ar2010 Trademeet, fw4800 Nashkel or tc1200 Westgate)
+  SAY NAME1 @120
+  SAY NAME2 @120
+  SAY INITIAL_MEETING @121
+  SAY TIRED @122
+  SAY BATTLE_CRY1 @123
+  SAY BATTLE_CRY2 @124
+  SAY ATTACK1 @124
+  SAY DAMAGE @125
+  SAY DYING @126
+  SAY HURT @127
+  SAY SELECT_COMMON1 @128
+  SAY SELECT_COMMON2 @129
+  SAY SELECT_COMMON3 @121
+  SAY CRITICAL_HIT @130
+  SAY CRITICAL_MISS @131
+  SAY DIALOGUE_HOSTILE @123
+  SAY SPELL_DISRUPTED @132
+  PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
+    REPLACE_CRE_ITEM ~_ring06~ #0 #0 #0 ~UNSTEALABLE~ ~LRING~
+    REPLACE_CRE_ITEM ~_slng02~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ EQUIP
+    REPLACE_CRE_ITEM ~_bull01~ #20 #0 #0 ~UNSTEALABLE~ ~QUIVER1~
+    REPLACE_CRE_ITEM ~_potn14~ #1 #0 #0 ~UNSTEALABLE~ ~QITEM3~
+    REPLACE_CRE_ITEM ~_gberry~ #3 #0 #0 ~NONE~ ~INV1~
+  END
+
+COPY ~Deepgnomes/cre/agmyrlo1.cre~ ~override~ //Myrlochar (summoned)
+     ~Deepgnomes/cre/agmyrlo2.cre~ ~override~ //Myrlochar (hostile)
+  SAY NAME1 @338
+  SAY NAME2 @338
+  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+    WRITE_SHORT 0x28 0x7a01 //Animation (spider_huge)
+    SAY BATTLE_CRY1 ~~ [T-MYR01A]
+    SAY BATTLE_CRY2 ~~ [T-MYR01B]
+    SAY ATTACK1 ~~ [T-MYR03A]
+    SAY DAMAGE ~~ [T-MYR04A]
+    SAY DYING ~~ [T-MYR05]
+    SAY SELECT_COMMON1 ~~ [T-MYR02A]
+    SAY SELECT_COMMON2 ~~ [T-MYR02B]
+    LAUNCH_PATCH_FUNCTION ADD_CRE_EFFECT
+      INT_VAR opcode = 51 //Color: Strong/Dark by RGB
+      timing = 9 //Permanent after death
+      target = 1 //Self
+      parameter1 = 575251456 //RGB: 164 73 34 (russet)
+      parameter2 = 2 //Major color
+      resist_dispel = 2 //Not dispellable/bypass resistance
+    END
+    LAUNCH_PATCH_FUNCTION ADD_CRE_EFFECT
+      INT_VAR opcode = 176 //Movement Modifier II
+      timing = 9 //Permanent after death
+      target = 1 //Self
+      parameter1 = 4
+      resist_dispel = 2 //Not dispellable/bypass resistance
+    END
+  END
+
+COPY ~Deepgnomes/cre/agtime01.cre~ ~override~ //Ancient Timepiece
+  SAY NAME1 @348
+  SAY NAME2 @348
+
+COPY ~Deepgnomes/cre/agwlfv01.cre~ ~override~ //Vampiric Wolf (summoned)
+  PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
+    SAY BATTLE_CRY1 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
+    SAY BATTLE_CRY2 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
+    SAY BATTLE_CRY3 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
+    SAY BATTLE_CRY4 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
+    SAY BATTLE_CRY5 ~[WOLF, VAMPIRIC 03]~ [_VWOLF03]
+    SAY ATTACK1 ~[WOLF, VAMPIRIC 05]~ [_VWOLF05]
+    SAY ATTACK2 ~[WOLF, VAMPIRIC 06]~ [_VWOLF06]
+    SAY DAMAGE ~[WOLF, VAMPIRIC 08]~ [_VWOLF08]
+    SAY DYING ~[WOLF, VAMPIRIC 09]~ [_VWOLF09]
+    SAY SELECT_COMMON1 ~[WOLF, VAMPIRIC 01]~ [_VWOLF01]
+    SAY SELECT_COMMON2 ~[WOLF, VAMPIRIC 02]~ [_VWOLF02]
+    WRITE_ASCII 0x268 ~_tasight~ #8 //Default script
+    REPLACE_CRE_ITEM ~_immune1~ #0 #0 #0 ~NONE~ ~LRING~
+    REPLACE_CRE_ITEM ~_ring95~ #0 #0 #0 ~NONE~ ~RRING~
+    REPLACE_CRE_ITEM ~_wolfva1~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+  END
+
+COPY ~Deepgnomes/cre/agworg01.cre~ ~override~ //Worg
+  PATCH_IF (~%plt%~ STRING_EQUAL ~tutu~ = 1) BEGIN //Tutu
+    WRITE_ASCII 0x268 ~_tasight~ #8 //Default script
+    REPLACE_CRE_ITEM ~_p1-8~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+  END
+  PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+    WRITE_SHORT 0x28 0x7b01 //Animation (wolf_worg)
+    SAY BATTLE_CRY1 ~~ [T-WOR01A]
+    SAY ATTACK1 ~~ [T-WOR03A]
+    SAY DAMAGE ~~ [T-WOR07A]
+    SAY DYING ~~ [T-WOR09A]
+    SAY SELECT_COMMON1 ~~ [T-WOR02A]
+  END
+
+ACTION_IF FILE_EXISTS_IN_GAME ~%tsd%ursword.cre~ BEGIN //Durlag's Pride
+  COPY_EXISTING ~%tsd%ursword.cre~ ~override~
+    PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+      WRITE_BYTE 0x271 0x65 //General (weapon, was humanoid)
+      WRITE_BYTE 0x272 0xc9 //Race (sword, was human)
+      WRITE_BYTE 0x273 0xc9 //Class (long sword, was mage)
+      WRITE_BYTE 0x27b 0x22 //Alignment (neutral, was none)
+    END
+  BUT_ONLY
+END
+
+ACTION_FOR_EACH ~lm~ IN ~iceele~ ~iceele01~ BEGIN //Elementals
+  ACTION_IF FILE_EXISTS_IN_GAME ~%lm%.cre~ BEGIN
+    COPY_EXISTING ~%lm%.cre~ ~override~
+      PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+        WRITE_BYTE 0x272 145 //Race (elemental)
+      END
+    BUT_ONLY
+  END
+END
+
+ACTION_IF NOT(FILE_EXISTS_IN_GAME ~fw0125.are~) AND NOT(FILE_EXISTS_IN_GAME ~tc1300.are~) BEGIN
+  COPY ~Deepgnomes/audio~ ~override~
+  ACTION_IF (~%WEIDU_OS%~ STRING_EQUAL_CASE ~win32~ = 1) BEGIN //if Windows
+    AT_NOW                   ~Deepgnomes/batchlog/agaurain.bat~ //install
+    AT_INTERACTIVE_UNINSTALL ~Deepgnomes/batchlog/agauraun.bat~ //uninstall
+  END ELSE BEGIN //if Linux or OS X
+    AT_NOW                   ~Deepgnomes/batchlog/agaurain.sh~ //install
+    AT_INTERACTIVE_UNINSTALL ~Deepgnomes/batchlog/agauraun.sh~ //uninstall
+  END
+END
+
+COPY ~Deepgnomes/bam~ ~override~
+COPY ~Deepgnomes/tbam~ ~override~
+
+  COPY ~Deepgnomes/itm/agamul01.itm~ ~override~ //Ornate Necklace
+    SAY NAME2 @15
+    SAY DESC @16
+  COPY ~Deepgnomes/itm/agboot24.itm~ ~override~ //Green Moccasins
+    SAY NAME1 @64
+    SAY NAME2 @9
+    SAY UNIDENTIFIED_DESC @65
+    SAY DESC @10
+  COPY ~Deepgnomes/itm/agboot26.itm~ ~override~ //Pink Boots of Stealth
+    SAY NAME2 @59
+    SAY DESC @60
+  COPY ~Deepgnomes/itm/agbox01.itm~ ~override~ //Pearwood Shoe Box
+    SAY NAME2 @78
+    SAY UNIDENTIFIED_DESC @79
+    SAY DESC @80
+  COPY ~Deepgnomes/itm/agbox03.itm~ ~override~ //Ebony Shoe Box
+    SAY NAME2 @236
+    SAY UNIDENTIFIED_DESC @79
+    SAY DESC @237
+  COPY ~Deepgnomes/itm/agclck01.itm~ ~override~ //Green Cloak
+    SAY NAME2 @3
+    SAY DESC @4
+  COPY ~Deepgnomes/itm/agearr01.itm~ ~override~ //Single Earring
+    SAY NAME1 @11
+    SAY NAME2 @7
+    SAY UNIDENTIFIED_DESC @63
+    SAY DESC @8
+  COPY ~Deepgnomes/itm/agioun01.itm~ ~override~ //Hazel Ioun Stone
+    SAY NAME2 @85
+    SAY DESC @86
+  COPY ~Deepgnomes/itm/agpotn01.itm~ ~override~ //Hand Lotion
+    SAY NAME2 @57
+    SAY DESC @58
+  COPY ~Deepgnomes/itm/agpotn02.itm~ ~override~ //Muscle Balm
+    SAY NAME2 @61
+    SAY DESC @62
+    READ_LONG 0x64 bf //Abilities offset
+    READ_SHORT 0x68 bn //Abilities count
+    READ_LONG 0x6a cf //Effect offset
+    FOR (f1 = 0; f1 < bn; f1 += 1) BEGIN //Cycle through abilities
+      READ_SHORT (bf + 0x38 * f1 + 0x1e) fq //Feature count
+      READ_SHORT (bf + 0x38 * f1 + 0x20) fx //Feature index
+      FOR (g1 = 0; g1 < fq; g1 += 1) BEGIN //Cycle through features
+        READ_SHORT (cf + 0x30 * (fx + g1)) pc //Opcode
+        READ_LONG (cf + 0x30 * (fx + g1) + 4) p1 //Parameter 1
+        PATCH_IF ((pc = 139) AND (p1= 0xffffffff)) BEGIN //If no text
+          SAY (cf + 0x30 * (fx + g1) + 4) @344 //Fatigued Decreased
+        END
+      END
+    END
+  COPY ~Deepgnomes/itm/t-ring03.itm~ ~override~ //Ornate Ring
+    SAY NAME2 @5
+    SAY DESC @6
+  COPY ~Deepgnomes/itm/agsw1h01.itm~ ~override~ //Jeweled Long Sword +3
+    SAY NAME2 @12
+    SAY DESC @13
+    PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+      PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+      WRITE_BYTE 0x26 11 //Strength
+      WRITE_BYTE 0x2c 8 //Dexterity
+    END
+  COPY ~Deepgnomes/itm/agsw1h02.itm~ ~override~ //Jeweled Long Sword +3 (Deepgnomes's)
+    SAY NAME2 @12
+    SAY DESC @14
+    PATCH_IF MOD_IS_INSTALLED ~setup-ashesofembers.tp2~ 0 BEGIN
+      PATCH_INCLUDE ~Deepgnomes/lib/t-embers.tpp~
+      WRITE_BYTE 0x26 11 //Strength
+      WRITE_BYTE 0x2c 8 //Dexterity
+    END
+
+//! Stores (BG2 and BGT) ////////////////////////////////////////////////////
+  COPY ~Deepgnomes/sto/agaurora.sto~ ~override~
+    SAY NAME2 @1 //Aurora's Shoes and Boots
+
+  COPY ~Deepgnomes/sto/agbox01.sto~ ~override~
+    SAY NAME2 @78 //Pearwood Shoe Box
+
+  COPY ~Deepgnomes/sto/agbox01.sto~ ~override/agbox03.sto~
+    SAY NAME2 @236 //Ebony Shoe Box
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~shop03.sto~ BEGIN
+    COPY_EXISTING ~shop03.sto~ ~override~ //Storekeep (ar0700 Waukeen's Promenade)
+      PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+        ADD_STORE_ITEM ~misc03~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Small Box
+      END
+    BUT_ONLY
+  END
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~dshop01.sto~ BEGIN
+  COPY_EXISTING ~dshop01.sto~ ~override~ //Ikert (ar0300 Docks)
+                ~wallace.sto~ ~override~ //Wallace (ar2000 Trademeet)
+    PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+      ADD_STORE_ITEM ~agboot21~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Everyday Green Boots
+    END
+  BUT_ONLY
+  END
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~dshop02.sto~ BEGIN
+  COPY_EXISTING ~dshop02.sto~ ~override~ //Jahaboam (ar0300 Docks)
+                ~uhmer03.sto~ ~override~ //Beherant Diir (ar1100 Umar Hills)
+    PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+      ADD_STORE_ITEM ~agboot22~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Everyday Yellow Boots
+    END
+  BUT_ONLY
+  END
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~crobar01.sto~ BEGIN
+  COPY_EXISTING ~crobar01.sto~ ~override~ //Grocaner (ar0021 Crooked Crane)
+    PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+      ADD_STORE_ITEM ~agboot23~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Everyday Blue Boots
+    END
+  BUT_ONLY
+  END
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~shop02.sto~ BEGIN
+  COPY_EXISTING ~shop02.sto~ ~override~ //Arnolinus (ar0706 Waukeen's Armorer)
+    PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+      ADD_STORE_ITEM ~aghelm01~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Helm of the North
+      ADD_STORE_ITEM ~agboot23~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Everyday Blue Boots
+    END
+  BUT_ONLY
+  END
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~gorch.sto~ BEGIN
+  COPY_EXISTING ~gorch.sto~   ~override~ //Gorch (ar0302 Mae'var's Inn 1st Floor)
+                ~bshop01.sto~ ~override~ //Cutpurse (ar0500 Bridge District)
+                ~trthf02.sto~ ~override~ //Kich (ar2000 Trademeet)
+    PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+      ADD_STORE_ITEM ~agblun02~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Blackjack
+      ADD_STORE_ITEM ~aglock01~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Bronze Lockpick
+      ADD_STORE_ITEM ~agmask01~ LAST #10 #0 #0 ~IDENTIFIED~ #1 //Mask of Evasion
+    END
+  BUT_ONLY
+  END
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~arled.sto~ BEGIN
+  COPY_EXISTING ~arled.sto~   ~override~ //Arledrian (ar0312 Sea Bounty Sleeping Room)
+                ~bshop02.sto~ ~override~ //Storekeep (ar0500 Bridge District)
+                ~dmark1.sto~  ~override~ //Fovem (ar0300 Docks)
+                ~shop04.sto~  ~override~ //Enge (ar0707 Waukeen's Enge's Shop)
+                ~trcar04.sto~ ~override~ //Caravan Merchant (ar2015 Merchant Tent)
+    PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+      ADD_STORE_ITEM ~agboot25~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Green-Laced Boots
+    END
+  BUT_ONLY
+  END
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~thumb.sto~ BEGIN
+  COPY_EXISTING ~thumb.sto~ ~override~ //The Thumb (ar0313 Sea Bounty Tavern 1st Floor)
+    PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+      ADD_STORE_ITEM ~agbrac01~ LAST #3 #0 #0 ~IDENTIFIED~ #1 //Bracelet of Wisdom
+      ADD_STORE_ITEM ~agbroo01~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Brooch of Tempus
+      ADD_STORE_ITEM ~agsw1h05~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Bastard Sword +2, Iceblade
+    END
+  BUT_ONLY
+  END
+
+  ACTION_IF FILE_EXISTS_IN_GAME ~temtalos.sto~ BEGIN
+  COPY_EXISTING ~temtalos.sto~ ~override~ //Mistress Ada (ar0904 Temple of Talos)
+    PATCH_IF SOURCE_SIZE > 0x9b BEGIN
+      ADD_STORE_ITEM ~agboot27~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Boots of Berserking
+      ADD_STORE_ITEM ~agax1h02~ LAST #0 #0 #0 ~IDENTIFIED~ #1 //Battle Axe +2, Armor Biter
+    END
+  BUT_ONLY
+END
+
+//! Dialogue and script compiling (BG2 and BGT) /////////////////////////////
+  COMPILE ~Deepgnomes/compile~
+
+//! Creatures (BG2 and BGT) /////////////////////////////////////////////////
+  COPY ~Deepgnomes/cre/agaurora.cre~ ~override~ //Aurora (ar0500 Bridge District)
+    SAY NAME1 @2
+    SAY NAME2 @2
+    SAY BATTLE_CRY1 @101
+    SAY BATTLE_CRY2 @102
+    SAY ATTACK1 @100
+    SAY DAMAGE @105
+    SAY DYING @107
+    SAY HURT @108
+    SAY SELECT_COMMON1 @340
+    SAY SELECT_COMMON2 @341
+    SAY SELECT_COMMON3 @342
+    SAY CRITICAL_HIT @103
+    SAY CRITICAL_MISS @104
+    SAY DIALOGUE_HOSTILE @106
+
+  COPY ~Deepgnomes/cre/agasleep.cre~ ~override~ 
+    SAY NAME1 @2
+    SAY NAME2 @2
+    SAY BATTLE_CRY1 @101
+    SAY BATTLE_CRY2 @102
+    SAY ATTACK1 @100
+    SAY DAMAGE @105
+    SAY DYING @107
+    SAY HURT @108
+    SAY CRITICAL_HIT @103
+    SAY CRITICAL_MISS @104
+    SAY DIALOGUE_HOSTILE @106
+
+  COPY ~Deepgnomes/cre/aggnom02.cre~ ~override~ //Gnome Slave (ar1404 Temple Ruins)
+    SAY NAME1 @260
+    SAY NAME2 @260
+    SAY INITIAL_MEETING @242 //Yes. [T-SVA01B]
+    SAY MORALE @252 //Help! Help! [T-SVA03B]
+    SAY UNHAPPY_BREAKING_POINT @252 //Help! Help! [T-SVA03B]
+    SAY BATTLE_CRY1 @247 //My powers shall obliterate you! [T-SVA02C]
+    SAY BATTLE_CRY2 @248 //Die! [T_SVA02D]
+    SAY ATTACK1 ~~ [T-SVA04B]
+    SAY DAMAGE ~~ [T-SVA05B]
+    SAY DYING ~~ [T-SVA06B]
+    SAY HURT @253 //I am wounded! Heal me! [T-SVA07]
+    SAY SELECT_COMMON1 @241 //Good day! [T-SVA01A]
+    SAY SELECT_COMMON2 @242 //Yes. [T-SVA01B]
+    SAY SELECT_COMMON3 @243 //I really need to talk to you. [T-SVA01C]
+    SAY SELECT_COMMON4 @244 //Ho ha ha ha! [T-SVA01D]
+    SAY DIALOGUE_HOSTILE @254 //You're in GREAT peril if you bother me. Just you wait! [T-SVA08]
+    SAY CRITICAL_HIT @437 //That's the way it's done and done! [T-SVA09]
+    SAY CRITICAL_MISS @438 //No... [T-SVA10]
+    SAY SPELL_DISRUPTED @438 //No... [T-SVA10]
+
+
+  COPY ~Deepgnomes/cre/agtomtha.cre~ ~override~ //Tomthal (ar0500 Bridge District)
+    SAY NAME1 @134
+    SAY NAME2 @134
+    SAY INITIAL_MEETING @135
+    SAY BATTLE_CRY1 @136
+    SAY BATTLE_CRY2 @137
+    SAY ATTACK1 @138
+    SAY DAMAGE @139
+    SAY DYING @140
+    SAY HURT @141
+    SAY SELECT_COMMON1 @142
+    SAY SELECT_COMMON2 @135
+    SAY SELECT_COMMON3 @143
+    SAY CRITICAL_HIT @144
+    SAY CRITICAL_MISS @145
+    SAY DIALOGUE_HOSTILE @138
+    SAY SPELL_DISRUPTED @146
+
+
+  COPY ~Deepgnomes/cre/agtsleep.cre~ ~override~ //Tomthal (asleep in ag0540 Tomthal's Cellar)
+    SAY NAME1 @134
+    SAY NAME2 @134
+    SAY BATTLE_CRY1 @136
+    SAY BATTLE_CRY2 @137
+    SAY ATTACK1 @138
+    SAY DAMAGE @139
+    SAY DYING @140
+    SAY HURT @141
+    SAY CRITICAL_HIT @144
+    SAY CRITICAL_MISS @145
+    SAY DIALOGUE_HOSTILE @138
+    SAY SPELL_DISRUPTED @146
+
+  COPY ~Deepgnomes/cre/agworg02.cre~ ~override~ //Greater Worg
+    SAY NAME1 @453
+    SAY NAME2 @453
+    PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+      WRITE_SHORT 0x28 0x7b01 //Animation (wolf_worg)
+      SAY BATTLE_CRY1 ~~ [T-WOR01A]
+      SAY ATTACK1 ~~ [T-WOR03A]
+      SAY DAMAGE ~~ [T-WOR07A]
+      SAY DYING ~~ [T-WOR09A]
+      SAY SELECT_COMMON1 ~~ [T-WOR02A]
+    END
+
+//! Script extending (BG2 and BGT) //////////////////////////////////////////
+  EXTEND_BOTTOM ~ar0406.bcs~ ~Deepgnomes/extend/agar0406.baf~ //Copper Coronet
+  EXTEND_BOTTOM ~ar0710.bcs~ ~Deepgnomes/extend/agar0710.baf~ //Fennecia's Home
+  EXTEND_BOTTOM ~ar1404.bcs~ ~Deepgnomes/extend/agar1404.baf~ //Shadow Temple Ruins
+  EXTEND_BOTTOM ~ar2200.bcs~ ~Deepgnomes/extend/agar2200.baf~ //Ust Natha
+  EXTEND_BOTTOM ~ar2201.bcs~ ~Deepgnomes/extend/agar2201.baf~ //Ust Natha Temple
+  EXTEND_BOTTOM ~ar2401.bcs~ ~Deepgnomes/extend/agar2401.baf~ //Underdark Exit Cave
+  EXTEND_BOTTOM ~dwsvir.bcs~ ~Deepgnomes/tcompile/agsvir01.baf~ //Svirfneblin innates
+
+
+//! Areas (BG2 and BGT) /////////////////////////////////////////////////////
+  COPY ~Deepgnomes/are~ ~override~
+
+  COPY_EXISTING ar0500.are override //Bridge District
+    PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_loc_x          = 3450
+        fj_loc_y          = 636
+        fj_dest_loc_x     = 3450
+        fj_dest_loc_y     = 636
+        fj_animation      = 0x6304  
+        fj_orientation    = 1      //SSW
+        STR_VAR
+        fj_structure_type = actor
+        fj_name           = ~Tomthal Harfurthock~
+        fj_cre_resref     = agtomtha
+      END
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_loc_x          = 2780
+        fj_loc_y          = 1955
+        fj_dest_loc_x     = 2780
+        fj_dest_loc_y     = 1955
+        fj_animation      = 0x6110 //fighter female human
+        fj_orientation    = 15     //SSE
+        STR_VAR
+        fj_structure_type = actor
+        fj_name           = Aurora
+        fj_cre_resref     = agAurora
+      END
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_type         = 2    //travel
+        fj_box_left     = 3415
+        fj_box_top      = 625
+        fj_box_right    = 3450
+        fj_box_bottom   = 700
+        fj_cursor_index = 30   //door
+        fj_vertex_0     = 3415 + (625 << 16)
+        fj_vertex_1     = 3450 + (650 << 16)
+        fj_vertex_2     = 3450 + (700 << 16)
+        fj_vertex_3     = 3415 + (676 << 16)
+        STR_VAR
+        fj_structure_type   = region
+        fj_name             = Tran0540
+        fj_destination_area = ag0540
+        fj_destination_name = Exit0500
+      END
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_loc_x       = 3490
+        fj_loc_y       = 655
+        fj_orientation = 10   //NE
+        STR_VAR
+        fj_structure_type = entrance
+        fj_name           = Exit0540
+      END
+    END
+  BUT_ONLY
+
+ COPY_EXISTING ar0528.are override //Deepgnomes's House L2
+    PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_loc_x          = 572
+        fj_loc_y          = 198
+        fj_dest_loc_x     = 572
+        fj_dest_loc_y     = 198
+        fj_animation      = 0x4410 //sleeping woman
+        fj_orientation    = 10     //NE
+        STR_VAR
+        fj_structure_type = actor
+        fj_name           = Deepgnomes
+        fj_cre_resref     = agasleep
+      END
+    END
+  BUT_ONLY
+
+  COPY_EXISTING ar1100.are override //Umar Hills
+    PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_type         = 2    //travel
+        fj_box_left     = 2746
+        fj_box_top      = 887
+        fj_box_right    = 2824
+        fj_box_bottom   = 1008
+        fj_cursor_index = 30   //door
+        fj_vertex_0     = 2746 + (887  << 16)
+        fj_vertex_1     = 2792 + (897  << 16)
+        fj_vertex_2     = 2824 + (1008 << 16)
+        fj_vertex_3     = 2771 + (1008 << 16)
+        STR_VAR
+        fj_structure_type   = region
+        fj_name             = Tran1110
+        fj_destination_area = ag1110
+        fj_destination_name = Exit1100
+      END
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_loc_x       = 2838
+        fj_loc_y       = 1090
+        fj_orientation = 15   //SSE
+        STR_VAR
+        fj_structure_type = entrance
+        fj_name           = Exit1110
+      END
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_loc_x       = 2785
+        fj_loc_y       = 949
+        fj_flags       = 0b00000000000000000001000110000101
+        //visible, not illuminated, invisible in dark, covered by actors, shown in combat
+        STR_VAR
+        fj_structure_type = animation
+        fj_name           = Cave1
+        fj_bam_resref     = ag1100c1
+      END
+    END
+  BUT_ONLY
+
+  COPY_EXISTING ~ar1100sr.bmp~ ~override~ //Search map
+    PATCH_IF SOURCE_SIZE > 0x8d6d BEGIN
+      WRITE_LONG 0x26 0x0b120b12
+      WRITE_BYTE 0x2e 0
+      WRITE_BYTE 0x32 0
+      WRITE_BYTE 0x7dc9 0xff
+      WRITE_BYTE 0x7e67 0xff
+      WRITE_BYTE 0x7e69 0x8f
+      WRITE_BYTE 0x7faa 0xff
+      WRITE_BYTE 0x804b 0xff
+      WRITE_BYTE 0x80eb 0xff
+      WRITE_BYTE 0x818b 0x8f
+      WRITE_SHORT 0x818c 0xffff
+      WRITE_LONG 0x822a 0xffff8fa8
+      WRITE_LONG 0x82ca 0xffff88a8
+      WRITE_BYTE 0x82ce 0xff
+      WRITE_LONG 0x836b 0xffffff88
+      WRITE_LONG 0x840b 0xffffff88
+      WRITE_BYTE 0x84ab 0x88
+      WRITE_LONG 0x84ac 0xffffffff
+      WRITE_BYTE 0x854b 0x88
+      WRITE_LONG 0x854c 0xffffffff
+      WRITE_BYTE 0x85eb 0x88
+      WRITE_SHORT 0x85ec 0xffff
+      WRITE_BYTE 0x85f0 0xff
+      WRITE_BYTE 0x868b 0x88
+      WRITE_SHORT 0x868c 0xffff
+      WRITE_BYTE 0x872b 0x88
+      WRITE_SHORT 0x872c 0x4444
+      WRITE_LONG 0x87cb 0x88448488
+      WRITE_LONG 0x886b 0x88888888
+      WRITE_SHORT 0x890c 0x8888
+      WRITE_BYTE 0x890e 0x88
+    END
+  BUT_ONLY
+
+  COPY_EXISTING ar2010.are override //Trademeet Inn entrance
+    PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_loc_x          = 410
+        fj_loc_y          = 704
+        fj_dest_loc_x     = 410
+        fj_dest_loc_y     = 704
+        fj_animation      = 0x6014  
+        fj_orientation    = 0      //S
+        STR_VAR
+        fj_structure_type = actor
+        fj_name           = ~Karaea Harfurthock~
+        fj_cre_resref     = agkaraea
+      END
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_type         = 2    //travel
+        fj_box_left     = 1075
+        fj_box_top      = 408
+        fj_box_right    = 1101
+        fj_box_bottom   = 470
+        fj_cursor_index = 30   //door
+        fj_vertex_0     = 1075 + (430 << 16)
+        fj_vertex_1     = 1101 + (408 << 16)
+        fj_vertex_2     = 1101 + (450 << 16)
+        fj_vertex_3     = 1075 + (470 << 16)
+        STR_VAR
+        fj_structure_type   = region
+        fj_name             = Tran2020
+        fj_destination_area = ag2020
+        fj_destination_name = Exit2010
+      END
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_loc_x       = 1050
+        fj_loc_y       = 410
+        fj_orientation = 6   //NW
+        STR_VAR
+        fj_structure_type = entrance
+        fj_name           = Exit2020
+      END
+    END
+  BUT_ONLY
+
+  COPY_EXISTING ar1404.are override //Temple Ruins container
+    PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+      LPF fj_add_are_structure
+        INT_VAR
+        fj_type       = 8 //nonvisible
+        fj_loc_x      = 2612
+        fj_loc_y      = 1428
+        fj_box_left   = 2582
+        fj_box_top    = 1396
+        fj_box_right  = 2602
+        fj_box_bottom = 1416
+        fj_trap_loc_x = 2622
+        fj_trap_loc_y = 1438
+        fj_vertex_0   = 2594 + (1416 << 16)
+        fj_vertex_1   = 2588 + (1416 << 16)
+        fj_vertex_2   = 2582 + (1408 << 16)
+        fj_vertex_3   = 2584 + (1400 << 16)
+        fj_vertex_4   = 2594 + (1396 << 16)
+        fj_vertex_5   = 2600 + (1400 << 16)
+        fj_vertex_6   = 2602 + (1407 << 16)
+        fj_vertex_7   = 2600 + (1412 << 16)
+        STR_VAR
+        fj_structure_type = container
+        fj_name           = ~Container 1~
+      END
+    END
+  BUT_ONLY
+
+  COPY ~Deepgnomes/arestr/ag0540.are~ ~override~ //Tomthal's Cellar
+    READ_LONG 0x5c fzn //Regions offset
+    SAY (fzn + 0xc4 + 0x64) @345 //Info text (This gnomish pickaxe has seen a lot of wear and is not very serviceable.)
+
+  COPY ~Deepgnomes/arestr/ag1110.are~ ~override~ //Umar Hills Cave
+    READ_LONG 0x54 tcf //Actors offset
+    READ_SHORT 0x58 tcc //Actors count
+    FOR (i = 0; i < tcc; i += 1) BEGIN //Cycle through actors
+      READ_ASCII (i * 0x110 + tcf) tnm
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB03~ = 1) BEGIN
+        SPRINT t-text @256
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Bodyguard
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB04~ = 1) BEGIN
+        SPRINT t-text @257
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Elite Archer
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB05~ = 1) BEGIN
+        SPRINT t-text @258
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Chief
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB07~ = 1) BEGIN
+        SPRINT t-text @259
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Shaman
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGWORG02~ = 1) BEGIN
+        SPRINT t-text @453
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Greater Worg
+      END
+      PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+        READ_LONG (i * 0x110 + tcf + 0x30) cnm //Animation
+        PATCH_IF cnm = 0x5257 BEGIN //If goblin_shaman
+          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xea10
+        END
+        PATCH_IF cnm = 0x5252 BEGIN //If goblin_captain
+          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xea20
+        END
+        PATCH_IF cnm = 0x5262 BEGIN //If worg_iwd
+          WRITE_LONG (i * 0x110 + tcf + 0x30) 0x7b01
+        END
+      END
+    END
+
+  COPY ~Deepgnomes/arestr/ag2020.are~ ~override~ //Karaea's Greenhouse
+    READ_LONG 0x5c fzn //Regions offset
+    SAY (fzn + 0xc4 + 0x64) @332 //Info text (This miniature greenhouse contains many types of berries and is lit by special lights that mimic the sun.)
+    PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+      READ_LONG 0x54 tcf //Actors offset
+      READ_SHORT 0x58 tcc //Actors count
+      FOR (i = 0; i < tcc; i += 1) BEGIN //Cycle through headers
+        READ_LONG (i * 0x110 + tcf + 0x30) cnm //Animation
+        PATCH_IF cnm = 0x5266 BEGIN //If svirfneblin_dark_noaxe
+          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xec10
+        END
+      END
+      END
+
+
+
+EXTEND_BOTTOM ~baldur.bcs~ ~Deepgnomes/extend/agbaldur.baf~ //Global script
+
+EXTEND_BOTTOM ~baldur25.bcs~ ~Deepgnomes/extend/agbaldur.baf~
+
+
+  EXTEND_BOTTOM ~BG4807.bcs~ ~Deepgnomes/extend/agar3707.baf~ //Nashkel House 1
+  EXTEND_BOTTOM ~BG0720.bcs~ ~Deepgnomes/extend/agar0720.baf~ //C. Baldur's Gate: Drakon Tavern
+    EVALUATE_BUFFER
+  EXTEND_BOTTOM ~BG2101.bcs~ ~Deepgnomes/extend/agar8801.baf~ //Cloakwood Spider Nest
+  EXTEND_BOTTOM ~BG2900.bcs~ ~Deepgnomes/extend/agbg2900.baf~ //Larswood
+  EXTEND_BOTTOM ~BG3000.bcs~ ~Deepgnomes/extend/agar9100.baf~ //Spider Wood
+
+  COPY_EXISTING ~neb_.cre~ ~override~ //Neb (in SW Baldur's Gate FF HQ L1)
+    PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+      WRITE_SHORT 0x24 25 //Current HP (was 85)
+      WRITE_SHORT 0x26 25 //Max HP (was 85)
+      WRITE_SHORT 0x28 0x6304 //Animation (thief_male_gnome, was 0x5302 dwarf_low)
+      WRITE_BYTE 0x45 30 //Hide in shadows
+      WRITE_SHORT 0x46 10 //Base AC (was 0)
+      WRITE_SHORT 0x48 10 //Effective AC (was 0)
+      WRITE_BYTE 0x55 11 //Save vs. wands (was 14)
+      WRITE_BYTE 0x57 15 //Save vs. breath (was 16)
+      WRITE_BYTE 0x58 12 //Save vs. spells (was 15)
+      WRITE_BYTE 0x64 10 //Detect illusion
+      WRITE_BYTE 0x65 5 //Set traps
+      WRITE_BYTE 0x67 50 //Open locks (was 20)
+      WRITE_BYTE 0x68 50 //Stealth (was 30)
+      WRITE_BYTE 0x6a 50 //Pick pockets (was 30)
+      WRITE_BYTE 0x75 1 //Missile weapons
+      WRITE_BYTE 0x23c 17 //Dexterity (was 14)
+      WRITE_BYTE 0x23d 16 //Constitution (was 6)
+      WRITE_LONG 0x244 0x04000000 //Kit (illusionist, was 0x00000000 none)
+      WRITE_BYTE 0x272 6 //Race (gnome)
+      WRITE_BYTE 0x273 0xd //Class (mage_thief, was thief)
+      ADD_KNOWN_SPELL ~spwi112~ #0 ~wizard~ //Magic Missile
+      ADD_KNOWN_SPELL ~spwi211~ #1 ~wizard~ //Melf's Acid Arrow
+      ADD_KNOWN_SPELL ~spwi212~ #1 ~wizard~ //Mirror Image
+      END
+
+    COPY_EXISTING ~delsvir.cre~ ~override~ //Delsvirtanyon (in Ulgoth's Beard)
+      PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+        WRITE_LONG 0x14 976 //XP Value (was 801)
+        WRITE_BYTE 0x2f 84 //Skin color (peach, was 12 light carnation pink)
+        WRITE_BYTE 0x32 84 //Hair color (peach, was 2 dark gold)
+        WRITE_BYTE 0x45 60 //Hide in shadows
+        WRITE_SHORT 0x46 ~-2~ //Base AC (was 10)
+        WRITE_SHORT 0x46 ~-2~ //Effective AC (was 10)
+        WRITE_BYTE 0x52 17 //THAC0 (was 16)
+        WRITE_BYTE 0x54 10 //Save vs. death (was 11)
+        WRITE_BYTE 0x55 6 //Save vs. wands (was 9)
+        WRITE_BYTE 0x56 8 //Save vs. polymorph (was 10)
+        WRITE_BYTE 0x57 10 //Save vs. breath (was 13)
+        WRITE_BYTE 0x58 7 //Save vs. spells (was 10)
+        WRITE_BYTE 0x5d 35 //Resist magic
+        WRITE_BYTE 0x5e 35 //Resist magic fire
+        WRITE_BYTE 0x5f 35 //Resist magic cold
+        WRITE_BYTE 0x64 100 //Detect illusion
+        WRITE_BYTE 0x66 23 //Lore (was 30)
+        WRITE_BYTE 0x6f 1 //Small swords (was 3)
+        WRITE_BYTE 0x72 1 //Blunt weapons
+        WRITE_BYTE 0x235 7 //Level 2 (was 1)
+        WRITE_BYTE 0x236 1 //Level 3 (was 6)
+        WRITE_BYTE 0x237 1 //Sex (male, was 158)
+        WRITE_LONG 0x244 0x04000000 //Kit (illusionist)
+        WRITE_ASCII 0x258 ~agsvir01~ #8 //Race script
+        WRITE_ASCIIE 0x260 ~%tsu%mage6~ #8 //General script
+        WRITE_BYTE 0x275 1 //Gender (male, was 158)
+        REMOVE_MEMORIZED_SPELLS
+        REMOVE_KNOWN_SPELL ~spwi505~ //Shadow Door
+        ADD_MEMORIZED_SPELL ~spwi106~ #0 ~wizard~ //Blindness
+        ADD_MEMORIZED_SPELL ~spwi112~ #0 ~wizard~ (4) //Magic Missile
+        ADD_MEMORIZED_SPELL ~spwi118~ #0 ~wizard~ //Chromatic Orb
+        ADD_MEMORIZED_SPELL ~spwi201~ #1 ~wizard~ //Blur
+        ADD_MEMORIZED_SPELL ~spwi211~ #1 ~wizard~ (3) //Melf's Acid Arrow
+        ADD_MEMORIZED_SPELL ~spwi217~ #1 ~wizard~ //Agannazar's Scorcher
+        ADD_MEMORIZED_SPELL ~spwi303~ #2 ~wizard~ (2) //Flame Arrow
+        ADD_MEMORIZED_SPELL ~spwi304~ #2 ~wizard~ //Fireball
+        ADD_MEMORIZED_SPELL ~spwi401~ #2 ~wizard~ (2) //Confusion
+        ADD_CRE_ITEM ~t-ring05~ #0 #0 #0 ~UNSTEALABLE~ ~LRING RRING~ //Svirfneblin Ring
+        ADD_CRE_ITEM ~%tsu%dart03~ #10 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ EQUIP //Dart of Stunning
+        END
+
+    COPY_EXISTING ~dushai.cre~ ~override~ //Dushai (in Ulgoth's Beard)
+      PATCH_IF SOURCE_SIZE > 0x2d3 BEGIN
+        WRITE_LONG 0x14 2001 //XP Value (was 11)
+        WRITE_SHORT 0x24 55 //Current HP (was 25)
+        WRITE_SHORT 0x26 55 //Max HP (was 25)
+        WRITE_BYTE 0x2f 38 //Skin color (light dirt brown, was 90 moldy gold)
+        WRITE_BYTE 0x45 60 //Hide in shadows
+        WRITE_SHORT 0x46 ~-5~ //Base AC (was 10)
+        WRITE_SHORT 0x46 ~-5~ //Effective AC (was 10)
+        WRITE_BYTE 0x52 16 //THAC0 (was 5)
+        WRITE_BYTE 0x55 6 //Save vs. wands (was 5)
+        WRITE_BYTE 0x56 7 //Save vs. polymorph (was 5)
+        WRITE_BYTE 0x57 10 //Save vs. breath (was 5)
+        WRITE_BYTE 0x58 7 //Save vs. spells (was 5)
+        WRITE_BYTE 0x59 100 //Resist fire
+        WRITE_BYTE 0x5e 80 //Resist magic fire
+        WRITE_BYTE 0x5d 55 //Resist magic
+        WRITE_BYTE 0x5e 55 //Resist magic fire
+        WRITE_BYTE 0x5f 55 //Resist magic cold
+        WRITE_BYTE 0x64 100 //Detect illusion
+        WRITE_BYTE 0x66 50 //Lore (was 18)
+        WRITE_BYTE 0x72 1 //Blunt weapons
+        WRITE_BYTE 0x75 1 //Missile weapons
+        WRITE_BYTE 0x234 9 //Level 1 (was 10)
+        WRITE_BYTE 0x23c 16 //Dexterity (was 12)
+        WRITE_LONG 0x244 0x04000000 //Kit (illusionist, was 0x40000000 trueclass)
+        WRITE_ASCII 0x258 ~mage10c~ #8 //Race script
+        WRITE_ASCII 0x260 ~pries10b~ #8 //General script
+        WRITE_BYTE 0x273 0x9b //Class (innocent, was 0xe cleric_mage)
+        REMOVE_MEMORIZED_SPELLS
+        ADD_MEMORIZED_SPELL ~sppr102~ #0 ~priest~ (6) //Command
+        ADD_MEMORIZED_SPELL ~sppr208~ #1 ~priest~ (4) //Hold Person
+        ADD_MEMORIZED_SPELL ~sppr211~ #1 ~priest~ (2) //Silence 15' Radius
+        ADD_MEMORIZED_SPELL ~sppr306~ #2 ~priest~ //Protection From Fire
+        ADD_MEMORIZED_SPELL ~sppr312~ #2 ~priest~ //Strength of One
+        ADD_MEMORIZED_SPELL ~sppr313~ #2 ~priest~ //Holy Smite
+        ADD_MEMORIZED_SPELL ~sppr315~ #2 ~priest~ //Cure Medium Wounds
+        ADD_MEMORIZED_SPELL ~sppr401~ #3 ~priest~ (2) //Cure Serious Wounds
+        ADD_MEMORIZED_SPELL ~sppr406~ #3 ~priest~ //Defensive Harmony
+        ADD_MEMORIZED_SPELL ~sppr503~ #4 ~priest~ //Flame Strike
+        ADD_MEMORIZED_SPELL ~spwi106~ #0 ~wizard~ //Blindness
+        ADD_MEMORIZED_SPELL ~spwi118~ #0 ~wizard~ (6) //Chromatic Orb
+        ADD_MEMORIZED_SPELL ~spwi201~ #1 ~wizard~ //Blur
+        ADD_MEMORIZED_SPELL ~spwi212~ #1 ~wizard~ //Mirror Image
+        ADD_MEMORIZED_SPELL ~spwi215~ #1 ~wizard~ (2) //Web
+        ADD_MEMORIZED_SPELL ~spwi219~ #1 ~wizard~ //Vocalize
+        ADD_MEMORIZED_SPELL ~spwi306~ #2 ~wizard~ (2) //Hold Person
+        ADD_MEMORIZED_SPELL ~spwi308~ #2 ~wizard~ (2) //Lightning Bolt
+        ADD_MEMORIZED_SPELL ~spwi408~ #3 ~wizard~ //Stoneskin
+        ADD_MEMORIZED_SPELL ~spwi418~ #3 ~wizard~ //Fire Shield (Red)
+        ADD_MEMORIZED_SPELL ~spwi421~ #3 ~wizard~ //Teleport Field
+        ADD_MEMORIZED_SPELL ~spwi508~ #4 ~wizard~ (3) //Chaos
+        ADD_CRE_ITEM ~t-ring05~ #0 #0 #0 ~UNSTEALABLE~ ~LRING RRING~ //Svirfneblin Ring
+        REPLACE_CRE_ITEM ~agblun01~ #0 #0 #0 ~UNSTEALABLE~ ~WEAPON1~ //Svirfneblin Club
+        ADD_CRE_ITEM ~%tsu%dart03~ #10 #0 #0 ~UNSTEALABLE~ ~WEAPON2~ EQUIP //Dart of Stunning
+        END
+
+//! Areas (Tutu, BGT and CA) ////////////////////////////////////////////////
+
+  COPY ~Deepgnomes/uare~ ~override~
+
+    COPY_EXISTING ~BG4300.are~ override //North Nashkel Road entrance
+      PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+        LPF fj_add_are_structure
+          INT_VAR
+          fj_type         = 2    //travel
+          fj_box_left     = 3602
+          fj_box_top      = 627
+          fj_box_right    = 3674
+          fj_box_bottom   = 721
+          fj_cursor_index = 30   //door
+          fj_vertex_0     = 3602 + (703 << 16)
+          fj_vertex_1     = 3674 + (721 << 16)
+          fj_vertex_2     = 3674 + (643 << 16)
+          fj_vertex_3     = 3616 + (627 << 16)
+          STR_VAR
+          fj_structure_type   = region
+          fj_name             = Door4301
+          fj_destination_area = ag4301
+          fj_destination_name = Exit4300
+        END
+        LPF fj_add_are_structure
+          INT_VAR
+          fj_loc_x       = 3690
+          fj_loc_y       = 764
+          fj_orientation = 1   //SSW
+          STR_VAR
+          fj_structure_type = entrance
+          fj_name           = Exit4301
+          RET
+          some_unknown_offset = fj_return_offset
+        END
+        WRITE_SHORT some_unknown_offset + 0x28 64
+        LPF fj_add_are_structure
+          INT_VAR
+          fj_loc_x       = 3609
+          fj_loc_y       = 674
+          fj_flags       = 0b00000000000000000001000110000101
+          //visible, not illuminated, invisible in dark, covered by actors, shown in combat
+          STR_VAR
+          fj_structure_type = animation
+          fj_name           = Cave1
+          fj_bam_resref     = ag4300c1
+        END
+        END
+
+
+    COPY_EXISTING ~BG4300sr.bmp~ ~override~ //Search map
+      PATCH_IF SOURCE_SIZE > 0xa5e8 BEGIN
+        WRITE_BYTE  0xa2c7 0x1f
+        WRITE_SHORT 0xa367 0x1111
+        WRITE_BYTE  0xa369 0x18
+        WRITE_SHORT 0xa407 0x1111
+        WRITE_BYTE  0xa409 0x18
+        WRITE_SHORT 0xa4a7 0x1111
+        WRITE_BYTE  0xa4a9 0x18
+        WRITE_SHORT 0xa547 0x1111
+        WRITE_BYTE  0xa549 0x18
+        WRITE_SHORT 0xa5e7 0x1181
+      END
+    BUT_ONLY 
+
+    COPY_EXISTING ~BG4800.are~ override //Nashkel
+      PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+        LPF fj_add_are_structure
+          INT_VAR
+          fj_loc_x          = 1550
+          fj_loc_y          = 710
+          fj_dest_loc_x     = 1550
+          fj_dest_loc_y     = 710
+          fj_animation      = 0x6014   
+          fj_orientation    = 2      //SSW
+          STR_VAR
+          fj_structure_type = actor
+          fj_name           = ~Karaea Harfurthock~
+          fj_cre_resref     = agkaraea
+        END
+        LPF fj_add_are_structure
+          INT_VAR
+          fj_type         = 2    //travel
+          fj_box_left     = 2993
+          fj_box_top      = 2077
+          fj_box_right    = 3019
+          fj_box_bottom   = 2139
+          fj_cursor_index = 30   //door
+          fj_vertex_0     = 2993 + (2099 << 16)
+          fj_vertex_1     = 3019 + (2077 << 16)
+          fj_vertex_2     = 3019 + (2119 << 16)
+          fj_vertex_3     = 2993 + (2139 << 16)
+          STR_VAR
+          fj_structure_type   = region
+          fj_name             = Door4815
+          fj_destination_area = ag4815
+          fj_destination_name = Exit4800
+        END
+        LPF fj_add_are_structure
+          INT_VAR
+          fj_loc_x       = 2945
+          fj_loc_y       = 2030
+          fj_orientation = 6   //NW
+          STR_VAR
+          fj_structure_type = entrance
+          fj_name           = Exit4815
+          RET
+          some_unknown_offset = fj_return_offset
+        END
+        WRITE_SHORT some_unknown_offset + 0x28 64
+      END
+    BUT_ONLY
+
+    COPY_EXISTING ~BG2900.are~ override //Larswood container
+      PATCH_IF SOURCE_SIZE > 0x28f BEGIN
+        LPF fj_add_are_structure
+          INT_VAR
+          fj_type        = 8 //nonvisible
+          fj_loc_x       = 4590
+          fj_loc_y       = 1525
+          fj_box_left    = 4556
+          fj_box_top     = 1505
+          fj_box_right   = 4588
+          fj_box_bottom  = 1525
+          fj_trap_loc_x  = 4600
+          fj_trap_loc_y  = 1535
+          fj_vertex_0    = 4580 + (1521 << 16)
+          fj_vertex_1    = 4564 + (1525 << 16)
+          fj_vertex_2    = 4556 + (1517 << 16)
+          fj_vertex_3    = 4562 + (1509 << 16)
+          fj_vertex_4    = 4580 + (1505 << 16)
+          fj_vertex_5    = 4588 + (1511 << 16)
+          STR_VAR
+          fj_structure_type = container
+          fj_name           = ~Container 1~
+        END
+      END
+    BUT_ONLY
+    
+  COPY ~Deepgnomes/arestr/ag4301.are~ ~override~ //North Nashkel Cave
+    READ_LONG 0x5c fzn //Regions offset
+    FOR (tg = 1; tg < 13; tg += 1) BEGIN
+      SAY (fzn + (tg * 0xc4) + 0x64) @334 //Info text (One of several ropes hangs from the cavern ceiling here, adorned with dozens of gnome skulls.)
+    END
+    PATCH_IF (~%plt%~ STRING_EQUAL ~bgt~ = 1) BEGIN //BGT
+      WRITE_ASCII (fzn + 0x38) ~ar3200~ #8
+    END ELSE BEGIN
+      PATCH_IF (~%plt%~ STRING_EQUAL ~ca~ = 1) BEGIN //CA
+        WRITE_ASCII (fzn + 0x38) ~tc0011~ #8
+      END
+    END
+    READ_LONG 0x54 tcf //Actors offset
+    READ_SHORT 0x58 tcc //Actors count
+    FOR (i = 0; i < tcc; i += 1) BEGIN //Cycle through actors
+      READ_ASCII (i * 0x110 + tcf) tnm
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB01~ = 1) BEGIN
+        GET_STRREF 2511 t-text
+        WRITE_ASCIIE (i * 0x110 + tcf) "%t-text%" #32 //Goblin
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB02~ = 1) BEGIN
+        SPRINT t-text @255
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Archer
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB03~ = 1) BEGIN
+        SPRINT t-text @256
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Bodyguard
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB04~ = 1) BEGIN
+        SPRINT t-text @257
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Elite Archer
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB05~ = 1) BEGIN
+        SPRINT t-text @258
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Chief
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGGOB07~ = 1) BEGIN
+        SPRINT t-text @259
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Goblin Shaman
+      END
+      PATCH_IF (~%tnm%~ STRING_EQUAL ~AGWORG01~ = 1) BEGIN
+        GET_STRREF 8770 t-text
+        WRITE_ASCIIE (i * 0x110 + tcf) ~%t-text%~ #32 //Worg
+      END
+      PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+        READ_LONG (i * 0x110 + tcf + 0x30) cnm //Animation
+        PATCH_IF cnm = 0x5257 BEGIN //If goblin_shaman
+          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xea10
+        END
+        PATCH_IF cnm = 0x5252 BEGIN //If goblin_captain
+          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xea20
+        END
+        PATCH_IF cnm = 0x5262 BEGIN //If worg_iwd
+          WRITE_LONG (i * 0x110 + tcf + 0x30) 0x7b01
+        END
+      END
+    END
+
+  COPY ~Deepgnomes/arestr/ag4815.are~ ~override~ //Karaea's Garden
+    READ_LONG 0x5c fzn //Regions offset
+    SAY (fzn + 0xc4 + 0x64) @333 //Info text (This indoor garden contains many types of berries and is lit by special lights that mimic the sun.)
+    PATCH_IF (~%plt%~ STRING_EQUAL ~bgt~ = 1) BEGIN //BGT
+      WRITE_ASCII (fzn + 0x38) ~ar3700~ #8
+    END ELSE BEGIN
+      PATCH_IF (~%plt%~ STRING_EQUAL ~ca~ = 1) BEGIN //CA
+        WRITE_ASCII (fzn + 0x38) ~tc1200~ #8
+      END
+    END
+    PATCH_IF (~%tbs%~ STRING_EQUAL ~soa~ = 1) BEGIN //SoA
+      READ_LONG 0x54 tcf //Actors offset
+      READ_SHORT 0x58 tcc //Actors count
+      FOR (i = 0; i < tcc; i += 1) BEGIN //Cycle through headers
+        READ_LONG (i * 0x110 + tcf + 0x30) cnm //Animation
+        PATCH_IF cnm = 0x5266 BEGIN //If svirfneblin_dark_noaxe
+          WRITE_LONG (i * 0x110 + tcf + 0x30) 0xec10
+        END
+      END
+    END
+
+
+COPY ~Deepgnomes/portrait/karaeas.bmp~ ~override~
+     ~Deepgnomes/portrait/nebs.bmp~ ~override~
+
+COPY_EXISTING ~agkaraea.cre~ ~override~ //Karaea (ar2010 Trademeet or fw4800 Nashkel)
+  WRITE_ASCIIT 0x34 ~karaeas~ //Small portrait
+BUT_ONLY
+
+
+ACTION_IF (~%plt%~ STRING_EQUAL ~bg2~ = 1) OR (~%plt%~ STRING_EQUAL ~bgt~ = 1) BEGIN //BG2 or BGT
+  COPY ~Deepgnomes/portrait/aggnom2s.bmp~ ~override~
+       ~Deepgnomes/portrait/Auroral.bmp~ ~override~
+       ~Deepgnomes/portrait/Auroras.bmp~ ~override~
+       ~Deepgnomes/portrait/barboots.bmp~ ~override~
+       ~Deepgnomes/portrait/lissas.bmp~ ~override~
+       ~Deepgnomes/portrait/tomthals.bmp~ ~override~
+
+  COPY_EXISTING ~agAurora.cre~ ~override~ //Aurora (ar0500 Bridge District)
+                ~agasleep.cre~ ~override~ //Aurora (asleep in ar0528 Deepgnomes's Bedroom)
+    WRITE_ASCIIT 0x34 ~Auroras~ //Small portrait
+    WRITE_ASCIIT 0x3c ~Aurorasl~ //Large portrait
+  BUT_ONLY
+
+  COPY_EXISTING ~aggnom02.cre~ ~override~ //Gnome Slave (ar1404 Temple Ruins)
+    WRITE_ASCIIT 0x34 ~aggnom2s~ //Small portrait
+  BUT_ONLY
+
+  COPY_EXISTING ~agtomtha.cre~ ~override~ //Tomthal (ar0500 Bridge District)
+                ~agtsleep.cre~ ~override~ //Tomthal (asleep in ag0540 Tomthal's Cellar)
+    WRITE_ASCIIT 0x34 ~tomthals~ //Small portrait
+  BUT_ONLY
+
+ADD_JOURNAL @149 @150 USING ~Deepgnomes/english/agkaraea.tra~
+ADD_JOURNAL @260 @261 USING ~Deepgnomes/english/agAurora.tra~
+ADD_JOURNAL @28 @75 @102 USING ~Deepgnomes/english/agtomtha.tra~
+
+END
