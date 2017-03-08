@@ -1,7 +1,6 @@
 IF
   Global("agberrs","LOCALS",0)
   GlobalLT("agberr","GLOBAL",36)
-  GlobalGT("endofbg1","GLOBAL",1)
 THEN
   RESPONSE #100
     SetGlobal("agberrs","LOCALS",1)

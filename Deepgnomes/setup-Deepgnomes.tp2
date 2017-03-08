@@ -1666,6 +1666,10 @@ ACTION_IF (~%plt%~ STRING_EQUAL ~bg2~ = 1) OR (~%plt%~ STRING_EQUAL ~bgt~ = 1) B
     WRITE_ASCIIT 0x34 ~tomthals~ //Small portrait
   BUT_ONLY
 
+EXTEND_BOTTOM ~gibber.bcs~ ~Deepgnomes/extend/bgt/agrandbr.baf~
+EXTEND_BOTTOM ~xvart.bcs~ ~Deepgnomes/extend/bgt/agrandbr.baf~
+EXTEND_BOTTOM ~gnollp.bcs~ ~Deepgnomes/extend/bgt/agrandbr.baf~
+
 ADD_JOURNAL @149 @150 USING ~Deepgnomes/english/agkaraea.tra~
 ADD_JOURNAL @260 @261 USING ~Deepgnomes/english/agAurora.tra~
 ADD_JOURNAL @28 @75 @102 USING ~Deepgnomes/english/agtomtha.tra~
