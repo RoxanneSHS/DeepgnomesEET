@@ -4,7 +4,7 @@ The full mod will add animations, tweaks and more to the game, including choices
 
 This teaser just contains Tomthal and Karaea, Aurora's assistants, and a number of items that can be found randomly throughout the game. In addition, you can encounter some other svirfneblin who made it to the surface. And, of course, Aurora the merchant herself.
 
-Svirfneblin or deep gnomes, are a sub-race of gnome. They live underground, usually in the Underdark and closely resemble their surface-dwelling brethren, save for their paler complexions and the fact that they have little or no hair. Svirfneblin are usually of neutral alignment. In EET you meet some near Ust Natha, the drow city.
+Svirfneblin or deep gnomes, are a sub-race of gnome. They live underground, usually in the Underdark and closely resemble their surface-dwelling brethren, save for their paler complexions. Svirfneblin are usually of neutral alignment. In EET you meet some near Ust Natha, the drow city.
 
 This is a quote from the original readme:
 
