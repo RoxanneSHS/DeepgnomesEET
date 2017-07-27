@@ -39,7 +39,7 @@ BEGIN ~Deepgnomes of the Sword Coast for EET~
     OUTER_SPRINT thm2 ~bg3321~ //Travenhurst Manor L2
     OUTER_SPRINT hcl1 ~bg0116~ //NW BG Helm & Cloak L1
     OUTER_SPRINT ssh1 ~bg0101~ //NW BG Silvershield Estate L1
-    OUTER_SPRINT nshk ~bg4300~ //Nashkel
+    OUTER_SPRINT nshk ~bg4800~ //Nashkel
     OUTER_SPRINT nnsh ~BG4300~ //North Nashkel Road
     OUTER_SET chp = 4 //BG chapter transition
     OUTER_SPRINT dtl2 ~ARD003~ //Durlag's Tower L2
