@@ -3,6 +3,6 @@ IF
 THEN
   RESPONSE #100
     ActionOverride("Container 1",DestroyItem("misc02"))
-    ActionOverride("Container 1",CreateItem("misc02",0,0,0))
+    ActionOverride("Container 1",CreateItem("misc02r",0,0,0))
     SetGlobal("agmirr","BG4807",1)
 END

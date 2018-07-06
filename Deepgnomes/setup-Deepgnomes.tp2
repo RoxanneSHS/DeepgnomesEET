@@ -543,7 +543,7 @@ COPY_EXISTING ~blun15.itm~ ~override/agblun15.itm~ //Morning Star +2 (undroppabl
   END
 BUT_ONLY
 
-COPY_EXISTING ~misc02.itm~ ~override~ //Mirror
+COPY_EXISTING ~misc02.itm~ ~override/misc02r.itm~
   PATCH_IF SOURCE_SIZE > 0x71 BEGIN
     SAY UNIDENTIFIED_DESC @292
     SAY DESC @293
