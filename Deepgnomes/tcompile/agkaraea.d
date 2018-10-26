@@ -625,18 +625,18 @@ PartyHasItem("agboot19")~ + @208 /* ~Tell me about fast, sexy boots.~ */ + agkar
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ + @209 /* ~Tell me about this "stinking" you mentioned.~ */ + agkar_up_stinky
 + ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @210 /* ~Tell me about armored boots.~ */ + agkar_up_armored
 + ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
+PartyHasItem("boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
 + ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
+PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
 + ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ + @213 /* ~Tell me about mirrors and shields.~ */ + agkar_up_shield
 + ~PartyGoldGT(6249)
 PartyHasItem("aggem06")
@@ -655,18 +655,18 @@ PartyHasItem("agboot05")~ + @217 /* ~Tell me about combat enchantments.~ */ + ag
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ + @209 /* ~Tell me about this "stinking" you mentioned.~ */ + agkar_up_stinky
 + ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @210 /* ~Tell me about armored boots.~ */ + agkar_up_armored
 + ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
+PartyHasItem("boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
 + ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
+PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
 + ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ + @213 /* ~Tell me about mirrors and shields.~ */ + agkar_up_shield
 + ~PartyGoldGT(7499)
 PartyHasItem("aggem08")
@@ -685,19 +685,19 @@ PartyHasItem("agboot05")~ + @217 /* ~Tell me about combat enchantments.~ */ + ag
 PartyHasItem("agboot09")
 PartyHasItem("agboot19")~ + @208 /* ~Tell me about fast, sexy boots.~ */ + agkar_up_love
 + ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @210 /* ~Tell me about armored boots.~ */ + agkar_up_armored
 + ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
+PartyHasItem("boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
 + ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
+PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
 + ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ + @213 /* ~Tell me about mirrors and shields.~ */ + agkar_up_shield
 ++ @220 /* ~I thought the talk was about fifteen thousand gold at most?~ */ + agkar_up_cost
 + ~PartyGoldGT(9999)
@@ -721,17 +721,17 @@ PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ + @209 /* ~Tell me about this "stinking" you mentioned.~ */ + agkar_up_stinky
 + ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
+PartyHasItem("boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
 + ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
+PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
 + ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ + @213 /* ~Tell me about mirrors and shields.~ */ + agkar_up_shield
 ++ @220 /* ~I thought the talk was about fifteen thousand gold at most?~ */ + agkar_up_cost
 + ~PartyGoldGT(12499)
 PartyHasItem("aggem09")
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @223 /* ~Flashy *and* protective? We have a deal.~ */ + agkar_up_armored_do
@@ -751,22 +751,22 @@ PartyHasItem("agboot19")~ + @208 /* ~Tell me about fast, sexy boots.~ */ + agkar
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ + @209 /* ~Tell me about this "stinking" you mentioned.~ */ + agkar_up_stinky
 + ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @210 /* ~Tell me about armored boots.~ */ + agkar_up_armored
 + ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
+PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
 + ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ + @213 /* ~Tell me about mirrors and shields.~ */ + agkar_up_shield
 ++ @220 /* ~I thought the talk was about fifteen thousand gold at most?~ */ + agkar_up_cost
 + ~PartyGoldGT(14999)
 PartyHasItem("aggem05")
-PartyHasItem("%tsu%scrl1h")
+PartyHasItem("scrl1h")
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @225 /* ~It better be worth it. Here you go.~ */ + agkar_up_drow_do
+PartyHasItem("boot07")~ + @225 /* ~It better be worth it. Here you go.~ */ + agkar_up_drow_do
 ++ @215 /* ~Another time, perhaps. For now, let's talk about usual business.~ */ + ag_kstore
 END
 
@@ -783,21 +783,21 @@ PartyHasItem("agboot19")~ + @208 /* ~Tell me about fast, sexy boots.~ */ + agkar
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ + @209 /* ~Tell me about this "stinking" you mentioned.~ */ + agkar_up_stinky
 + ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @210 /* ~Tell me about armored boots.~ */ + agkar_up_armored
 + ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
+PartyHasItem("boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
 + ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ + @213 /* ~Tell me about mirrors and shields.~ */ + agkar_up_shield
 ++ @220 /* ~I thought the talk was about fifteen thousand gold at most?~ */ + agkar_up_cost
 + ~PartyGoldGT(17499)
 PartyHasItem("aggem02")
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @227 /* ~I can afford the best. Here you go.~ */ + agkar_up_daemon_do
+PartyHasItem("boot01")~ + @227 /* ~I can afford the best. Here you go.~ */ + agkar_up_daemon_do
 ++ @215 /* ~Another time, perhaps. For now, let's talk about usual business.~ */ + ag_kstore
 END
 
@@ -814,20 +814,23 @@ PartyHasItem("agboot19")~ + @208 /* ~Tell me about fast, sexy boots.~ */ + agkar
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ + @209 /* ~Tell me about this "stinking" you mentioned.~ */ + agkar_up_stinky
 + ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @210 /* ~Tell me about armored boots.~ */ + agkar_up_armored
 + ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
+PartyHasItem("boot07")~ + @211 /* ~Tell me about elven boots.~ */ + agkar_up_drow
 + ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
+PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
 ++ @220 /* ~I thought the talk was about fifteen thousand gold at most?~ */ + agkar_up_cost
 + ~PartyGoldGT(11249)
-PartyHasItem("%tsu%misc02")
-PartyHasItem("%tsu%misc42")
+OR(3)
+PartyHasItem("misc02")
+PartyHasItem("misc02R")
+PartyHasItem("miscag")
+PartyHasItem("misc42")
 PartyHasItem("agshld01")~ + @229 /* ~Sounds like a deal. Here you go.~ */ + agkar_up_shield_do
 ++ @215 /* ~Another time, perhaps. For now, let's talk about usual business.~ */ + ag_kstore
 END
@@ -845,18 +848,18 @@ PartyHasItem("agboot19")~ + @208 /* ~Tell me about fast, sexy boots.~ */ EXTERN 
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ + @209 /* ~Tell me about this "stinking" you mentioned.~ */ EXTERN agkaraea agkar_up_stinky
 + ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @210 /* ~Tell me about armored boots.~ */ EXTERN agkaraea agkar_up_armored
 + ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @211 /* ~Tell me about elven boots.~ */ EXTERN agkaraea agkar_up_drow
+PartyHasItem("boot07")~ + @211 /* ~Tell me about elven boots.~ */ EXTERN agkaraea agkar_up_drow
 + ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @212 /* ~Tell me about daemon boots.~ */ EXTERN agkaraea agkar_up_daemon
+PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ EXTERN agkaraea agkar_up_daemon
 + ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ + @213 /* ~Tell me about mirrors and shields.~ */ EXTERN agkaraea agkar_up_shield
 ++ @231 /* ~I see. Another time, then. For now, let's talk about usual business.~ */ + ag_kstore
 END
@@ -915,8 +918,8 @@ SAY @235 /* ~Remember, twelve and a half thousand more for the finished boots. C
 IF ~~ THEN DO ~
 TakePartyItemNum("aggem09",1)
 DestroyItem("aggem09")
-TakePartyItem("%tsu%boot04")
-DestroyItem("%tsu%boot04")
+TakePartyItem("boot04")
+DestroyItem("boot04")
 TakePartyItem("agboot21")
 DestroyItem("agboot21")
 TakePartyItem("agboot22")
@@ -935,12 +938,12 @@ SAY @236 /* ~Remember, fifteen thousand more when they're completed. Come back i
 IF ~~ THEN DO ~
 TakePartyItemNum("aggem05",1)
 DestroyItem("aggem05")
-TakePartyItemNum("%tsu%scrl1h",1)
-DestroyItem("%tsu%scrl1h")
+TakePartyItemNum("scrl1h",1)
+DestroyItem("scrl1h")
 TakePartyItem("agboot30")
 DestroyItem("agboot30")
-TakePartyItem("%tsu%boot07")
-DestroyItem("%tsu%boot07")
+TakePartyItem("boot07")
+DestroyItem("boot07")
 TakePartyGold(15000)
 DestroyGold(15000)
 SetGlobalTimer("agkar_upgrade_timer","GLOBAL",20000)
@@ -955,8 +958,8 @@ TakePartyItemNum("aggem02",1)
 DestroyItem("aggem02")
 TakePartyItem("agboot31")
 DestroyItem("agboot31")
-TakePartyItem("%tsu%boot01")
-DestroyItem("%tsu%boot01")
+TakePartyItem("boot01")
+DestroyItem("boot01")
 TakePartyGold(17500)
 DestroyGold(17500)
 SetGlobalTimer("agkar_upgrade_timer","GLOBAL",20000)
@@ -967,10 +970,10 @@ IF
 ~~ agkar_up_shield_do
 SAY @238 /* ~Remember, eleven thousand two-fifty more gold when it's done. Come back in two days.~ */
 IF ~~ THEN DO ~
-TakePartyItem("%tsu%misc02")
-DestroyItem("%tsu%misc02")
-TakePartyItemNum("%tsu%misc42",1)
-DestroyItem("%tsu%misc42")
+TakePartyItem("misc02")
+DestroyItem("misc02")
+TakePartyItemNum("misc42",1)
+DestroyItem("misc42")
 TakePartyItem("agshld01")
 DestroyItem("agshld01")
 TakePartyGold(11250)
@@ -1111,18 +1114,18 @@ PartyHasItem("agboot19")~ THEN @247 /* ~Ooh, I see you like sexy footwear. With 
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ THEN @248 /* ~My brother told me a nasty joke about a stinking gnome. You'll have to ask him about it - it's too crude for me. But I see something here of his tale he falsely attributes to "surfacers."~ */
 == agkaraea IF ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ THEN @249 /* ~Looks like you have boots that provide decent protection. However, enough different pairs can be combined to make armored boots that are truly the best.~ */
 == agkaraea IF ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ THEN @250 /* ~Wow, some fancy footwear made by pointy-eared ones. Such beautiful work, isn't it true? These can be made into one potent combination, that's for sure.~ */
+PartyHasItem("boot07")~ THEN @250 /* ~Wow, some fancy footwear made by pointy-eared ones. Such beautiful work, isn't it true? These can be made into one potent combination, that's for sure.~ */
 == agkaraea IF ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ THEN @251 /* ~I see you have some legendary boots there. But two pairs of the right boots can be combined to make one pair powerful enough for a daemon lord.~ */
+PartyHasItem("boot01")~ THEN @251 /* ~I see you have some legendary boots there. But two pairs of the right boots can be combined to make one pair powerful enough for a daemon lord.~ */
 == agkaraea IF ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ THEN @252 /* ~This has little to do with boots, but there's an old story about a fabulous shield and a common mirror. Looks like you might be interested in it.~ */
 == agkaraea IF ~OR(16)
 PartyHasItem("agboot04")
@@ -1131,15 +1134,15 @@ PartyHasItem("agboot09")
 PartyHasItem("agboot19")
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")
+PartyHasItem("boot07")
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")
-PartyHasItem("%tsu%misc02")
+PartyHasItem("boot01")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ THEN @253 /* ~That's all, I think. There might be something else, but it's beyond my lore to say if it's really the case.~ */
 == agkaraea IF ~
 !PartyHasItem("agboot04")
@@ -1148,15 +1151,15 @@ PartyHasItem("agshld01")~ THEN @253 /* ~That's all, I think. There might be some
 !PartyHasItem("agboot19")
 !PartyHasItem("agboot15")
 !PartyHasItem("agboot28")
-!PartyHasItem("%tsu%boot04")
+!PartyHasItem("boot04")
 !PartyHasItem("agboot21")
 !PartyHasItem("agboot22")
 !PartyHasItem("agboot23")
 !PartyHasItem("agboot30")
-!PartyHasItem("%tsu%boot07")
+!PartyHasItem("boot07")
 !PartyHasItem("agboot31")
-!PartyHasItem("%tsu%boot01")
-!PartyHasItem("%tsu%misc02")
+!PartyHasItem("boot01")
+!PartyHasItem("misc02")
 !PartyHasItem("agshld01")~ THEN @254 /* ~Hmm... No, nothing will do, as far as I can tell.~ */
 END
 + ~OR(2)
@@ -1169,18 +1172,18 @@ PartyHasItem("agboot19")~ + @208 /* ~Tell me about fast, sexy boots.~ */ EXTERN 
 PartyHasItem("agboot15")
 PartyHasItem("agboot28")~ + @209 /* ~Tell me about this "stinking" you mentioned.~ */ EXTERN agkaraea agkar_up_stinky
 + ~OR(4)
-PartyHasItem("%tsu%boot04")
+PartyHasItem("boot04")
 PartyHasItem("agboot21")
 PartyHasItem("agboot22")
 PartyHasItem("agboot23")~ + @210 /* ~Tell me about armored boots.~ */ EXTERN agkaraea agkar_up_armored
 + ~OR(2)
 PartyHasItem("agboot30")
-PartyHasItem("%tsu%boot07")~ + @211 /* ~Tell me about elven boots.~ */ EXTERN agkaraea agkar_up_drow
+PartyHasItem("boot07")~ + @211 /* ~Tell me about elven boots.~ */ EXTERN agkaraea agkar_up_drow
 + ~OR(2)
 PartyHasItem("agboot31")
-PartyHasItem("%tsu%boot01")~ + @212 /* ~Tell me about daemon boots.~ */ EXTERN agkaraea agkar_up_daemon
+PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ EXTERN agkaraea agkar_up_daemon
 + ~OR(2)
-PartyHasItem("%tsu%misc02")
+PartyHasItem("misc02")
 PartyHasItem("agshld01")~ + @213 /* ~Tell me about mirrors and shields.~ */ EXTERN agkaraea agkar_up_shield
 ++ @255 /* ~May I see your usual wares instead?.~ */ EXTERN agkaraea ag_kstore
 ++ @190 /* ~Nothing for now. See you later.~ */ EXTERN agkaraea ag_karbye
