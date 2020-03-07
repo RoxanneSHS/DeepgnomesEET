@@ -826,7 +826,7 @@ PartyHasItem("agboot31")
 PartyHasItem("boot01")~ + @212 /* ~Tell me about daemon boots.~ */ + agkar_up_daemon
 ++ @220 /* ~I thought the talk was about fifteen thousand gold at most?~ */ + agkar_up_cost
 + ~PartyGoldGT(11249)
-OR(3)
+OR(5)
 PartyHasItem("misc02")
 PartyHasItem("misc02R")
 PartyHasItem("miscag")
