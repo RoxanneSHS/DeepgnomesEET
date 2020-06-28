@@ -1672,8 +1672,8 @@ EXTEND_TOP ~gibber.bcs~ ~Deepgnomes/extend/bgt/agrandbr.baf~
 EXTEND_TOP ~xvart.bcs~ ~Deepgnomes/extend/bgt/agrandbr.baf~
 EXTEND_TOP ~gnollf.bcs~ ~Deepgnomes/extend/bgt/agrandbr.baf~
 
-ADD_JOURNAL @149 @150 USING ~Deepgnomes/english/agkaraea.tra~
-ADD_JOURNAL @260 @261 USING ~Deepgnomes/english/agAurora.tra~
-ADD_JOURNAL @28 @75 @102 USING ~Deepgnomes/english/agtomtha.tra~
+ADD_JOURNAL @149 @150 USING ~Deepgnomes/%s/agkaraea.tra~
+ADD_JOURNAL @260 @261 USING ~Deepgnomes/%s/agAurora.tra~
+ADD_JOURNAL @28 @75 @102 USING ~Deepgnomes/%s/agtomtha.tra~
 
 END
