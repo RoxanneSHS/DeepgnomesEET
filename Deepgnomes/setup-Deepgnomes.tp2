@@ -1,11 +1,12 @@
 BACKUP ~Deepgnomes/backup~
 //AUTHOR ~Bookwyrme (Aurora mod) ~
 SUPPORT ~Roxanne - https://baldursextendedworld.com/Deepgnomes/ or roxanne@baldursextendedworld.com~
-VERSION ~v0.3~
+VERSION ~v0.4~
 
 
 AUTO_TRA ~Deepgnomes/%s~
 LANGUAGE ~English~ ~english~ ~Deepgnomes/english/setup.tra~
+LANGUAGE ~Russian (by Arcanecoast.ru)~ ~russian~ ~Deepgnomes/russian/setup.tra~
 
 
 BEGIN ~Deepgnomes of the Sword Coast for EET~
