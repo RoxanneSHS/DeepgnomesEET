@@ -24,6 +24,7 @@ Ever wished you could buy some Boots of Speed looked a bit more, well, dashing? 
 
 Aurora's Shoe Shop introduces more than a dozen new pairs of boots that are both useful and stylish. In addition, Aurora herself is there to add a bit of spice to Athkatlan life. She'll chat with you about nobles and commoners alike, providing exciting (if not always accurate) information about their daily lives."
 <br>
+It is recommended to use https://github.com/EE-Mod-Setup/EE-Mod-Setup for mod installation.  
 &nbsp;</span></p>
 
 <p class=MsoNormal><span lang=EN-NZ>&nbsp;</span></p>
